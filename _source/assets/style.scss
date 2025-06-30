@@ -1,0 +1,14 @@
+---
+---
+@charset "UTF-8";
+
+@use "base";
+@use "layout";
+
+$baseurl: "{{site.url}}{{site.baseurl}}";
+$fonturl: $baseurl + "/assets/fonts/";
+
+@font-face{
+  src: url($fonturl + 'EBGaramond08-Regular.otf');
+  font-family: "EBGaramond";
+}
