@@ -12,3 +12,28 @@ $fonturl: $baseurl + "/assets/fonts/";
   src: url($fonturl + 'EBGaramond08-Regular.otf');
   font-family: "EBGaramond";
 }
+@font-face{
+  src: url($fonturl + 'Raleway-ExtraBold.ttf');
+  font-family: "Raleway";
+  font-weight: 800;
+}
+@font-face{
+  src: url($fonturl + 'cmunorm.ttf');
+  font-family: "CMU Concrete";
+}
+@font-face{
+  src: url($fonturl + 'cmunobx.ttf');
+  font-family: "CMU Concrete";
+  font-weight: bold;
+}
+@font-face{
+  src: url($fonturl + 'cmunoti.ttf');
+  font-family: "CMU Concrete";
+  font-style: italic;
+}
+@font-face{
+  src: url($fonturl + 'cmunobi.ttf');
+  font-family: "CMU Concrete";
+  font-weight: bold;
+  font-style: italic;
+}

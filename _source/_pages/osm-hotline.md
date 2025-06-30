@@ -5,7 +5,9 @@ updated: 2025-06-26
 ---
 [OpenStreetMap](https://www.openstreetmap.org/about/) (OSM) is the world's largest collaborative mapping project, a critical data source for thousands of apps used by millions of people every day. But to newcomers, and even to geospatial professionals, the peculiar world of OSM can be challenging to approach.
 
-The OpenStreetMap Hotline, a free service of Wayside Mapping, provides the customer support email address missing from openstreetmap.org. OSM is complicated and the documentation daunting. If you just need to ask an OSM expert a few questions, you've come to the right place.
+The OpenStreetMap Hotline, a free service of Wayside Mapping, provides the customer support email address missing from openstreetmap.org. OSM is complicated and the documentation can feel overwhelming. If you just need to ask an OSM expert a few questions, you've come to the right place.
+
+<a href="mailto:osmhotline@waysidemapping.org" class="button hotline-button" style="margin-bottom:16px;">Email the OpenStreetMap Hotline ➤</a>
 
 ## Meet your responder
 
@@ -13,7 +15,7 @@ The OpenStreetMap Hotline, a free service of Wayside Mapping, provides the custo
 
 Hi, I'm Quincy Morgan (username [quincylvania](https://www.openstreetmap.org/user/quincylvania)), an open source mapper and developer. I've contributed over 10,000 changesets to OSM since 2016 and have worked building software for both the OpenStreetMap Foundation and OpenStreetMap US. I'm embedded in the OSM community and am a regular at open mapping conferences.
 
-Suffice to say, if I can't answer your question then I can point you to someone who can.
+Suffice to say, if I can't answer your question then I can point you to someone who can :)
 
 ## How is this supported?
 
