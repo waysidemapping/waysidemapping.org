@@ -1,5 +1,5 @@
 ---
-title: Get In Touch
+title: Hire Us
 date: 2025-06-26
 updated: 2025-06-26
 ---

@@ -4,11 +4,12 @@
 /* general layout */
 
 body {
-  background-color: v.$background-color;
+  background-color: v.$contrast-color;
   color: v.$text-color;
   font-size: 18px;
   line-height: 1.4em;
   font-family: v.$body-font;
+  font-variant-numeric: lining-nums; 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -34,7 +35,7 @@ hr {
 
 .content {
   width: 100%;
-  margin-left: v.$sp * 2;
+
 }
 
 .container {
@@ -44,15 +45,36 @@ hr {
   justify-content: space-between;
 }
 
+.header-and-body {
+  background-color: v.$background-color;
+  min-height: 100vh;
+}
+
 .page-part {
     padding: 0 v.$sp v.$sp v.$sp;
 }
 
+.social-icons {
+  display: flex;
+  li {
+    margin-left: 10px;
+  }
+  li, a, svg {
+    width: 20px;
+    height: 20px;
+  }
+  a:hover, a:focus {
+    opacity: 0.7;
+  }
+}
+
 .header {
+
+  border-top: 4px solid v.$contrast-color;
 
   .line {
     width: 100vw;
-    background-color: v.$brand-color-2;
+    background-color: v.$contrast-color;
     height: 1px;
     position: absolute;
     right: 0;
@@ -80,13 +102,21 @@ hr {
   .tagline {
     position: relative;
     font-family: v.$title-font;
-    color: v.$brand-color-2;
+    color: v.$contrast-color;
     font-variant-caps: all-small-caps;
     font-size: 24px;
     margin-bottom: 58px;
     text-align: center;
   }
 
+  .social-icons {
+    position: absolute;
+    right: 0;
+    bottom: 16px;
+    svg {
+      fill: v.$contrast-color;
+    }
+  }
 }
 
 .sidebar {
@@ -95,6 +125,7 @@ hr {
   line-height: 1.5;
   min-width: 240px;
   text-align: right;
+  margin-right: v.$sp * 2;
 }
 
 /* prose */
@@ -113,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: v.$title-font;
   line-height: 1;
   a {
-    color: v.$brand-color-2;
+    color: v.$contrast-color;
   }
 }
 
@@ -133,8 +164,8 @@ a.hotline-button {
   font-size: 16px;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
-  padding: 12px 16px 10px 16px;
-  border-radius: 10px;
+  padding: 12px 16px;
+  border-radius: 8px;
   display: inline-block;
   border: 1px solid rgb(119, 34, 18);
 
@@ -144,6 +175,34 @@ a.hotline-button {
   }
   &:active {
     background: rgb(76, 21, 11);
+  }
+}
+
+.footer {
+  font-size: 16px;
+  padding-top: v.$sp;
+  font-weight: bold;
+  line-height: 1.5;
+  background: v.$contrast-color;
+  color: v.$background-color;
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  a {
+    color: inherit;
+    text-decoration: underline;
+  }
+  a:hover, a:focus {
+    opacity: 0.8;
+  }
+
+  .social-icons {
+    display: none;
+    svg {
+      fill: v.$background-color;
+    }
   }
 }
 
@@ -164,7 +223,7 @@ a.hotline-button {
     display: none;
   }
 
-  .body .container {
+  .page-part .container {
     flex-direction: column;
   }
   .header {
@@ -181,9 +240,12 @@ a.hotline-button {
     .tagline {
       margin: 0;
     }
+    .social-icons {
+      display: none;
+    }
   }
-  .content {
-    margin-left: 0;
+  .sidebar {
+    margin-right: 0;
   }
   
   .main-menu {
@@ -193,12 +255,36 @@ a.hotline-button {
     font-size: 20px;
     margin-bottom: v.$sp * 2;
     padding: v.$sp * 0.5 0;
-    border-top: 1px solid v.$brand-color-2;
-    border-bottom: 1px solid v.$brand-color-2;
+    border-top: 1px solid v.$contrast-color;
+    border-bottom: 1px solid v.$contrast-color;
     li {
       white-space: nowrap;
       margin: 0 v.$sp * 0.25;
     }
   }
 
+  .footer {
+    text-align: center;
+    .content {
+      flex-direction: column;
+      align-items: center;
+
+      > *:not(:last-child) {
+        margin-bottom: v.$sp;
+      }
+    }
+    
+    .social-icons {
+      display: flex;
+    }
+
+    .wordmark {
+      display: none;
+    }
+
+    .rose {
+      width: 50px;
+      display: inline-block;
+    }
+  }
 }

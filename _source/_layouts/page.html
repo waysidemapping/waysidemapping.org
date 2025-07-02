@@ -4,5 +4,6 @@ layout: default
 <article class="prose">
   {% if page.title %}<h1><a href="{{page.url | absolute_url}}">{{page.title}}</a></h1>{% endif %}
   {{content}}
-  <p><i>This page last updated {{page.updated | default: page.date | date: site.date_format}}.</i></p>
+  {%- assign updated_date = page.updated | default: page.date | date: site.date_format -%}
+  {% if updated_date %}<p><i>This page last updated {{updated_date}}.</i></p>{% endif %}
 </article>

@@ -21,3 +21,10 @@ defaults:
     values:
       permalink: /:path/
       layout: page
+youtube_page: "@WaysideMapping"
+twitch: WaysideMapping
+wikipedia: QuincyMorgan
+github: WaysideMapping
+kofi: waysidemapping
+openstreetmap: quincylvania
+linkedin: quincy-morgan
