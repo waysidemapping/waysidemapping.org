@@ -1,7 +1,7 @@
 @use 'sass:color';
 @use 'variables' as v;
 
-/* general layout */
+/* elements */
 
 body {
   background-color: v.$contrast-color;
@@ -27,11 +27,29 @@ strong, b {
 em, i {
   font-style: italic;
 }
+h1, h2, h3, h4, h5, h6 {
+  font-family: v.$title-font;
+  line-height: 1;
+  a {
+    color: v.$contrast-color;
+  }
+}
 
+h1 {
+  font-size: 2.2em;
+}
+h2 {
+  font-size: 1.75em;
+}
+h3 {
+  font-size: 1.2em;
+}
 hr {
   border-bottom: 1px solid v.$text-color;
   border-top: none;
 }
+
+/* general layout */
 
 .header-and-body {
   background-color: v.$background-color;
@@ -55,20 +73,33 @@ hr {
   }
 }
 
-.content {
-  width: 100%;
-
-}
-
 .container {
   margin: 0 auto;
-  max-width: 1200px + v.$sp * 2;
+  max-width: v.$container-width + v.$sp * 2;
   display: flex;
   justify-content: space-between;
-}
 
-.page-part {
-    padding: 0 v.$sp v.$sp v.$sp;
+  &.padded {
+    padding: 0 v.$sp;
+  }
+  &.fake-padded {
+    max-width: v.$container-width;
+  }
+  &.sidebarred {
+    flex-direction: row;
+
+    .prose > * {
+      margin-left: 0;
+    }
+
+    .sidebar {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 340px;
+      padding-left: v.$sp * 2;
+    }
+  }
 }
 
 .social-icons {
@@ -83,7 +114,7 @@ hr {
 }
 
 .header {
-
+  padding: 0 v.$sp v.$sp v.$sp;
   border-top: 6px solid v.$contrast-color;
 
   .line {
@@ -156,35 +187,93 @@ hr {
   }
 }
 
-/* prose */
+.body {
+  padding-bottom: v.$sp * 2;
 
-.prose {
-  line-height: 1.6;
-  > * {
-    margin: 0 auto;
+  .container:not(.sidebarred) {
+    flex-direction: column;
+  }
+
+  article {
+    width: 100%;
+  }
+
+  .prose {
+    line-height: 1.6;
+    > * {
+      margin: 0 auto;
+      margin-bottom: v.$sp;
+      max-width: v.$prose-width;
+      text-align: justify;
+      display: block;
+    }
+  }
+}
+
+.footer {
+  font-size: 16px;
+  padding: v.$sp;
+  font-weight: bold;
+  line-height: 1.5;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .social-icons {
+    display: none;
+  }
+}
+
+/* layout- and page-specific styles */
+
+.layout-project {
+  .hero-image-wrap {
+    margin-bottom: v.$sp * 1.5;
+    position: relative;
+    &::before {
+      content: "";
+      background-image: url("/img/grid.png");
+      background-size: 6px;
+      opacity: 0.12;
+      border-top: 1px solid v.$contrast-color;
+      border-bottom: 1px solid v.$contrast-color;
+      width: 100%;
+      height: 100%;
+      display: block;
+      position: absolute;
+    }
+    .hero-image, .hero-logo {
+      position: relative;
+    }
+    .hero-image {
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      height: 50vh;
+      min-height: 241px;
+      max-height: 409px;
+    }
+    .hero-logo {
+      height: calc(50vh - v.$sp * 2);
+      min-height: 241px - v.$sp * 2;
+      max-height: 409px - v.$sp * 2;
+      margin: v.$sp auto;
+      filter: drop-shadow(0px 2px 4px #00000025);
+    }
+  }
+  h1 {
+    margin-top: v.$sp * 0.25;
+    margin-bottom: v.$sp * 0.75;
+  }
+  .label {
+    font-family: v.$title-font;
+    font-variant-caps: all-small-caps;
+    font-size: 22px;
+  }
+  .value {
     margin-bottom: v.$sp;
-    max-width: 760px;
-    text-align: justify;
-    display: block;
   }
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: v.$title-font;
-  line-height: 1;
-  a {
-    color: v.$contrast-color;
-  }
-}
-
-h1 {
-  font-size: 2.2em;
-}
-h2 {
-  font-size: 1.45em;
-}
-h3 {
-  font-size: 1.2em;
 }
 
 a.hotline-button {
@@ -207,28 +296,13 @@ a.hotline-button {
   }
 }
 
-.footer {
-  font-size: 16px;
-  padding-top: v.$sp;
-  font-weight: bold;
-  line-height: 1.5;
-  .content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .social-icons {
-    display: none;
-  }
-}
+/* narrow window */
 
 .narrow-only {
   display: none;
 }
 
-/* narrow window */
-
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: (v.$prose-width + v.$sp * 2)){
 
   .narrow-only {
     display: unset;
@@ -240,6 +314,21 @@ a.hotline-button {
 
   .page-part .container {
     flex-direction: column;
+  }
+  .container {
+    &.sidebarred {
+      flex-direction: column;
+      .sidebar {
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: unset;
+        padding-left: 0;
+       
+        .labeled-value {
+          width: 50%;
+        }
+      }
+    }
   }
   .header {
     .line {
@@ -280,7 +369,7 @@ a.hotline-button {
 
   .footer {
     text-align: center;
-    .content {
+    .container {
       flex-direction: column;
       align-items: center;
 

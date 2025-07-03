@@ -1,0 +1,6 @@
+{%- if page.layout -%}
+  layout-{{page.layout}}
+{%- endif %}
+{% unless page.url == '/' -%}
+  ispage-{{ page.url | slugify }}
+{%- endunless %}

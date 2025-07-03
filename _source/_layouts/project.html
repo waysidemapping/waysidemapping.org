@@ -1,0 +1,55 @@
+---
+layout: default
+---
+<div class="container padded">
+  {% if page.project_type %}
+    <p class="label">{{page.project_type}}</p>
+  {% endif %}
+  {% if page.title %}
+    <h1><a href="{{page.url | absolute_url}}">{{page.title}}</a></h1>
+  {% endif %}
+</div>
+{% if page.image or page.logo %}
+  <div class="hero-image-wrap">
+    <div class="container fake-padded">
+      {% if page.image %}
+        <div class="hero-image" style="background-image:url('{{page.image | absolute_url}}');"></div>
+      {% elsif page.logo %}
+        <img class="hero-logo" src="{{page.logo | absolute_url}}">
+      {% endif %}
+    </div>
+  </div>
+{% endif %}
+<div class="container padded sidebarred">
+  <article class="prose">
+    {{content}}
+  </article>
+  <div class="sidebar">
+    {% if page.status %}
+    <div class="labeled-value">
+      <p class="label">{{page.status_label | default: 'Status'}}</p>
+      <p class="value">{{page.status}}</p>
+    </div>
+    {% endif %}
+    {% if page.start %}
+    <div class="labeled-value">
+      <p class="label">{{page.start_label | default: 'Started'}}</p>
+      <p class="value">{% if page.start.size %}{{page.start}}{% else %}{{page.start | date: '%B %Y'}}{% endif %}</p>
+    </div>
+    {% endif %}
+    {% if page.end %}
+    <div class="labeled-value">
+      <p class="label">{{page.end_label | default: 'Completed'}}</p>
+      <p class="value">{% if page.end.size %}{{page.end}}{% else %}{{page.end | date: '%B %Y'}}{% endif %}</p>
+    </div>
+    {% endif %}
+    <div class="labeled-value">
+      <p class="label">{{page.client_label | default: 'Client'}}</p>
+      <p class="value">{{page.client | default: 'n/a'}}</p>
+    </div>
+  </div>
+</div>
+<div class="container padded">
+  {%- assign updated_date = page.updated | default: page.date | date: site.date_format -%}
+  {% if updated_date %}<p><i>This page last updated {{updated_date}}.</i></p>{% endif %}
+</div>
