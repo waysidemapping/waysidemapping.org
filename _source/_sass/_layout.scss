@@ -33,6 +33,28 @@ hr {
   border-top: none;
 }
 
+.header-and-body {
+  background-color: v.$background-color;
+  min-height: 100vh;
+}
+
+.dark {
+  background: v.$contrast-color;
+  color: v.$background-color;
+  a {
+    color: inherit;
+    text-decoration: underline;
+  }
+  a:hover, a:focus {
+    opacity: 0.8;
+  }
+  .social-icons {
+    svg {
+      fill: v.$background-color;
+    }
+  }
+}
+
 .content {
   width: 100%;
 
@@ -43,11 +65,6 @@ hr {
   max-width: 1200px + v.$sp * 2;
   display: flex;
   justify-content: space-between;
-}
-
-.header-and-body {
-  background-color: v.$background-color;
-  min-height: 100vh;
 }
 
 .page-part {
@@ -63,14 +80,11 @@ hr {
     width: 20px;
     height: 20px;
   }
-  a:hover, a:focus {
-    opacity: 0.7;
-  }
 }
 
 .header {
 
-  border-top: 4px solid v.$contrast-color;
+  border-top: 6px solid v.$contrast-color;
 
   .line {
     width: 100vw;
@@ -92,52 +106,67 @@ hr {
   .logo {
     position: relative;
     display: block;
-    max-width: 100%;
+    width: 100%;
+    max-width: 323px;
   }
   .container {
     align-items:flex-end;
     position: relative;
   }
 
-  .tagline {
-    position: relative;
+  a.tagline {
+    position: absolute;
     font-family: v.$title-font;
-    color: v.$contrast-color;
     font-variant-caps: all-small-caps;
-    font-size: 24px;
-    margin-bottom: 58px;
-    text-align: center;
+    font-size: 22px;
+    text-align: right;
+    right: 0;
+    top: 16px;
+    color: v.$contrast-color;
   }
 
   .social-icons {
     position: absolute;
     right: 0;
-    bottom: 16px;
+    bottom: 15px;
     svg {
       fill: v.$contrast-color;
     }
   }
-}
 
-.sidebar {
-  font-family: v.$title-font;
-  font-size: 22px;
-  line-height: 1.5;
-  min-width: 240px;
-  text-align: right;
-  margin-right: v.$sp * 2;
+  .main-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: v.$title-font;
+    font-size: 20px;
+    text-align: right;
+    margin-bottom: 50px;
+    padding: v.$sp * 0.5 0;
+    li {
+      white-space: nowrap;
+      margin-left: v.$sp * 0.75;
+    }
+  }
+
+  a:hover, a:focus {
+     img, svg {
+      opacity: 0.7;
+     }
+  }
 }
 
 /* prose */
 
-.prose > * {
-  margin-bottom: v.$sp;
-  max-width: 750px;
-  text-align: justify;
-}
-
-.prose .screened-image-wrap {
-  text-align: center;
+.prose {
+  line-height: 1.6;
+  > * {
+    margin: 0 auto;
+    margin-bottom: v.$sp;
+    max-width: 760px;
+    text-align: justify;
+    display: block;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -149,7 +178,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 1.8em;
+  font-size: 2.2em;
 }
 h2 {
   font-size: 1.45em;
@@ -183,29 +212,15 @@ a.hotline-button {
   padding-top: v.$sp;
   font-weight: bold;
   line-height: 1.5;
-  background: v.$contrast-color;
-  color: v.$background-color;
   .content {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  a {
-    color: inherit;
-    text-decoration: underline;
-  }
-  a:hover, a:focus {
-    opacity: 0.8;
-  }
-
   .social-icons {
     display: none;
-    svg {
-      fill: v.$background-color;
-    }
   }
 }
-
 
 .narrow-only {
   display: none;
@@ -213,7 +228,7 @@ a.hotline-button {
 
 /* narrow window */
 
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 800px){
 
   .narrow-only {
     display: unset;
@@ -237,29 +252,29 @@ a.hotline-button {
       flex-direction: column;
       align-items: center;
     }
-    .tagline {
-      margin: 0;
+    a.tagline {
+      position: relative;
+      top: 0;
+      text-align: center;
+      margin-bottom: v.$sp;
+    }
+    .main-menu {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      font-size: 20px;
+      margin-bottom: v.$sp;
+      padding: v.$sp * 0.5 0;
+      border-top: 1px solid v.$contrast-color;
+      border-bottom: 1px solid v.$contrast-color;
+      li {
+        white-space: nowrap;
+        margin: 0 v.$sp * 0.25;
+      }
     }
     .social-icons {
       display: none;
-    }
-  }
-  .sidebar {
-    margin-right: 0;
-  }
-  
-  .main-menu {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    font-size: 20px;
-    margin-bottom: v.$sp * 2;
-    padding: v.$sp * 0.5 0;
-    border-top: 1px solid v.$contrast-color;
-    border-bottom: 1px solid v.$contrast-color;
-    li {
-      white-space: nowrap;
-      margin: 0 v.$sp * 0.25;
     }
   }
 
