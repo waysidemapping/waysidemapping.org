@@ -1,0 +1,38 @@
+---
+project_type: Graphic Design
+title: Mapping USA "Beach Camping" Logo
+date: 2025-07-03
+updated: 2025-07-03
+graphic: /img/musa-camping/musa-2022-logo.svg
+event: Mapping USA 2022 <br/>Mapping USA 2024
+client: OpenStreetMap US
+---
+## Gather 'round the virtual campfire
+
+Mapping USA is the annual virtual conference series hosted by OpenStreetMap US. The first event under this name occurred in late spring 2021 and was themed around a surfing road trip. Since the 2022 conference took place in the fall, the OSM US team decided to go with a cozy fall camping theme while still nodding toward the beach.
+
+<div class="graphic-group graphic-background">
+{% include graphic_image.html file='/img/musa-camping/musa-2022-logo-wireframe.svg' width='200px' caption='Wireframe' %}
+{% include graphic_image.html file='/img/musa-camping/musa-2022-logo-fills.svg' width='200px' caption='Fills' %}
+{% include graphic_image.html file='/img/musa-camping/musa-2022-logo-plain.svg' width='200px' caption='Combined' %}
+</div>
+
+My logo meshes the natural and human landscape into the folds of a paper map. The consistent angles of the mountains, evergreens, cabin, tent, and campfire all work together to create the illusion of dimensionality while conveying a scene. The dotted line introduces a typical map element and hints at the growing OSM US Trails Stewardship Initiative.
+
+I love a logo that, like a good map, tells a story (or invites the viewer to tell their own.) Is my campsite by a river or a lake? Maybe the coast? How far to visit my friend in the cabin? Could I hike there? What might I find along the way?
+
+<div class="graphic-group graphic-background">
+{% include graphic_image.html file='/img/musa-camping/fire.svg' width='50px' caption='Campfire' %}
+{% include graphic_image.html file='/img/musa-camping/compass.svg' width='80px' caption='Compass' %}
+{% include graphic_image.html file='/img/musa-camping/bear.svg' width='240px' caption='Bear' %}
+{% include graphic_image.html file='/img/musa-camping/mug.svg' width='100px' caption='Mug' %}
+{% include graphic_image.html file='/img/musa-camping/heart.svg' width='40px' caption='<3' %}
+</div>
+
+Mapping USA is all about sharing OpenStreetMap knowledge and connecting with the community. My logo invites people to gather around the digital campfire to teach, learn, and grow.
+
+## 2024 version
+
+Mapping USA 2024 took place in January. Since the 2022 logo proved popular, I simply updated the colors for a winter landscape. (No conference occurred in 2023.)
+
+{% include graphic_image.html file='/img/musa-camping/musa-2024-logo.svg' width='220px' caption='Winter variant' %}

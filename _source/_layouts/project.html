@@ -6,16 +6,16 @@ layout: default
     <p class="label">{{page.project_type}}</p>
   {% endif %}
   {% if page.title %}
-    <h1><a href="{{page.url | absolute_url}}">{{page.title}}</a></h1>
+    <h1><a href="{{page.url | absolute_url}}">{{page.title | smartify}}</a></h1>
   {% endif %}
 </div>
-{% if page.image or page.logo %}
-  <div class="hero-image-wrap">
+{% if page.image or page.graphic %}
+  <div class="hero-image-wrap graphic-background">
     <div class="container fake-padded">
       {% if page.image %}
         <div class="hero-image" style="background-image:url('{{page.image | absolute_url}}');"></div>
-      {% elsif page.logo %}
-        <img class="hero-logo" src="{{page.logo | absolute_url}}">
+      {% elsif page.graphic %}
+        <img class="hero-graphic graphic" src="{{page.graphic | absolute_url}}">
       {% endif %}
     </div>
   </div>
@@ -29,6 +29,12 @@ layout: default
     <div class="labeled-value">
       <p class="label">{{page.status_label | default: 'Status'}}</p>
       <p class="value">{{page.status}}</p>
+    </div>
+    {% endif %}
+    {% if page.event %}
+    <div class="labeled-value">
+      <p class="label">{{page.event_label | default: 'Event'}}</p>
+      <p class="value">{{page.event}}</p>
     </div>
     {% endif %}
     {% if page.start %}

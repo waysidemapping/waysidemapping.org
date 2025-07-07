@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 4</title>
+    <defs>
+        <path d="M44,80 C63.882251,80 80,63.882251 80,44 C80,24.117749 63.882251,8 44,8 C24.117749,8 8,24.117749 8,44 C8,63.882251 24.117749,80 44,80 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="72" height="72" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-12" transform="translate(-344, -2085)" stroke="#361100">
+            <g id="Group-4" transform="translate(344, 2085)">
+                <circle id="Oval" stroke-width="5" fill="#FFBB72" transform="translate(44, 44) rotate(-360) translate(-44, -44)" cx="44" cy="44" r="41.5"></circle>
+                <use id="Oval-Copy" mask="url(#mask-2)" stroke-width="16" stroke-linejoin="round" stroke-dasharray="3,3.1" xlink:href="#path-1"></use>
+                <g id="Group-3" transform="translate(43.8094, 43.8094) rotate(-315) translate(-43.8094, -43.8094)translate(18.8094, 32.3094)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5">
+                    <polyline id="Line-2-Copy-40" fill="#CA0012" transform="translate(12.5, 11.5) rotate(-90) translate(-12.5, -11.5)" points="24 24 12.500518 -1 1 24"></polyline>
+                    <polygon id="Line-2-Copy-39" fill="#FFFFFF" transform="translate(37.5, 11.5) scale(1, -1) rotate(90) translate(-37.5, -11.5)" points="49 24 37.500518 -1 26 24"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

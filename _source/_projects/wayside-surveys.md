@@ -3,7 +3,7 @@ project_type: Video Series
 title: Wayside Surveys
 date: 2025-07-02
 updated: 2025-07-02
-image: /img/content/wayside-surveys.jpg
+image: /img/wayside-surveys/wayside-surveys.jpg
 status: Ongoing
 start: 2022-03-13
 start_label: First Upload

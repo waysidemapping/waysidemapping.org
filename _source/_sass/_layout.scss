@@ -42,7 +42,7 @@ h2 {
   font-size: 1.75em;
 }
 h3 {
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 hr {
   border-bottom: 1px solid v.$text-color;
@@ -228,24 +228,58 @@ hr {
 /* layout- and page-specific styles */
 
 .layout-project {
-  .hero-image-wrap {
-    margin-bottom: v.$sp * 1.5;
+  .graphic-background {
     position: relative;
+    display: flex;
+    justify-content: center;
+    > * {
+      position: relative;
+    }
     &::before {
       content: "";
-      background-image: url("/img/grid.png");
+      background-image: url("/img/ui/grid.png");
       background-size: 6px;
+      background-position-x: center;
       opacity: 0.12;
-      border-top: 1px solid v.$contrast-color;
-      border-bottom: 1px solid v.$contrast-color;
       width: 100%;
       height: 100%;
       display: block;
       position: absolute;
     }
-    .hero-image, .hero-logo {
-      position: relative;
+  }
+  .inline-graphic {
+    flex-direction: column;
+    align-items: center;
+    img {
+      width: 100%;
+      margin: v.$sp v.$sp * 0.5;
     }
+    figcaption {
+      margin-bottom: v.$sp * 0.75;
+      font-family: v.$caption-font;
+      font-size: 21px;
+    }
+  }
+  .graphic {
+    filter: drop-shadow(0px 2px 4px #00000025);
+    margin: v.$sp
+  }
+  .graphic-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-evenly;
+    .graphic-background {
+      &::before {
+        display: none;
+      }
+    }
+    .group-label {
+      position: absolute;
+    }
+  }
+  .hero-image-wrap {
+    margin-bottom: v.$sp * 1.5;
     .hero-image {
       width: 100%;
       background-size: cover;
@@ -254,12 +288,11 @@ hr {
       min-height: 241px;
       max-height: 409px;
     }
-    .hero-logo {
+    .hero-graphic {
       height: calc(50vh - v.$sp * 2);
       min-height: 241px - v.$sp * 2;
       max-height: 409px - v.$sp * 2;
       margin: v.$sp auto;
-      filter: drop-shadow(0px 2px 4px #00000025);
     }
   }
   h1 {

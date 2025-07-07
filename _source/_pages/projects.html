@@ -1,0 +1,8 @@
+---
+title: Project Portfolio
+date: 2025-06-26
+updated: 2025-06-26
+---
+{%- for project in site.projects -%}
+<a href="{{project.url | absolute_url}}">{{project.title | smartify}}</a>
+{%- endfor -%}

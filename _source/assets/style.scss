@@ -37,3 +37,7 @@ $fonturl: $baseurl + "/assets/fonts/";
   font-weight: bold;
   font-style: italic;
 }
+@font-face{
+  src: url($fonturl + 'jr!ha___.ttf');
+  font-family: "jr!hand";
+}
