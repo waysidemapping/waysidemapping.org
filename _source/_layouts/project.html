@@ -11,11 +11,11 @@ layout: default
 </div>
 {% if page.image or page.graphic %}
   <div class="hero-image-wrap graphic-background">
-    <div class="container fake-padded">
+    <div class="container">
       {% if page.image %}
-        <div class="hero-image" style="background-image:url('{{page.image | absolute_url}}');"></div>
+        <div class="hero-image" alt="{{page.image_alt | escape}}" style="background-image:url('{{page.image | absolute_url}}');"></div>
       {% elsif page.graphic %}
-        <img class="hero-graphic graphic" src="{{page.graphic | absolute_url}}">
+        <img class="hero-graphic graphic" alt="{{page.image_alt | escape}}" src="{{page.graphic | absolute_url}}">
       {% endif %}
     </div>
   </div>
@@ -26,33 +26,39 @@ layout: default
   </article>
   <div class="sidebar">
     {% if page.status %}
-    <div class="labeled-value">
-      <p class="label">{{page.status_label | default: 'Status'}}</p>
-      <p class="value">{{page.status}}</p>
-    </div>
+      <div class="labeled-value">
+        <p class="label">{{page.status_label | default: 'Status'}}</p>
+        <p class="value">{{page.status}}</p>
+      </div>
     {% endif %}
     {% if page.event %}
-    <div class="labeled-value">
-      <p class="label">{{page.event_label | default: 'Event'}}</p>
-      <p class="value">{{page.event}}</p>
-    </div>
+      <div class="labeled-value">
+        <p class="label">{{page.event_label | default: 'Event'}}</p>
+        <p class="value">{{page.event}}</p>
+      </div>
     {% endif %}
     {% if page.start %}
-    <div class="labeled-value">
-      <p class="label">{{page.start_label | default: 'Started'}}</p>
-      <p class="value">{% if page.start.size %}{{page.start}}{% else %}{{page.start | date: '%B %Y'}}{% endif %}</p>
-    </div>
+      <div class="labeled-value">
+        <p class="label">{{page.start_label | default: 'Started'}}</p>
+        <p class="value">{% if page.start.size %}{{page.start}}{% else %}{{page.start | date: '%B %Y'}}{% endif %}</p>
+      </div>
     {% endif %}
     {% if page.end %}
-    <div class="labeled-value">
-      <p class="label">{{page.end_label | default: 'Completed'}}</p>
-      <p class="value">{% if page.end.size %}{{page.end}}{% else %}{{page.end | date: '%B %Y'}}{% endif %}</p>
-    </div>
+      <div class="labeled-value">
+        <p class="label">{{page.end_label | default: 'Completed'}}</p>
+        <p class="value">{% if page.end.size %}{{page.end}}{% else %}{{page.end | date: '%B %Y'}}{% endif %}</p>
+      </div>
     {% endif %}
     <div class="labeled-value">
-      <p class="label">{{page.client_label | default: 'Client'}}</p>
-      <p class="value">{{page.client | default: 'n/a'}}</p>
+      <p class="label">{% if page.category contains 'Design' %}Designer{% elsif page.category == 'Mapping' %}Mapper{% else %}{{page.producer_label | default: 'Producer'}}{% endif %}</p>
+      <p class="value">{{page.producer | default: 'Quincy Morgan'}}</p>
     </div>
+    {% if page.client %}
+      <div class="labeled-value">
+        <p class="label">{{page.client_label | default: 'Client'}}</p>
+        <p class="value">{{page.client}}</p>
+      </div>
+    {% endif %}
   </div>
 </div>
 <div class="container padded">
