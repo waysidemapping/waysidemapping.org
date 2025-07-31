@@ -1,4 +1,4 @@
-fetch("{{site.url}}{{site.baseurl}}/img/ui/icons.svg")
+fetch("{{site.url}}{{site.baseurl}}/ui/icons.svg")
     .then(function(response) {
         return response.text();
     })
