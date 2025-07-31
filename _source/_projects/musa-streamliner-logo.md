@@ -7,6 +7,8 @@ date: 2025-07-11
 updated: 2025-07-11
 graphic: /img/musa-2025-logo.svg
 icon: /img/musa-2025-registration-sticker.svg
+photo: /img/photo-snow.jpg
+photo_classes: dark-text top-text
 event: Mapping USA 2025
 client: OpenStreetMap US
 ---

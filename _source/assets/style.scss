@@ -41,3 +41,7 @@ $fonturl: $baseurl + "/assets/fonts/";
   src: url($fonturl + 'jr!ha___.ttf');
   font-family: "jr!hand";
 }
+@font-face{
+  src: url($fonturl + 'Milkshake.otf');
+  font-family: "Milkshake";
+}

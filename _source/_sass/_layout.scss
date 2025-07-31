@@ -203,6 +203,7 @@ code {
 
 .body {
   padding-bottom: v.$sp * 2;
+  overflow: hidden;
 
   .container:not(.sidebarred) {
     flex-direction: column;
@@ -376,10 +377,76 @@ a.hotline-button {
   }
 }
 
+.begbox-wrap {
+  padding-top: v.$sp;
+  margin-top: v.$sp * 6;
+  background: v.$alt-background-color;
+  position: relative;
+}
+.begbox {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  color: v.$background-color;
+  font-size: 21px;
+  line-height: 1.5em;
+  font-weight: bold;
+  padding: v.$sp * 3 v.$sp;
+  border-radius: v.$sp * 2;
+  height: 800px;
+  max-height: calc(100vh - v.$sp * 2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: - v.$sp * 4;
+
+  &.top-text {
+    padding-bottom: 25vh;
+  }
+  &.dark-text {
+    color: v.$contrast-color;
+  }
+
+  h1 {
+    width: fit-content;
+    font-family: "Milkshake";
+    font-size: 2.75em;
+    transform: rotate(-10deg);
+  }
+  p {
+    max-width: 450px;
+    margin-bottom: 0.75em;
+    margin-left: v.$sp * 5;
+  }
+  a {
+    color: inherit;
+    text-decoration: underline;
+  }
+}
+.begbox-under {
+  background: v.$contrast-color;
+  height: 100vh;
+  position: absolute;
+  top: calc(100% - v.$sp * 8);
+  width: 100%;
+}
+
 /* narrow window */
 
 .narrow-only {
   display: none;
+}
+
+@media only screen and (max-height: (500px)){
+  .begbox {
+    max-height: 400px;
+
+    @media only screen and (min-width: (v.$prose-width + v.$sp * 2)){
+      &.top-text {
+        padding-bottom: v.$sp * 3;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: (v.$prose-width + v.$sp * 2)){
@@ -469,6 +536,21 @@ a.hotline-button {
     .rose {
       width: 50px;
       display: inline-block;
+    }
+  }
+
+  .begbox {
+    font-size: unset;
+    text-align: justify;
+    h1 {
+      text-align: center;
+      width: auto;
+      transform: unset;
+      margin-bottom: v.$sp;
+    }
+    p {
+      margin-left: unset;
+     
     }
   }
 }

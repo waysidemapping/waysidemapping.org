@@ -7,6 +7,8 @@ date: 2025-07-11
 updated: 2025-07-11
 graphic: /img/ambitious-mapper-shirt.png
 icon: /img/ambitious-mapper-icon.png
+photo: /img/photo-fort.jpg
+photo_classes: dark-text
 start: 2025-01-16
 start_label: Dropped
 client: OpenStreetMap US

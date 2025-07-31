@@ -65,3 +65,15 @@ layout: default
   {%- assign updated_date = page.updated | default: page.date | date: site.date_format -%}
   {% if updated_date %}<p><i>This page last updated {{updated_date}}.</i></p>{% endif %}
 </div>
+<div class="begbox-wrap">
+  <div class="begbox-under"></div>
+  <div class="container padded">
+    <div class="begbox {% if page.photo_classes %}{{page.photo_classes}}{% endif %}" style="background-image:url('{{page.photo | default: '/img/photo-camping.jpg' | absolute_url}}');">
+      <div class="begbox-inner">
+        <h1>Say hello</h1>
+        <p>Do you have similar work that needs doing? <a href="{{siteurl}}{{baseurl}}/contact/">Hire an open mapping expert</a> and get it done right the first time.</p>
+        <p>Or, consider <a href="{{siteurl}}{{baseurl}}/tip/">supporting me</a> if my work has already helped you out :)</p>
+      </div>
+    </div>
+  </div>
+</div>
