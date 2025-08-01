@@ -220,13 +220,27 @@ article {
     margin: 0 auto;
     margin-bottom: v.$sp;
     display: block;
+    text-align: justify;
+    max-width: v.$prose-width;
   }
 
-  &:not(.fullwidth) {
+  &.fullwidth {
     > * {
-      max-width: v.$prose-width;
-      text-align: justify;
+      max-width: 100%;
     }
+  }
+  &.midwidth {
+    > * {
+      max-width: v.$prose-width * 1.2;
+    }
+  }
+
+  > h1 {
+    border-bottom: 1px solid v.$contrast-color;
+    padding-bottom: v.$sp * 0.5;
+    margin-bottom: v.$sp * 1.5;
+    text-align: center;
+    width: fit-content;
   }
 }
 
@@ -328,6 +342,7 @@ article {
 }
 .layout-project {
   h1 {
+    text-align: unset;
     margin-top: v.$sp * 0.25;
     margin-bottom: v.$sp * 0.75;
   }
@@ -337,11 +352,12 @@ article {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  text-align: left;
+  padding-left: v.$sp * 2;
+  
   .card {
     color: v.$contrast-color;
     display: flex;
-    width: 50%;
+    width: calc(50% - v.$sp * 0.5);
     margin-bottom: v.$sp * 2;
     position: relative;
     .icon {
@@ -352,6 +368,7 @@ article {
       margin-right: v.$sp * 0.75;
     }
     .subtitle {
+      
       color: v.$text-color;
     }
   }
@@ -392,17 +409,19 @@ a.hotline-button {
   line-height: 1.5em;
   font-weight: bold;
   padding: v.$sp * 3 v.$sp;
-  border-radius: v.$sp * 2;
-  height: 800px;
+  border: v.$sp * 0.5 solid white;
+  height: 600px;
   max-height: calc(100vh - v.$sp * 2);
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: - v.$sp * 4;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  width: 100%;
+  transform: rotate(2.5deg);
 
-  &.top-text {
-    padding-bottom: 25vh;
-  }
   &.dark-text {
     color: v.$contrast-color;
   }
@@ -414,7 +433,7 @@ a.hotline-button {
     transform: rotate(-10deg);
   }
   p {
-    max-width: 450px;
+    max-width: 400px;
     margin-bottom: 0.75em;
     margin-left: v.$sp * 5;
   }
@@ -423,11 +442,15 @@ a.hotline-button {
     text-decoration: underline;
   }
 }
+.begbox-inner {
+  padding-bottom: v.$sp * 2;
+  padding-right: v.$sp * 2;
+}
 .begbox-under {
   background: v.$contrast-color;
   height: 100vh;
   position: absolute;
-  top: calc(100% - v.$sp * 8);
+  top: calc(100% - v.$sp * 4);
   width: 100%;
 }
 
@@ -440,12 +463,6 @@ a.hotline-button {
 @media only screen and (max-height: (500px)){
   .begbox {
     max-height: 400px;
-
-    @media only screen and (min-width: (v.$prose-width + v.$sp * 2)){
-      &.top-text {
-        padding-bottom: v.$sp * 3;
-      }
-    }
   }
 }
 
@@ -550,7 +567,9 @@ a.hotline-button {
     }
     p {
       margin-left: unset;
-     
     }
+  }
+  .begbox-inner {
+    padding-right: unset;
   }
 }

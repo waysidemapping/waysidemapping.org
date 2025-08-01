@@ -4,8 +4,8 @@ layout: default
 date: 2025-06-26
 updated: 2025-06-26
 ---
-<div class="container padded sidebarred">
-    <article class="prose fullwidth">
+<div class="container padded">
+    <article class="prose midwidth">
         <h1><a href="{{page.url | absolute_url}}">{{page.title | smartify}}</a></h1>
         {%- assign groups = site.projects | group_by: "category"-%}
         {%- for group in groups -%}
@@ -23,5 +23,4 @@ updated: 2025-06-26
         </div>
         {%- endfor -%}
     </article>
-    <div class="sidebar"></div>
 </div>
