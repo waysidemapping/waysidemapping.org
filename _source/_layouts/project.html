@@ -13,7 +13,7 @@ layout: default
   <div class="hero-image-wrap graphic-background">
     <div class="container">
       {% if page.image %}
-        <div class="hero-image" alt="{{page.image_alt | escape}}" style="background-image:url('{{page.image | absolute_url}}');"></div>
+        <div class="hero-image {{page.image_classes}}" alt="{{page.image_alt | escape}}" style="background-image:url('{{page.image | absolute_url}}');"></div>
       {% elsif page.graphic %}
         <img class="hero-graphic graphic" alt="{{page.image_alt | escape}}" src="{{page.graphic | absolute_url}}">
       {% endif %}
@@ -23,6 +23,19 @@ layout: default
 <div class="container padded sidebarred">
   <article class="prose">
     {{content}}
+    {%- assign related = "" | split: "" -%}
+    {%- for tag in page.tags -%}
+      {%- assign with_same_tag = site.projects | where_exp: "item", "item.tags contains tag and item != page" -%}
+      {%- for item in with_same_tag -%}
+        {%- unless related contains item -%}
+          {%- assign related = related | push: item -%}
+        {%- endunless -%}
+      {%- endfor -%}
+    {%- endfor -%}
+    {%- if related.size > 0 -%}
+      <h2>Related projects</h2>
+      {%- include cards.html items=related -%}
+    {%- endif -%}
   </article>
   <div class="sidebar">
     {% if page.status %}

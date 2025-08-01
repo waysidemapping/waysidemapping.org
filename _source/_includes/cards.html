@@ -1,0 +1,13 @@
+<ul class="cards">
+    {%- for item in include.items -%}
+        <li class="card">
+            <a href="{{item.url | absolute_url}}">
+                <img class="icon" src="{{item.icon | absolute_url}}"/>
+                <div class="text">
+                    <h4>{{item.title | smartify}}</h4>
+                    <span class="subtitle">{{item.subtitle}}</span>  
+                </div>
+            </a>
+        </li>
+    {%- endfor -%}
+</ul>

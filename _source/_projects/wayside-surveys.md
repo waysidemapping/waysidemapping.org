@@ -11,5 +11,7 @@ status: Ongoing
 start: 2022-03-13
 start_label: First Upload
 link: https://www.youtube.com/@WaysideSurveys
+tags:
+  - YouTube Channel
 ---
 ## The wayside beckons

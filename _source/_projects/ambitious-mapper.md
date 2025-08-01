@@ -12,6 +12,10 @@ photo_classes: dark-text
 start: 2025-01-16
 start_label: Dropped
 client: OpenStreetMap US
+tags:
+  - OpenStreetMap US merch
+  - apparel
+  - merch
 ---
 ## O, when will by edits appear on the map?
 

@@ -9,18 +9,8 @@ updated: 2025-06-26
         <h1><a href="{{page.url | absolute_url}}">{{page.title | smartify}}</a></h1>
         {%- assign groups = site.projects | group_by: "category"-%}
         {%- for group in groups -%}
-        <h2 id="{{group.name | slugify}}"><a href="#{{group.name | slugify}}">{{group.name}}</a></h2>
-        <div class="cards">
-            {%- for item in group.items -%}
-            <a class="card" href="{{item.url | absolute_url}}">
-                <img class="icon" src="{{item.icon | absolute_url}}"/>
-                <div class="text">
-                    <h4>{{item.title | smartify}}</h4>
-                    <span class="subtitle">{{item.subtitle}}</span>  
-                </div>
-            </a>
-            {%- endfor -%}
-        </div>
+            <h2 id="{{group.name | slugify}}"><a href="#{{group.name | slugify}}">{{group.name}}</a></h2>
+            {%- include cards.html items=group.items -%}
         {%- endfor -%}
     </article>
 </div>

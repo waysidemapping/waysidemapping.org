@@ -10,6 +10,10 @@ icon: /img/review_requested-check.svg
 start: 2023-12-06
 start_label: Dropped
 client: OpenStreetMap US
+tags:
+  - OpenStreetMap US merch
+  - apparel
+  - merch
 ---
 ## i would like someone to review my edits
 

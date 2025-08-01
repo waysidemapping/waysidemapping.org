@@ -9,6 +9,11 @@ icon: /img/musa-2022-fire.svg
 graphic: /img/musa-2022-logo.svg
 event: Mapping USA 2022 <br/>Mapping USA 2024
 client: OpenStreetMap US
+tags:
+  - Mapping USA 2022
+  - Mapping USA 2024
+  - Mapping USA
+  - event logos
 ---
 ## Gather 'round the virtual campfire
 
