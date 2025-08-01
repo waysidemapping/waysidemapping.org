@@ -5,6 +5,7 @@ title: Richmond Tattoo
 subtitle: Logo for State of the Map US 2023
 date: 2025-07-11
 updated: 2025-07-11
+start: 2023-06-08
 graphic: /img/sotmus-2023-logo.svg
 icon: /img/sotmus-2023-raven.svg
 photo: /img/photo-richmond.jpg
@@ -15,7 +16,7 @@ tags:
   - State of the Map US
   - event logos
 ---
-## The map and the ink
+## It's just so Richmond
 
 In 2023 I was lucky enough to lead the logo design for the best party in mapping: State of the Map US. The result, in the words of one RVA local, is "just so Richmond".
 

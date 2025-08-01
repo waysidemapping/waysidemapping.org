@@ -11,6 +11,7 @@ photo: /img/photo-snow.jpg
 photo_classes: dark-text
 event: Mapping USA 2025
 client: OpenStreetMap US
+start: 2025-01-24
 tags:
   - Mapping USA 2025
   - Mapping USA

@@ -5,13 +5,13 @@ layout: page
 
 {%- markdown -%}
 
-Hi, I'm Quincy Morgan, the proprietor of Wayside Mapping. Thanks for stopping in 🤙
+![](/img/quincy-labrador.jpg)
 
-![](/img/quincy.jpg)
+Hi, I'm Quincy Morgan. Thanks for stopping in 🤙
 
 I'm passionate about free and open map data and mapping software.
 
-As a traveler, I have on-the-ground experience in a wide diversity of landscapes, particularly in North America. I've spent time in each of the contiguous 48 US states and all 10 provinces of Canada, criss-crossing the continent via backroads, interstates, ferries, and trains. You'll often find me hiking, cycling, or paddling—all the while collecting geodata.
+As a traveler, I have on-the-ground experience in a wide diversity of landscapes, particularly in North America. I've spent time in each of the contiguous 48 US states and all 10 provinces of Canada, criss-crossing the continent via road, rail, river, and trail.
 
 {%- endmarkdown -%}
 
@@ -19,7 +19,7 @@ As a traveler, I have on-the-ground experience in a wide diversity of landscapes
 
 {%- assign categories = "Mapping;Video Series;Graphic Design" | split: ";"-%}
 {%- for category in categories -%}
-    {%- assign items = site.projects | where: "category", category -%}
+    {%- assign items = site.projects | where: "category", category | sort: "start" | reverse -%}
     <h2 id="{{category | slugify}}"><a href="#{{category | slugify}}">{{category}}</a></h2>
     {%- include cards.html items=items -%}
 {%- endfor -%}
@@ -28,18 +28,32 @@ As a traveler, I have on-the-ground experience in a wide diversity of landscapes
 
 <h1 id="hire"><a href="{{siteurl}}{{baseurl}}/#hire">Hire Me</a></h1>
 
+![](/img/quincy-slc.jpg)
+
 If you're looking for an expert in OpenStreetMap data, tools, and community (and open geospatial in general), you've come to the right place.
 
 I've mapped over 11,000 changesets in OSM since 2016 and am the only person to have been employed full-time by both the OpenStreetMap Foundation and [OpenStreetMap US](https://openstreetmap.us/news/2022/06/welcome-quincy/). I've made major open source contributions to core OSM software projects such as iD and Field Papers, as well as to OSM Wiki documentation and OSM tagging standards. I'm embedded in the OSM community and am a regular at open mapping conferences.
 
-Beyond OpenStreetMap, I'm an avid contributor to Wikipedia, Wikidata, and Wikimedia Commons. I'm a graphic designer, photographer, and videographer, and can also provide general web design and development services.
+_Some common tasks I can help you with:_
+
+- Conflate and import a dataset into OpenStreetMap
+- Exhaustively map a specific place or feature in OpenStreetMap
+- Develop a pipeline for your organization to leverage open map data
+- Add a feature to an open source geospatial tool, or adapt the tool to your use case
+- Hold an instructional OpenStreetMap workshop (in-person or online)
+
+Beyond OpenStreetMap, I provide services in full stack web development, GIS, UI/UX, graphic design, photography, and videography. I'm an frequent contributor to Wikipedia, Wikidata, and Wikimedia Commons.
+
+You can reach me via [email](mailto:quincy@waysidemapping.org), [LinkedIn](https://www.linkedin.com/in/quincy-morgan), or social media. I'd love to hear what you're working on!
 
 <h1 id="support"><a href="{{siteurl}}{{baseurl}}/#support">Support Me</a></h1>
 
-My work is made possible via financial support from the community. Your tips ensure I'm able to continue contributing to the open mapping ecosystem as my full-time job.
+![](/img/quincy-wyoming.jpg)
 
-I accept donations through [GitHub](https://github.com/sponsors/quincylvania) and [Ko-Fi](https://ko-fi.com/quincylvania). There are no fees on these sites. If you'd like to support me another way, or hire me for a contract, please [get in touch](/contact/).
+Outside of paid contracts, I provide _pro bono_ work to many software and data projects within the open mapping ecosystem. Your financial support ensures I'm able to continue contributing to the mapping community as my full-time job.
 
-**_Thank you for your support!_**
+You can sponsor me through [GitHub](https://github.com/sponsors/quincylvania) or [Ko-Fi](https://ko-fi.com/quincylvania). There are no fees on these sites.
+
+**_Thank you for your support!!_**
 
 {%- endmarkdown -%}
