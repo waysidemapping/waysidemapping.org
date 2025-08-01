@@ -163,7 +163,7 @@ code {
     position: absolute;
     font-family: v.$title-font;
     font-variant-caps: all-small-caps;
-    font-size: 22px;
+    font-size: 1.25em;
     text-align: right;
     right: 0;
     top: 16px;
@@ -184,7 +184,7 @@ code {
     flex-wrap: wrap;
     justify-content: space-between;
     font-family: v.$title-font;
-    font-size: 20px;
+    font-size: 1.1em;
     text-align: right;
     margin-bottom: 50px;
     padding: v.$sp * 0.5 0;
@@ -469,13 +469,17 @@ a.hotline-button {
   display: none;
 }
 
-@media only screen and (max-height: (500px)){
+@media only screen and (max-height: (500px)) {
   .begbox {
     max-height: 400px;
   }
 }
 
-@media only screen and (max-width: (v.$prose-width + v.$sp * 2)){
+@media only screen and (max-width: (v.$prose-width + v.$sp * 2)) {
+
+  body {
+    font-size: 17px;
+  }
 
   .narrow-only {
     display: unset;
@@ -525,7 +529,6 @@ a.hotline-button {
       width: 100%;
       flex-wrap: wrap;
       justify-content: space-between;
-      font-size: 20px;
       margin-bottom: v.$sp;
       padding: v.$sp * 0.5 0;
       border-top: 1px solid v.$contrast-color;
