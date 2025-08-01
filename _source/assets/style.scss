@@ -13,11 +13,6 @@ $fonturl: $baseurl + "/assets/fonts/";
   font-family: "EBGaramond";
 }
 @font-face{
-  src: url($fonturl + 'Raleway-ExtraBold.ttf');
-  font-family: "Raleway";
-  font-weight: 800;
-}
-@font-face{
   src: url($fonturl + 'cmunorm.ttf');
   font-family: "CMU Concrete";
 }
