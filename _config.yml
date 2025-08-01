@@ -10,6 +10,7 @@ source: _source
 date_format: "%b %e, %Y"
 plugins:
   - absolute-urls
+  - manual-markdown
   - unwrap-img
 collections:
   pages:
