@@ -4,13 +4,14 @@ layout: default
 date: 2025-06-26
 updated: 2025-06-26
 ---
+{%- assign categories = "Video Series;Mapping;Graphic Design" | split: ";"-%}
 <div class="container padded">
     <article class="prose midwidth">
         <h1><a href="{{page.url | absolute_url}}">{{page.title | smartify}}</a></h1>
-        {%- assign groups = site.projects | group_by: "category"-%}
-        {%- for group in groups -%}
-            <h2 id="{{group.name | slugify}}"><a href="#{{group.name | slugify}}">{{group.name}}</a></h2>
-            {%- include cards.html items=group.items -%}
+        {%- for category in categories -%}
+            {%- assign items = site.projects | where: "category", category -%}
+            <h2 id="{{category | slugify}}"><a href="#{{category | slugify}}">{{category}}</a></h2>
+            {%- include cards.html items=items -%}
         {%- endfor -%}
     </article>
 </div>
