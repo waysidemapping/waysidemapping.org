@@ -2,11 +2,9 @@
 layout: default
 ---
 <div class="container padded">
-  {% if page.project_type %}
-    <p class="label">{{page.project_type}}</p>
-  {% endif %}
+
   {% if page.title %}
-    <h1><a href="{{page.url | absolute_url}}">{{page.title | smartify}}</a></h1>
+    <h1><a href="{{page.url | absolute_url}}" class="iconed-text"><img class="icon" src="{{page.icon | absolute_url}}"/><span class="text">{{page.title | smartify}}</span></a></h1>
   {% endif %}
 </div>
 {% if page.image or page.graphic %}
@@ -38,6 +36,12 @@ layout: default
     {%- endif -%}
   </article>
   <div class="sidebar">
+    {% if page.category %}
+      <div class="labeled-value">
+        <p class="label">Project Type</p>
+        <p class="value">{{page.category}}</p>
+      </div>
+    {% endif %}
     {% if page.status %}
       <div class="labeled-value">
         <p class="label">{{page.status_label | default: 'Status'}}</p>
@@ -63,7 +67,7 @@ layout: default
       </div>
     {% endif %}
     <div class="labeled-value">
-      <p class="label">{% if page.category contains 'Design' %}Designer{% elsif page.category == 'Mapping' %}Mapper{% else %}{{page.producer_label | default: 'Producer'}}{% endif %}</p>
+      <p class="label">{% if page.category contains 'Design' %}Designer{% elsif page.category == 'Mapping' %}Mapper{% elsif page.category contains 'Software' %}Developer{% else %}{{page.producer_label | default: 'Producer'}}{% endif %}</p>
       <p class="value">{{page.producer | default: 'Quincy Morgan'}}</p>
     </div>
     {% if page.client %}
@@ -85,7 +89,7 @@ layout: default
       <div class="begbox-inner">
         <h1>Say hello</h1>
         <p>Need a collaborator on a similar job? <a href="{{siteurl}}{{baseurl}}/#hire">Get in touch</a> and see how I can help.</p>
-        <p>Or, consider <a href="{{siteurl}}{{baseurl}}/#support">supporting me</a> if you've found my work useful :)</p>
+        <p>Or, consider <a href="{{siteurl}}{{baseurl}}/#sponsor">sponsoring me</a> if you find my work useful :)</p>
       </div>
     </div>
   </div>

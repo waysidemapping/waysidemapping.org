@@ -1,5 +1,4 @@
 ---
-project_type: Merch Design
 category: Graphic Design
 title: Ambitious Mapper
 subtitle: Graphic tee for OpenStreetMap US

@@ -1,5 +1,4 @@
 ---
-project_type: Event Logo
 category: Graphic Design
 title: 'Beach Camping'
 subtitle: Logo for Mapping USA 2022 & 2024

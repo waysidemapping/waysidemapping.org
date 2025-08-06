@@ -1,7 +1,7 @@
 <ul class="cards">
     {%- for item in include.items -%}
         <li class="card">
-            <a href="{{item.url | absolute_url}}">
+            <a href="{{item.url | absolute_url}}" class="iconed-text">
                 <img class="icon" src="{{item.icon | absolute_url}}"/>
                 <div class="text">
                     <h4>{{item.title | smartify}}</h4>

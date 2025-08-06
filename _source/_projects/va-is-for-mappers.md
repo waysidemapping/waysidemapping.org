@@ -1,5 +1,4 @@
 ---
-project_type: Event Sticker
 category: Graphic Design
 title: Virginia is for Mappers
 subtitle: Sticker for State of the Map US 2023
@@ -19,7 +18,7 @@ tags:
 ---
 ## Welcome to Virginia
 
-"[Virginia Is For Lovers](https://en.wikipedia.org/wiki/Virginia_Is_for_Lovers)" is one of the more famous tourism slogans, found on welcome signs all over the state. Ahead of State of the Map US 2023 in Richmond, I adopted the design for the love of mappers, taking special care to place the ❤️ at the approximate location of RVA.
+"[Virginia Is For Lovers](https://en.wikipedia.org/wiki/Virginia_Is_for_Lovers)", one of the more famous tourism slogans, can be found on welcome signs all over the state. Ahead of State of the Map US 2023 in Richmond, I adopted the design for the love of mappers, taking special care to place the ❤️ at the approximate location of RVA.
 
 A sticker with this graphic was a freebie for conference attendees.
 

@@ -1,5 +1,4 @@
 ---
-project_type: Video Series
 category: Video Series
 title: Wayside Surveys
 subtitle: Scenic journeys captured in high-res

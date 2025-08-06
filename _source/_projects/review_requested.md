@@ -1,5 +1,4 @@
 ---
-project_type: Merch Design
 category: Graphic Design
 title: review_requested
 subtitle: Cutesie swag for OpenStreetMap US

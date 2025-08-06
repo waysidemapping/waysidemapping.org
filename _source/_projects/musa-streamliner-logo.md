@@ -1,5 +1,4 @@
 ---
-project_type: Event Logo
 category: Graphic Design
 title: Snowboard Streamliner
 subtitle: Logo for Mapping USA 2025

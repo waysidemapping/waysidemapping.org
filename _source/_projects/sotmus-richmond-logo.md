@@ -1,5 +1,4 @@
 ---
-project_type: Event Logo
 category: Graphic Design
 title: Richmond Tattoo
 subtitle: Logo for State of the Map US 2023

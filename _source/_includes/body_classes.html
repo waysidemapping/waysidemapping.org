@@ -4,3 +4,6 @@
 {% unless page.url == '/' -%}
   ispage-{{ page.url | slugify }}
 {%- endunless %}
+{% if page.image or page.graphic -%}
+  has-hero
+{%- endif %}

@@ -362,7 +362,18 @@ article {
   h1 {
     text-align: unset;
     margin-top: v.$sp * 0.25;
-    margin-bottom: v.$sp * 0.75;
+    .iconed-text {
+      padding-bottom: v.$sp;
+    }
+  }
+
+  &:not(.has-hero) {
+    h1 {
+      .iconed-text {
+        border-bottom: 1px solid v.$contrast-color;
+        margin-bottom: v.$sp * 1.5;
+      }
+    }
   }
 }
 
@@ -381,18 +392,24 @@ ul.cards {
   }
   .card a {
     color: v.$contrast-color;
-    display: flex;
-    position: relative;
-    .icon {
-      width: 40px;
-      max-height: 40px;
-      aspect-ratio: 1;
-      vertical-align: middle;
-      margin: 0 v.$sp * 0.75;
-    }
     .subtitle {
       color: v.$text-color;
     }
+    .icon {
+      margin-left: v.$sp * 0.75;
+    }
+  }
+}
+.iconed-text {
+  display: flex;
+  position: relative;
+  align-items: center;
+  .icon {
+    width: 40px;
+    max-height: 40px;
+    aspect-ratio: 1;
+    vertical-align: middle;
+    margin-right: v.$sp * 0.75;
   }
 }
 

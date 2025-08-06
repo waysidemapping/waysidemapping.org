@@ -1,5 +1,4 @@
 ---
-project_type: Video Series
 category: Video Series
 title: Wayside Mapping
 subtitle: OpenStreetMap livestreams
