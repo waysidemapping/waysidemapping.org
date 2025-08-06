@@ -3,9 +3,7 @@
   {%- if item.openstreetmap -%}
     <li><a href="https://www.openstreetmap.org/user/{{item.openstreetmap}}" title="{{item.openstreetmap}} on OpenStreetMap" target="_blank"><svg class="iconsvg"><use xlink:href="#openstreetmap"></use></svg></a></li>
   {%- endif -%}
-  {%- if item.slack_page -%}
-    <li><a href="{{item.slack_page | absolute_url}}" title="Slack"><svg class="iconsvg"><use xlink:href="#slack"></use></svg></a></li>
-  {%- endif -%}
+  
   {%- if item.github -%}
     <li><a href="https://github.com/{{item.github}}" target="_blank" title="{{item.title}} on GitHub"><svg class="iconsvg"><use xlink:href="#github"></use></svg></a></li>
   {%- endif -%}
@@ -29,6 +27,9 @@
   {%- endif -%}
   {%- if item.facebook -%}
     <li><a href="https://www.facebook.com/{{item.facebook}}" target="_blank" title="{{item.title}} on Facebook"><svg class="iconsvg"><use xlink:href="#facebook"></use></svg></a></li>
+  {%- endif -%}
+  {%- if item.slack_page -%}
+    <li><a href="{{item.slack_page | absolute_url}}" title="Slack"><svg class="iconsvg"><use xlink:href="#slack"></use></svg></a></li>
   {%- endif -%}
   {%- if item.linkedin -%}
     <li><a href="https://www.linkedin.com/in/{{item.linkedin}}" target="_blank" title="{{item.title}} on LinkedIn"><svg class="iconsvg"><use xlink:href="#linkedin"></use></svg></a></li>
