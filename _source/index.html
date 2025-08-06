@@ -17,7 +17,7 @@ As a traveler, I have on-the-ground experience in a wide diversity of landscapes
 
 <h1 id="portfolio"><a href="{{siteurl}}{{baseurl}}/#portfolio">Portfolio</a></h1>
 
-{%- assign categories = "Open Source Software;Mapping;Video Series;Graphic Design" | split: ";"-%}
+{%- assign categories = "Open Source Software;OpenStreetMap Data;Video Series;Graphic Design" | split: ";"-%}
 {%- for category in categories -%}
     {%- assign items = site.projects | where: "category", category | sort: "start" | reverse -%}
     <h2 id="{{category | slugify}}"><a href="#{{category | slugify}}">{{category}}</a></h2>
