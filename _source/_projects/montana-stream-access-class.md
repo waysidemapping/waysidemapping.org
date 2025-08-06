@@ -13,7 +13,9 @@ tags:
   - paddle mapping
   - OpenStreetMap tagging
 ---
-Montana is a waterway wonderland, home to thousands of river-miles suitable for float and paddle trips. Much of these flow through private lands, but the state has nonetheless ensured public access though a comprehensive [Stream Access Law](https://en.wikipedia.org/wiki/Montana_Stream_Access_Law).
+## Mapping the best in the west
+
+Montana is a waterway wonderland, home to thousands of river-miles that play host to world-class paddle trips. Much of these flow through private lands, but the state has nonetheless ensured public access though a "best in the west" [Stream Access Law](https://en.wikipedia.org/wiki/Montana_Stream_Access_Law).
 
 But the access law only applies to certain waterways, and has two different classifications, each with different restrictions. Some rivers allow overnight camping while others don't. It's a bit complicated… maybe OpenStreetMap can help!
 

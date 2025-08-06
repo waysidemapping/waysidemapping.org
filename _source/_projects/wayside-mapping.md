@@ -12,7 +12,6 @@ icon_alt: Compass rose overlaid on coastal photo
 status: Ongoing
 start: 2025-05-23
 start_label: First Stream
-link: https://www.youtube.com/@WaysideMapping
 tags:
   - YouTube Channel
 ---
