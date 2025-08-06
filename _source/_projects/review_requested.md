@@ -6,6 +6,7 @@ date: 2025-07-11
 updated: 2025-07-11
 graphic: /img/review_requested-onesie.png
 icon: /img/review_requested-check.svg
+icon_alt: Checked checkbox with misaligned fill color
 start: 2023-12-06
 start_label: Dropped
 client: OpenStreetMap US

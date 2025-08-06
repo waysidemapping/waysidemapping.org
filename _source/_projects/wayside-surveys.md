@@ -6,6 +6,7 @@ date: 2025-07-11
 updated: 2025-07-11
 image: /img/wayside-surveys-az.jpg
 icon: /img/wayside-surveys-channel-icon.jpg
+icon_alt: Compass rose overlaid on desert photo
 photo: /img/photo-road.jpg
 photo_classes: dark-text
 status: Ongoing

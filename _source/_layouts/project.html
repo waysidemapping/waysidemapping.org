@@ -4,7 +4,7 @@ layout: default
 <div class="container padded">
 
   {% if page.title %}
-    <h1><a href="{{page.url | absolute_url}}" class="iconed-text"><img class="icon" src="{{page.icon | absolute_url}}"/><span class="text">{{page.title | smartify}}</span></a></h1>
+    <h1><a href="{{page.url | absolute_url}}" class="iconed-text"><img class="icon" src="{{page.icon | absolute_url}}" alt="{{item.icon_alt}}"/><span class="text">{{page.title | smartify}}</span></a></h1>
   {% endif %}
 </div>
 {% if page.image or page.graphic %}

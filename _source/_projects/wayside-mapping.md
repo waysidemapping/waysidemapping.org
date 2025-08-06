@@ -8,6 +8,7 @@ image: /img/wayside-mapping-stream-screenie.jpg
 image_classes: background-bottom
 photo: /img/photo-hopedale.jpg
 icon: /img/wayside-mapping-channel-icon.jpg
+icon_alt: Compass rose overlaid on coastal photo
 status: Ongoing
 start: 2025-05-23
 start_label: First Stream

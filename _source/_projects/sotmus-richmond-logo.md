@@ -7,6 +7,7 @@ updated: 2025-07-11
 start: 2023-06-08
 graphic: /img/sotmus-2023-logo.svg
 icon: /img/sotmus-2023-raven.svg
+icon_alt: Raven silhouette
 photo: /img/photo-richmond.jpg
 event: State of the Map US 2023
 client: OpenStreetMap US

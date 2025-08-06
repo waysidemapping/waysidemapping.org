@@ -1,8 +1,9 @@
 ---
-category: Mapping
+category: OpenStreetMap Data
 title: Montana Stream Access Law
 subtitle: Public rivers in the Headwaters State
 icon: /img/montana-stream-access-icon.svg
+icon_alt: Canoe in outline of Montana
 photo: /img/photo-yellowstone-river.jpg
 date: 2025-07-11
 updated: 2025-07-11

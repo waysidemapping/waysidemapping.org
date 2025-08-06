@@ -6,6 +6,7 @@ date: 2025-07-11
 updated: 2025-07-11
 graphic: /img/musa-2025-logo.svg
 icon: /img/musa-2025-registration-sticker.svg
+icon_alt: Car registration sticker dated 2025
 photo: /img/photo-snow.jpg
 photo_classes: dark-text
 event: Mapping USA 2025

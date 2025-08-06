@@ -6,6 +6,7 @@ date: 2025-07-11
 updated: 2025-07-11
 graphic: /img/ambitious-mapper-shirt.png
 icon: /img/ambitious-mapper-icon.png
+icon_alt: Head of Napoleon Bonaparte
 photo: /img/photo-fort.jpg
 photo_classes: dark-text
 start: 2025-01-16

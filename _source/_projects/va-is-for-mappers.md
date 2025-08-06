@@ -7,6 +7,7 @@ updated: 2025-07-11
 start: 2023-06-07
 graphic: /img/va-is-for-mappers-black.svg
 icon: /img/va-is-for-mappers-heart.svg
+icon_alt: Red heart
 photo: /img/photo-richmond.jpg
 image_alt: 'Graphic of Virginia state outline with words "Virginia is for Mappers ❤️ State of the Map US 2023 ✦ Richmond, VA"'
 event: State of the Map US 2023
