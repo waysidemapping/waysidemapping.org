@@ -67,7 +67,7 @@ layout: default
       </div>
     {% endif %}
     <div class="labeled-value">
-      <p class="label">{% if page.category contains 'Design' %}Designer{% elsif page.category == 'Mapping' %}Mapper{% elsif page.category contains 'Software' %}Developer{% else %}{{page.producer_label | default: 'Producer'}}{% endif %}</p>
+      <p class="label">{% if page.category contains 'Design' %}Designer{% elsif page.category contains 'OpenStreetMap' %}Mapper{% elsif page.category contains 'Software' %}Developer{% else %}{{page.producer_label | default: 'Producer'}}{% endif %}</p>
       <p class="value">{{page.producer | default: 'Quincy Morgan'}}</p>
     </div>
     {% if page.client %}

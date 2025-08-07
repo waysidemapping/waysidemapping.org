@@ -217,6 +217,11 @@ article {
 .prose {
   line-height: 1.6;
 
+  iframe.youtube-embed {
+    width: 100%;
+    aspect-ratio: 16/9;
+  }
+
   ul {
     list-style-type: disc;
     padding-left: 1em;
@@ -505,17 +510,15 @@ a.hotline-button {
 }
 
 @media only screen and (max-width: (v.$prose-width + v.$sp * 2)) {
-
-  body {
-    font-size: 17px;
-  }
-
   .narrow-only {
     display: unset;
   }
-
   .wide-only {
     display: none;
+  }
+
+  body {
+    font-size: 17px;
   }
 
   .page-part .container {

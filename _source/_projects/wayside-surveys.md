@@ -17,7 +17,7 @@ tags:
 ---
 ## The wayside beckons
 
-When not at my desk, I spend as much time as I can taking the scenic route to the next spot on the map. How you get somewhere can be just as important as where you're going, if not more so!
+When not at my desk, I spend as much time as I can taking the scenic route to the next spot on the map. How you get somewhere can be just as important as where you're going, if not more so.
 
 I desired to preserve a piece of the places I passed through, some of them rather fragile to change, so I tried mounting a GoPro to the hood and pressing record. The resulting videos became [Wayside Surveys](https://www.youtube.com/@WaysideSurveys) (formerly Wayside Geographic).
 
