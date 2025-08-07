@@ -39,7 +39,13 @@ layout: default
     {% if page.category %}
       <div class="labeled-value">
         <p class="label">Project Type</p>
-        <p class="value">{{page.category}}</p>
+        <p class="value"><a href="{{siteurl}}{{baseurl}}/#{{page.category | slugify}}">{{page.category}}</a></p>
+      </div>
+    {% endif %}
+    {% if page.license %}
+      <div class="labeled-value">
+        <p class="label">{{page.license_label | default: 'License'}}</p>
+        <p class="value"><a href="{{page.license_url | absolute_url}}">{{page.license}}</a></p>
       </div>
     {% endif %}
     {% if page.status %}
@@ -57,7 +63,15 @@ layout: default
     {% if page.start and page.start_label %}
       <div class="labeled-value">
         <p class="label">{{page.start_label}}</p>
-        <p class="value">{% if page.start.size %}{{page.start}}{% else %}{{page.start | date: '%B %Y'}}{% endif %}</p>
+        <p class="value">
+          {%- if page.start_url -%}
+            <a href="{{page.start_url | absolute_url}}">
+          {%- endif -%}
+          {{page.start | date: '%B %Y'}}
+          {%- if page.start_url -%}
+            </a>
+          {%- endif -%}
+        </p>
       </div>
     {% endif %}
     {% if page.end %}
@@ -68,7 +82,7 @@ layout: default
     {% endif %}
     <div class="labeled-value">
       <p class="label">{% if page.category contains 'Design' %}Designer{% elsif page.category contains 'OpenStreetMap' %}Mapper{% elsif page.category contains 'Software' %}Developer{% else %}{{page.producer_label | default: 'Producer'}}{% endif %}</p>
-      <p class="value">{{page.producer | default: 'Quincy Morgan'}}</p>
+      <p class="value"><a href="{{page.producer_url | default: '/#about' | absolute_url}}">{{page.producer | default: 'Quincy Morgan'}}</a></p>
     </div>
     {% if page.client %}
       <div class="labeled-value">

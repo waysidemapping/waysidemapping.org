@@ -7,9 +7,9 @@ icon_alt: Canoe paddler
 photo: /img/photo-kayak.jpg
 date: 2025-07-11
 updated: 2025-07-11
-# date of https://www.openstreetmap.org/changeset/140872822
 start: 2023-09-05
-start_label: Started
+start_label: First Changeset
+start_url: https://www.openstreetmap.org/changeset/140872822
 tags:
   - paddle mapping
   - OpenStreetMap tagging

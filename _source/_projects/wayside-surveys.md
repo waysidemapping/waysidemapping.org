@@ -12,6 +12,7 @@ photo_classes: dark-text
 status: Ongoing
 start: 2022-03-13
 start_label: First Upload
+start_url: https://www.youtube.com/watch?v=R3T_JjHCj4k
 tags:
   - YouTube Channel
 ---
