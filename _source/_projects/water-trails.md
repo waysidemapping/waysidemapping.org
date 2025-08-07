@@ -5,6 +5,7 @@ subtitle: Modern paddle tagging and visualization
 icon: /img/opentrailmap-canoe-icon.svg
 icon_alt: Canoe paddler
 photo: /img/photo-kayak.jpg
+image: /img/nfct-osm.jpg
 date: 2025-07-11
 updated: 2025-07-11
 start: 2023-09-05
@@ -19,7 +20,7 @@ tags:
 
 I've been paddling my whole life, but I didn't think much about canoe and kayak mapping until I stumbled across the [Northern Forest Canoe Trail](https://www.northernforestcanoetrail.org/). It opened my eyes to the idea that the world's waterways form an interconnected paddle network similar to a road or trail network. Naturally I wanted to see how this could be modelled in OpenStreetMap.
 
-Unfortunately, I found the existing OSM tagging to be lacking. While [`route=canoe`](https://wiki.openstreetmap.org/wiki/Tag:route%3Dcanoe) relations were in use, as was the [`canoe=*`](https://wiki.openstreetmap.org/wiki/Key:canoe) access tag, there was no consistent, expressive way to tag things like portages, whitewater rapids, open water, minor access points, or land-water links.
+Unfortunately, I found the existing OSM tagging to be lacking. While [`route=canoe`](https://wiki.openstreetmap.org/wiki/Tag:route%3Dcanoe) relations were in use, as was the [`canoe=*`](https://wiki.openstreetmap.org/wiki/Key:canoe) access tag, there was no consistent, expressive way to tag things like portages, whitewater rapids, open water, unimproved access points, or links between land and water.
 
 ## Modern tagging for water trails
 
@@ -45,7 +46,11 @@ With the tagging squared away, the next step was to visualize the newly-mapped O
 
 Coincidentally I had been working on [OpenTrailMap](/projects/opentrailmap/) for OpenStreetMap US, and was able to add a [Canoe & Kayak Trails view](https://opentrailmap.us/#map=11.07/43.2279/-76.2137&mode=canoe) with relative ease. The resulting map highlights things like access points, barriers, water locks, and canoeability. Mappers can also focus on specific attributes to expose missing data.
 
-I also [added `portage` support](https://github.com/amandasaurus/waterwaymap.org/pull/43) to the [WaterwayMap canoe view](https://waterwaymap.org//#map=5.92/41.163/-76.419&tiles=planet-waterway-canoeable), allowing mappers to quickly identify gaps in the paddle network.
+![](/img/opentrailmap-canoe-screenshot.jpg)
+
+I also [added `portage=*` support](https://github.com/amandasaurus/waterwaymap.org/pull/43) to the [WaterwayMap canoe view](https://waterwaymap.org//#map=5.92/41.163/-76.419&tiles=planet-waterway-canoeable), allowing mappers to quickly identify gaps in the paddle network. Thanks to [@amandasaurus](https://github.com/amandasaurus) for maintaining this great tool!
+
+![](/img/waterwaymap-canoe-screenshot.jpg)
 
 ## State of the Map US talk
 
