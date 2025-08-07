@@ -19,4 +19,4 @@ tags:
 
 So you could spend months reading the OSM Wiki trying to figure out how to map something—or you could just learn by watching.
 
-With the Wayside Mapping channels on [Twitch](https://www.twitch.tv/WaysideMapping) and [YouTube](https://www.youtube.com/@WaysideMapping), I provide mapping livestreams and videos intended to demo the intricacies of OpenStreetMap editing. I always felt OSM was a little like a video game, so why not stream it like one? Come join the chat and let me know what you want to see mapped 🤙
+With the Wayside Mapping channels on [Twitch](https://www.twitch.tv/WaysideMapping) and [YouTube](https://www.youtube.com/@WaysideMapping), I provide mapping livestreams and videos intended to demo the intricacies of OpenStreetMap editing. I always felt OSM was a little bit like a video game, so why not stream it like one? Come join the chat and let me know what you want to see mapped 🤙
