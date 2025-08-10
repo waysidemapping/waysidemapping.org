@@ -14,15 +14,20 @@ start_label: First Changeset
 start_url: https://www.openstreetmap.org/changeset/139363290
 project: OSM Americana
 project_url: https://github.com/osm-americana/openstreetmap-americana/issues/911
+status: Complete
 tags:
   - OSM Americana
   - highway shields
 ---
-## From Cabot to Evangeline
-As seen on its license plates, Nova Scotia is "Canada's Ocean Playground". The province has an extensive network of well-signed scenic routes inviting tourists to follow back roads while on their maritime adventures. The routes commemorate Nova Scotia's history and culture, from the famed [Cabot Trail](https://en.wikipedia.org/wiki/Cabot_Trail) to the Acadian [Evangeline Trail](https://en.wikipedia.org/wiki/Evangeline_Trail) and beyond.
+## From the Cabot to the Evangeline
+Nova Scotia is "Canada's Ocean Playground", at least according to its license plates. The province has an extensive network of well-signed scenic routes inviting tourists to follow backroads while on their maritime adventures. The routes commemorate Nova Scotia's history and culture, from the famed [Cabot Trail](https://en.wikipedia.org/wiki/Cabot_Trail) to the Acadian [Evangeline Trail](https://en.wikipedia.org/wiki/Evangeline_Trail) and beyond.
+
+After a summer road trip winding my way through the rugged beauty of Nova Scotia's byways, I tasked myself with getting the province's scenic routes "on the map". To me, this meant mapping the routes in OpenStreetMap and then adding their shields to [OSM Americana](https://americanamap.org), a road-focused map style.
+
+To my knowledge, this was the first time a state-level scenic route network has been comprehensive supported in an OSM-based map.
 
 <div class="graphic-group graphic-background">
-<div class="graphic-title">My Nova Scotia scenic route shields</div>
+<div class="graphic-title">Shield icons by Quincy Morgan</div>
 {% include graphic_image.html file='/img/shield_ca_ns_s_bdolsd.svg' caption="Bras d'Or" width='100px' img-width='50px' %}
 {% include graphic_image.html file='/img/shield_ca_ns_s_cet.svg' caption="Ceilidh" width='100px' img-width='50px' %}
 {% include graphic_image.html file='/img/shield_ca_ns_s_ct.svg' caption="Cabot" width='100px' img-width='50px' %}
@@ -39,21 +44,15 @@ As seen on its license plates, Nova Scotia is "Canada's Ocean Playground". The p
 {% include graphic_image.html file='/img/shield_ca_ns_s_st.svg' caption="Sunrise" width='100px' img-width='50px' %}
 </div>
 
-Over at [OSM Americana](https://americanamap.org) we're working to recreate the look and feel of North American paper highways maps using OpenStreetMap data. Rendering highway shield icons along road routes is a central part of the cartography. While numbered routes have extensive coverage in OSM, scenic routes tend to be undermapped.
-
-After a summer road trip winding my way through the serenity of the province, I tasked myself with getting Nova Scotia's scenic routes onto the Americana map. To my knowledge, this was the first time a state-level scenic route network received comprehensive support in an OSM-based map.
-
 ## Mapping
 
-Luckily, a few of the scenic routes had already been mapped in OpenStreetMap, though without a unified tagging scheme. I cleaned up and standardized the routes, added the missing ones, and collected them all with a unique `network` tag. Now the full slate of routes could be fetched with [one simple query](https://overpass-ultra.us/#run&m=6.02/45.1682/-63.1248&q=NoewrgLgXAVgziAdgXWBAlgWwKbmgNgAZkBuAKDICdsAbYAIkWwgHcRKBregXnoGEAglAByAZSij6pCngAEAc1yYSQA).
-
-Scenic routes like these don't have official route numbers, but at the time of this work, Americana could only select an individual route in a network by its `ref` tag. Spurred in part by this use case, the Americana team built `name` selection into our shield rendering stack. This feature unlocked support for all kinds of niche, unnumbered road routes.
+When I investigated the data, I found that a few of the scenic routes had already been mapped in OpenStreetMap, though without a unified tagging scheme. I cleaned up and standardized these routes, added the remainder, and collected them all with a unique `network` tag. Now the full slate of routes could be fetched with [one simple query](https://overpass-ultra.us/#run&m=6.02/45.1682/-63.1248&q=NoewrgLgXAVgziAdgXWBAlgWwKbmgNgAZkBuAKDICdsAbYAIkWwgHcRKBregXnoGEAglAByAZSij6pCngAEAc1yYSQA).
 
 ## Shield icons
 
-To represent the routes in Americana, I drew a complete set of highway shield vector icons. These are inspired by their corresponding roadside route signs, but are not exact replicas. Instead, the graphics are simplified and pixel-aligned in order to be legible at their expected display size [on the Americana map](https://americanamap.org/#map=12.29/45.64218/-61.4356).
+To represent the routes in Americana, I drew a complete set of highway shield vector icons. These are inspired by their corresponding roadside route signs, but are not exact replicas. Instead, the graphics are simplified and pixel-aligned in order to be legible at the very small sizes required by digital road maps.
 
-As with all Americana icons, these graphics are licensed CC0, meaning anyone can freely use them in their own projects.
+As with all Americana icons, these graphics are licensed CC0, meaning you (and anyone!) can freely use them in your own projects.
 
 <div class="graphic-group graphic-background">
 <div class="graphic-title">Display size</div>
@@ -81,6 +80,13 @@ As with all Americana icons, these graphics are licensed CC0, meaning anyone can
 {% include graphic_image.html file='/img/shield_ca_ns_s_cet.svg' caption="My take" width='100px' img-width='80px' %}
 </div>
 
+## Americana support
+
+[OpenStreetMap Americana](https://americanamap.org) is working to recreate the look and feel of North American paper highways maps using OSM data. Rendering highway shield icons along road routes is central to the cartography.
+
+While numbered routes have extensive coverage in OSM, scenic routes tend to be undermapped. In fact, at the time of this work, Americana could only differentiate routes based on their `ref` tags, meaning unnumbered routes were not supported. Spurred in part by this N ova Scotia scenic route case, the Americana team built `name` selection into the shield rendering stack. This feature unlocked support for all kinds of niche, unnumbered road routes.
+
+You can check out the live results over [on americanamap.org](https://americanamap.org/#map=12.29/45.64218/-61.4356).
 
 {% include graphic_image.html file='/img/ns-scenic-americana.jpg' title="On the map" img-width='500px'%}
 

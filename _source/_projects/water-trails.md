@@ -24,7 +24,7 @@ Unfortunately, I found the existing OSM tagging to be lacking. While [`route=can
 
 ## Modern tagging for water trails
 
-Over months of mapping the NFCT and similar water trails in the Northeast US, along with some community input, I developed an OSM data model that treats waterways as a routable paddle network. All the details needed for trip planning are represented. To help other mappers understand and use the model, I wrote extensive documentation on the OSM Wiki, including a comprehensive [Water Trails Mapping Guide](https://wiki.openstreetmap.org/wiki/Water_trails).
+Over months of mapping the NFCT and similar water trails in the Northeast US, along with some community input, I developed an OSM data model that treats waterways as a routable paddle network. All the details needed for trip planning are represented. To help other mappers understand and use the model, I wrote extensive documentation on the OSM Wiki, including a comprehensive [water trail mapping guide](https://wiki.openstreetmap.org/wiki/Water_trails).
 
 _Some of the waterway tags I created or popularized, and have documented:_
 
