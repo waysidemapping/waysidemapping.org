@@ -7,8 +7,8 @@ icon_alt:
 image: /img/ns-scenic-map.jpg
 photo: /img/photo-cabot.jpg
 photo_classes: dark-text
-date: 2025-07-11
-updated: 2025-07-11
+date: 2025-08-10
+updated: 2025-08-10
 start: 2023-08-02
 start_label: First Changeset
 start_url: https://www.openstreetmap.org/changeset/139363290

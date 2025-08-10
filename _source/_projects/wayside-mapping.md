@@ -2,8 +2,8 @@
 category: Video Series
 title: Wayside Mapping
 subtitle: OpenStreetMap livestreams
-date: 2025-07-11
-updated: 2025-07-11
+date: 2025-08-10
+updated: 2025-08-10
 image: /img/wayside-mapping-stream-screenie.jpg
 image_classes: background-bottom
 photo: /img/photo-hopedale.jpg

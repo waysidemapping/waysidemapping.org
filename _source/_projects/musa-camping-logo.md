@@ -2,8 +2,8 @@
 category: Graphic Design
 title: 'Beach Camping'
 subtitle: Logo for Mapping USA 2022 & 2024
-date: 2025-07-11
-updated: 2025-07-11
+date: 2025-08-10
+updated: 2025-08-10
 icon: /img/musa-2022-fire.svg
 icon_alt: Campfire
 graphic: /img/musa-2022-logo.svg

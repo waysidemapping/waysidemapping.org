@@ -2,8 +2,8 @@
 category: Graphic Design
 title: Ambitious Mapper
 subtitle: Graphic tee for OpenStreetMap US
-date: 2025-07-11
-updated: 2025-07-11
+date: 2025-08-10
+updated: 2025-08-10
 graphic: /img/ambitious-mapper-shirt.png
 icon: /img/ambitious-mapper-icon.png
 icon_alt: Head of Napoleon Bonaparte

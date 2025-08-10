@@ -6,8 +6,8 @@ icon: /img/opentrailmap-canoe-icon.svg
 icon_alt: Canoe paddler
 photo: /img/photo-kayak.jpg
 image: /img/nfct-osm.jpg
-date: 2025-07-11
-updated: 2025-07-11
+date: 2025-08-10
+updated: 2025-08-10
 start: 2023-09-05
 start_label: First Changeset
 start_url: https://www.openstreetmap.org/changeset/140872822

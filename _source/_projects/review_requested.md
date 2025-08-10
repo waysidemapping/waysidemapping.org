@@ -2,8 +2,8 @@
 category: Graphic Design
 title: review_requested
 subtitle: Cutesie swag for OpenStreetMap US
-date: 2025-07-11
-updated: 2025-07-11
+date: 2025-08-10
+updated: 2025-08-10
 graphic: /img/review_requested-onesie.png
 icon: /img/review_requested-check.svg
 icon_alt: Checked checkbox with misaligned fill color

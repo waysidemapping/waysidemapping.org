@@ -2,8 +2,8 @@
 category: Graphic Design
 title: Snowboard Streamliner
 subtitle: Logo for Mapping USA 2025
-date: 2025-07-11
-updated: 2025-07-11
+date: 2025-08-10
+updated: 2025-08-10
 graphic: /img/musa-2025-logo.svg
 icon: /img/musa-2025-registration-sticker.svg
 icon_alt: Car registration sticker dated 2025

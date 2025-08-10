@@ -5,8 +5,8 @@ subtitle: Public rivers in the Headwaters State
 icon: /img/montana-stream-access-icon.svg
 icon_alt: Canoe in outline of Montana
 photo: /img/photo-yellowstone-river.jpg
-date: 2025-07-11
-updated: 2025-07-11
+date: 2025-08-10
+updated: 2025-08-10
 start: 2025-06-09
 start_label: Started
 tags:
