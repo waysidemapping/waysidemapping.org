@@ -633,3 +633,17 @@ a.hotline-button {
     padding-right: unset;
   }
 }
+
+@media only screen and (max-width: (v.$prose-width * 0.75 + v.$sp * 2)) {
+  .prose {
+    > * {
+      text-align: left;
+    }
+    img.floated {
+      float: unset !important;
+      max-width: 100% !important;
+      width: 100%;
+      margin: 0 !important;
+    }
+  }
+}
