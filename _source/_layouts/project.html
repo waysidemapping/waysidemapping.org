@@ -2,9 +2,8 @@
 layout: default
 ---
 <div class="container padded">
-
   {% if page.title %}
-    <h1><a href="{{page.url | absolute_url}}" class="iconed-text"><img class="icon" src="{{page.icon | absolute_url}}" alt="{{item.icon_alt}}"/><span class="text">{{page.title | smartify}}</span></a></h1>
+    <h1><a href="{{page.url | absolute_url}}" class="iconed-text"><div class="icon" style="background-image:url('{{page.icon | absolute_url}}');" role="img" aria-label="{{item.icon_alt}}"></div><span class="text">{{page.title | smartify}}</span></a></h1>
   {% endif %}
 </div>
 {% if page.image or page.graphic %}
@@ -38,7 +37,7 @@ layout: default
   <div class="sidebar">
     {% if page.category %}
       <div class="labeled-value">
-        <p class="label">Project Type</p>
+        <p class="label">Category</p>
         <p class="value"><a href="{{siteurl}}{{baseurl}}/#{{page.category | slugify}}">{{page.category}}</a></p>
       </div>
     {% endif %}
@@ -54,18 +53,12 @@ layout: default
         <p class="value">{{page.status}}</p>
       </div>
     {% endif %}
-    {% if page.event %}
-      <div class="labeled-value">
-        <p class="label">{{page.event_label | default: 'Event'}}</p>
-        <p class="value">{{page.event}}</p>
-      </div>
-    {% endif %}
     {% if page.start and page.start_label %}
       <div class="labeled-value">
         <p class="label">{{page.start_label}}</p>
         <p class="value">
           {%- if page.start_url -%}
-            <a href="{{page.start_url | absolute_url}}">
+            <a href="{{page.start_url | absolute_url}}" target="_blank">
           {%- endif -%}
           {{page.start | date: '%B %Y'}}
           {%- if page.start_url -%}
@@ -88,6 +81,26 @@ layout: default
       <div class="labeled-value">
         <p class="label">{{page.client_label | default: 'Client'}}</p>
         <p class="value">{{page.client}}</p>
+      </div>
+    {% endif %}
+    {% if page.project %}
+      <div class="labeled-value">
+        <p class="label">{{page.project_label | default: 'Project'}}</p>
+        <p class="value">
+          {%- if page.project_url -%}
+            <a href="{{page.project_url | absolute_url}}" target="_blank">
+          {%- endif -%}
+          {{page.project}}
+          {%- if page.project_url -%}
+            </a>
+          {%- endif -%}
+        </p>
+      </div>
+    {% endif %}
+    {% if page.event %}
+      <div class="labeled-value">
+        <p class="label">{{page.event_label | default: 'Event'}}</p>
+        <p class="value">{{page.event}}</p>
       </div>
     {% endif %}
   </div>

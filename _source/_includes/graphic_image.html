@@ -1,5 +1,5 @@
-<figure class="inline-graphic graphic-background">
-    <img class="graphic" title="{{ include.title | escape }}" alt="{{ include.alt | default: include.caption | escape }}" src="{{include.file | absolute_url}}" style="{%- if include.width -%}max-width:{{include.width}}{%- endif -%}"/>
+<figure class="inline-graphic graphic-background" style="{%- if include.width -%}width:{{include.width}}{%- endif -%}">
+    <img class="graphic" title="{{ include.title | escape }}" alt="{{ include.alt | default: include.caption | escape }}" src="{{include.file | absolute_url}}" style="{%- if include.img-width -%}width:{{include.img-width}}{%- endif -%}"/>
     {%- if include.caption -%}
         <figcaption>{{include.caption | smartify}}</figcaption>
     {%- endif -%}

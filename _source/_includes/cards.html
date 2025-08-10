@@ -2,7 +2,7 @@
     {%- for item in include.items -%}
         <li class="card">
             <a href="{{item.url | absolute_url}}" class="iconed-text">
-                <img class="icon" src="{{item.icon | absolute_url}}" alt="{{item.icon_alt}}"/>
+                <div class="icon" style="background-image:url('{{item.icon | absolute_url}}');" role="img" aria-label="{{item.icon_alt}}"></div>
                 <div class="text">
                     <h4>{{item.title | smartify}}</h4>
                     <span class="subtitle">{{item.subtitle}}</span>  

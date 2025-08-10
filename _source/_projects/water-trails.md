@@ -1,7 +1,7 @@
 ---
 category: OpenStreetMap Data
 title: Canoe & Kayak Trails
-subtitle: Modern paddle tagging and visualization
+subtitle: Modern paddle tagging and mapping
 icon: /img/opentrailmap-canoe-icon.svg
 icon_alt: Canoe paddler
 photo: /img/photo-kayak.jpg

@@ -23,4 +23,4 @@ Following up on my [Beach Camping](/projects/musa-camping-logo/) logo for Mappin
 
 Since this event would be in January, the laws of nature require we switch from beach bum to ski bum. We've traded in our VW bus for an Airstream trailer, our surfboards and ocean teals for snowboards and icy blues. Someone even drew "2025" on the frosty back windshield. Of course we have to register our rig in California, the rare place you can enjoy the beach and the slopes in the same day.
 
-{% include graphic_image.html file='/img/musa-2025-license-plate.svg' caption='"License plate" accessory graphic' width='340px' %}
+{% include graphic_image.html file='/img/musa-2025-license-plate.svg' caption='"License plate" accessory graphic' img-width='340px' %}
