@@ -3,7 +3,7 @@ category: OpenStreetMap Data
 title: Nova Scotia Scenic Drives
 subtitle: Usable relations and highway shields
 icon: /img/shield_ca_ns_s_ct.svg
-icon_alt: 
+icon_alt: Cabot Trail route shield icon depicting road through hills above water.
 image: /img/ns-scenic-map.jpg
 photo: /img/photo-cabot.jpg
 photo_classes: dark-text
