@@ -1,7 +1,7 @@
 ---
 title: Find me on Slack
-date: 2025-07-11
-updated: 2025-07-11
+date: 2025-08-10
+updated: 2025-08-10
 ---
 I'm active on a few Slack workspaces where you can message or call me (and join geospatial discussions!) These are member-only but you can sign up to join.
 

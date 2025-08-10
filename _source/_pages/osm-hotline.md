@@ -1,7 +1,7 @@
 ---
 title: OpenStreetMap Hotline
-date: 2025-07-11
-updated: 2025-07-11
+date: 2025-08-10
+updated: 2025-08-10
 published: false
 ---
 [OpenStreetMap](https://www.openstreetmap.org/about/) (OSM) is the world's largest collaborative mapping project, a critical data source for thousands of apps used by millions of people every day. But to newcomers, and even to geospatial professionals, the peculiar world of OSM can be challenging to approach.
