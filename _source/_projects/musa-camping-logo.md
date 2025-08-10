@@ -37,7 +37,7 @@ I love a logo that, like a good map, tells a story (or invites the viewer to tel
 {% include graphic_image.html file='/img/musa-2022-fire.svg' img-width='50px' caption='Campfire' %}
 {% include graphic_image.html file='/img/musa-2022-compass.svg' img-width='80px' caption='Compass' %}
 {% include graphic_image.html file='/img/musa-2022-bear.svg' img-width='240px' caption='Bear' %}
-{% include graphic_image.html file='/img/musa-2022-mug.svg' img-width='100px' caption='Mug' %}
+{% include graphic_image.html file='/img/musa-2022-mug.png' img-width='100px' caption='Mug' %}
 {% include graphic_image.html file='/img/musa-2022-heart.svg' img-width='40px' caption='<3' %}
 </div>
 
