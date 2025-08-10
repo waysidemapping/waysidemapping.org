@@ -47,12 +47,6 @@ layout: default
         <p class="value"><a href="{{page.license_url | absolute_url}}">{{page.license}}</a></p>
       </div>
     {% endif %}
-    {% if page.status %}
-      <div class="labeled-value">
-        <p class="label">{{page.status_label | default: 'Status'}}</p>
-        <p class="value">{{page.status}}</p>
-      </div>
-    {% endif %}
     {% if page.start and page.start_label %}
       <div class="labeled-value">
         <p class="label">{{page.start_label}}</p>
@@ -71,6 +65,12 @@ layout: default
       <div class="labeled-value">
         <p class="label">{{page.end_label | default: 'Completed'}}</p>
         <p class="value">{% if page.end.size %}{{page.end}}{% else %}{{page.end | date: '%B %Y'}}{% endif %}</p>
+      </div>
+    {% endif %}
+    {% if page.status %}
+      <div class="labeled-value">
+        <p class="label">{{page.status_label | default: 'Status'}}</p>
+        <p class="value">{{page.status}}</p>
       </div>
     {% endif %}
     <div class="labeled-value">
