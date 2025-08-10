@@ -286,6 +286,7 @@ article {
   position: relative;
   display: flex;
   justify-content: center;
+  padding: v.$sp * 0.5 0;
   > * {
     position: relative;
   }
@@ -302,11 +303,18 @@ article {
     display: block;
     position: absolute;
   }
+  .graphic-title {
+    width: 100%;
+    font-family: v.$caption-font;
+    font-size: 1.45em;
+    text-align: center;
+    padding: v.$sp * 0.5;
+    padding-bottom: 0;
+  }
 }
 .inline-graphic {
   flex-direction: column;
   align-items: center;
-  padding: 0 v.$sp;
   img {
     width: 100%;
     margin: v.$sp v.$sp * 0.5;
@@ -326,7 +334,6 @@ article {
   flex-wrap: wrap;
   align-items: baseline;
   justify-content: space-evenly;
-  padding: v.$sp * 0.5 0;
     
   .inline-graphic {
     padding: 0;
@@ -336,16 +343,10 @@ article {
       display: none;
     }
   }
-  .group-title {
-    width: 100%;
-    font-family: v.$caption-font;
-    font-size: 1.45em;
-    text-align: center;
-    padding: v.$sp * 0.5;
-  }
 }
 .hero-image-wrap {
   margin-bottom: v.$sp * 1.5;
+  padding: 0;
   .hero-image {
     width: 100%;
     background-size: cover;

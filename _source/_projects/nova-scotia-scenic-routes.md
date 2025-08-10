@@ -22,7 +22,7 @@ tags:
 As seen on its license plates, Nova Scotia is "Canada's Ocean Playground". The province has an extensive network of well-signed scenic routes inviting tourists to follow back roads while on their maritime adventures. The routes commemorate Nova Scotia's history and culture, from the famed [Cabot Trail](https://en.wikipedia.org/wiki/Cabot_Trail) to the Acadian [Evangeline Trail](https://en.wikipedia.org/wiki/Evangeline_Trail) and beyond.
 
 <div class="graphic-group graphic-background">
-<div class="group-title">My Nova Scotia scenic route shields</div>
+<div class="graphic-title">My Nova Scotia scenic route shields</div>
 {% include graphic_image.html file='/img/shield_ca_ns_s_bdolsd.svg' caption="Bras d'Or" width='100px' img-width='50px' %}
 {% include graphic_image.html file='/img/shield_ca_ns_s_cet.svg' caption="Ceilidh" width='100px' img-width='50px' %}
 {% include graphic_image.html file='/img/shield_ca_ns_s_ct.svg' caption="Cabot" width='100px' img-width='50px' %}
@@ -41,7 +41,7 @@ As seen on its license plates, Nova Scotia is "Canada's Ocean Playground". The p
 
 Over at [OSM Americana](https://americanamap.org) we're working to recreate the look and feel of North American paper highways maps using OpenStreetMap data. Rendering highway shield icons along road routes is a central part of the cartography. While numbered routes have extensive coverage in OSM, scenic routes tend to be undermapped.
 
-After a summer road trip winding my way through the serenity of the province, I tasked myself with getting Nova Scotia's scenic routes onto the Americana map. This was the first state-level scenic route network known to receive comprehensive support in an OSM-based map style.
+After a summer road trip winding my way through the serenity of the province, I tasked myself with getting Nova Scotia's scenic routes onto the Americana map. To my knowledge, this was the first time a state-level scenic route network received comprehensive support in an OSM-based map.
 
 ## Mapping
 
@@ -56,7 +56,7 @@ To represent the routes in Americana, I drew a complete set of highway shield ve
 As with all Americana icons, these graphics are licensed CC0, meaning anyone can freely use them in their own projects.
 
 <div class="graphic-group graphic-background">
-<div class="group-title">Display size</div>
+<div class="graphic-title">Display size</div>
 {% include graphic_image.html file='/img/shield_ca_ns_s_bdolsd.svg' width='17px'%}
 {% include graphic_image.html file='/img/shield_ca_ns_s_cet.svg' width='17px'%}
 {% include graphic_image.html file='/img/shield_ca_ns_s_ct.svg' width='17px'%}
@@ -74,9 +74,13 @@ As with all Americana icons, these graphics are licensed CC0, meaning anyone can
 </div>
 
 <div class="graphic-group graphic-background">
-<div class="group-title">Simplified for legibility</div>
+<div class="graphic-title">Simplified for legibility</div>
 {% include graphic_image.html file='/img/ns-EvangelineTrail.png' caption="Official" width='100px' img-width='80px' %}
 {% include graphic_image.html file='/img/shield_ca_ns_s_et.svg' caption="My take" width='100px' img-width='80px' %}
 {% include graphic_image.html file='/img/ns-CeilidhTrail.png' caption="Official" width='100px' img-width='80px' %}
 {% include graphic_image.html file='/img/shield_ca_ns_s_cet.svg' caption="My take" width='100px' img-width='80px' %}
 </div>
+
+
+{% include graphic_image.html file='/img/ns-scenic-americana.jpg' title="On the map" img-width='500px'%}
+
