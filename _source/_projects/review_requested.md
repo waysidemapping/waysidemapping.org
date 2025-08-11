@@ -10,6 +10,8 @@ icon_alt: Checked checkbox with misaligned fill color
 start: 2023-12-06
 start_label: Dropped
 client: OpenStreetMap US
+external: Shop
+external_url: https://osm-us-swag.printify.me/product/4068028/reviewrequested-baby-onesie
 tags:
   - OpenStreetMap US merch
   - apparel

@@ -13,6 +13,8 @@ status: Ongoing
 start: 2022-03-13
 start_label: First Upload
 start_url: https://www.youtube.com/watch?v=R3T_JjHCj4k
+external: Browse videos
+external_url: https://www.youtube.com/@WaysideSurveys
 tags:
   - YouTube Channel
 ---
