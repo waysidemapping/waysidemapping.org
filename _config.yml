@@ -10,8 +10,12 @@ source: _source
 date_format: "%b %e, %Y"
 plugins:
   - absolute-urls
+  - jekyll-target-blank
   - manual-markdown
   - unwrap-img
+target-blank:
+   noopener: false
+   noreferrer: false
 collections:
   pages:
     output: true
