@@ -10,7 +10,7 @@ layout: default
   <div class="hero-image-wrap graphic-background">
     <div class="container">
       {% if page.image %}
-        <div class="hero-image {{page.image_classes}}" alt="{{page.image_alt | escape}}" style="background-image:url('{{page.image | absolute_url}}');"></div>
+        <div class="hero-image {{page.image_classes}}" role="img" aria-label="{{page.image_alt | escape}}" style="background-image:url('{{page.image | absolute_url}}');"></div>
       {% elsif page.graphic %}
         <img class="hero-graphic graphic" alt="{{page.image_alt | escape}}" src="{{page.graphic | absolute_url}}">
       {% endif %}
