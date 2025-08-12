@@ -19,11 +19,11 @@
   {%- if item.instagram -%}
     <li><a href="https://instagram.com/{{item.instagram}}" target="_blank" title="{{item.title}} on Instagram"><svg class="iconsvg"><use xlink:href="#instagram"></use></svg></a></li>
   {%- endif -%}
-  {%- if item.mastodon -%}
-    <li><a href="{{item.mastodon}}" target="_blank" title="{{item.title}} on Mastodon" rel="me"><svg class="iconsvg"><use xlink:href="#mastodon"></use></svg></a></li>
-  {%- endif -%}
   {%- if item.bluesky -%}
     <li><a href="https://bsky.app/profile/{{item.bluesky}}" target="_blank" title="@{{item.bluesky}} on Bluesky"><svg class="iconsvg"><use xlink:href="#bluesky"></use></svg></a></li>
+  {%- endif -%}
+  {%- if item.mastodon -%}
+    <li><a href="{{item.mastodon}}" target="_blank" title="{{item.title}} on Mastodon" rel="me"><svg class="iconsvg"><use xlink:href="#mastodon"></use></svg></a></li>
   {%- endif -%}
   {%- if item.facebook -%}
     <li><a href="https://www.facebook.com/{{item.facebook}}" target="_blank" title="{{item.title}} on Facebook"><svg class="iconsvg"><use xlink:href="#facebook"></use></svg></a></li>
