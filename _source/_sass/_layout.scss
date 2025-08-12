@@ -242,16 +242,17 @@ article {
     aspect-ratio: 16/9;
   }
 
+  ul {
+    list-style-type: disc;
+    padding-left: 1em;
+  }
+
   img {
     border: 1px solid v.$soft-contrast-color;
     max-width: 100%;
   }
 
-  ul {
-    list-style-type: disc;
-    padding-left: 1em;
-  }
-  > * {
+  > *, > img { /* need to specify img to properly override above max-width when direct child */
     margin: 0 auto;
     margin-bottom: v.$sp;
     display: block;
