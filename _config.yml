@@ -35,10 +35,10 @@ defaults:
       permalink: /projects/:path/
       layout: project
 email: quincy@waysidemapping.org
-youtube_page: "@WaysideMapping"
-twitch: WaysideMapping
+youtube_page: "@waysidemapping"
+twitch: waysidemapping
 wikipedia: Quincylvania
-github: WaysideMapping
+github: waysidemapping
 kofi: waysidemapping
 openstreetmap: quincylvania
 linkedin: quincy-morgan
