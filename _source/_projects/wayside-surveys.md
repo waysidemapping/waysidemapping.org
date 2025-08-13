@@ -14,7 +14,7 @@ start: 2022-03-13
 start_label: First Upload
 start_url: https://www.youtube.com/watch?v=R3T_JjHCj4k
 external: Browse videos
-external_url: https://www.youtube.com/@WaysideSurveys
+external_url: https://www.youtube.com/@waysidesurveys
 tags:
   - YouTube Channel
 ---
@@ -22,7 +22,7 @@ tags:
 
 When not at my desk, I spend as much time as I can taking the scenic route to the next spot on the map. How you get somewhere can be just as important as where you're going, if not more so.
 
-I desired to preserve a piece of the places I passed through, some of them rather fragile to change, so I tried mounting a GoPro to the hood and pressing record. The resulting videos became [Wayside Surveys](https://www.youtube.com/@WaysideSurveys) (formerly Wayside Geographic).
+I desired to preserve a piece of the places I passed through, some of them rather fragile to change, so I tried mounting a GoPro to the hood and pressing record. The resulting videos became [Wayside Surveys](https://www.youtube.com/@waysidesurveys) (formerly Wayside Geographic).
 
 Now expanded to train trips, boat trips, and more, the channel is a high-resolution record of special places at specific points in time, documented for the benefit of mappers and future generations alike.
 
