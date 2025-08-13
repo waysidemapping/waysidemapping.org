@@ -38,7 +38,7 @@
     <li><a href="https://reddit.com/{{item.reddit}}" title="{{item.reddit}} on Reddit" target="_blank"><svg class="iconsvg"><use xlink:href="#reddit"></use></svg></a></li>
   {%- endif -%}
   {%- if item.email -%}
-    <li><a href="{{ item.email | absolute_url }}" title="Email"><svg class="iconsvg"><use xlink:href="#envelope"></use></svg></a></li>
+    <li><a href="mailto:{{ item.email }}" title="Email {{ item.email }}"><svg class="iconsvg"><use xlink:href="#envelope"></use></svg></a></li>
   {%- endif -%}
   {%- if item.email_list -%}
     <li><a href="{{item.email_list}}" title="Get email updates" target="_blank"><svg class="iconsvg"><use xlink:href="#inbox"></use></svg></a></li>

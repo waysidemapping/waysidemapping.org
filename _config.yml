@@ -34,6 +34,7 @@ defaults:
     values:
       permalink: /projects/:path/
       layout: project
+email: quincy@waysidemapping.org
 youtube_page: "@WaysideMapping"
 twitch: WaysideMapping
 wikipedia: Quincylvania
