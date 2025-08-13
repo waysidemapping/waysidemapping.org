@@ -247,7 +247,7 @@ article {
     padding-left: 1em;
   }
 
-  img {
+  > img, > p > img, > a > img, > p > a > img {
     border: 1px solid v.$soft-contrast-color;
     max-width: 100%;
   }
@@ -336,15 +336,14 @@ article {
     line-height: 1.2;
     text-align: center;
     padding: v.$sp * 0.5;
-    padding-bottom: 0;
   }
 }
 .inline-graphic {
   flex-direction: column;
   align-items: center;
   img {
-    width: 100%;
-    margin: v.$sp v.$sp * 0.5;
+    max-width: 100%;
+    margin: v.$sp * 0.5;
   }
   figcaption {
     margin-bottom: v.$sp * 0.75;
@@ -392,6 +391,7 @@ article {
     height: calc(50vh - v.$sp * 2);
     min-height: 241px - v.$sp * 2;
     max-height: 500px - v.$sp * 2;
+    max-width: 100%;
     margin: v.$sp auto;
   }
 }
