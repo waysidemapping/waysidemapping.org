@@ -8,13 +8,15 @@ image: /img/ns-scenic-map.jpg
 photo: /img/photo-cabot.jpg
 photo_classes: dark-text
 date: 2025-08-10
-updated: 2025-08-10
+updated: 2025-08-14
 start: 2023-08-02
 start_label: First Changeset
 start_url: https://www.openstreetmap.org/changeset/139363290
 project: OSM Americana
 project_url: https://github.com/osm-americana/openstreetmap-americana/issues/911
 status: Complete
+license_label: Licenses
+license: <a href="https://www.openstreetmap.org/copyright/">ODbL</a>, <a href="https://github.com/osm-americana/openstreetmap-americana/blob/main/LICENSE">CC0</a>
 tags:
   - OSM Americana
   - highway shields

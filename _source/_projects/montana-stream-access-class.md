@@ -8,10 +8,12 @@ icon: /img/montana-stream-access-icon.svg
 icon_alt: Canoe in outline of Montana
 photo: /img/photo-yellowstone-river.jpg
 date: 2025-08-10
-updated: 2025-08-11
+updated: 2025-08-14
 start: 2025-06-07
 start_label: First Changeset
 start_url: https://www.openstreetmap.org/changeset/167329027
+license: ODbL
+license_url: https://www.openstreetmap.org/copyright/
 tags:
   - paddle mapping
   - OpenStreetMap tagging
