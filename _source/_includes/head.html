@@ -14,6 +14,7 @@
   <meta name="title" property="og:title" content="{{page.title}}">
   <meta property="og:type" content="article" />
   <meta property="og:url" content="{{page.url | absolute_url }}">
+  {%- if page.preview_image -%}<meta property="og:image" content="{{page.preview_image | absolute_url }}" />{%- endif -%}
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q5KG5DPQYV"></script>
   <script>
