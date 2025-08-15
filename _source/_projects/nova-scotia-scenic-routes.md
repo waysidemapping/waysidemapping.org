@@ -91,5 +91,5 @@ While numbered routes have extensive coverage in OSM, scenic routes tend to be u
 
 You can check out the live results over [on americanamap.org](https://americanamap.org/#map=12.29/45.64218/-61.4356).
 
-{% include graphic_image.html file='/img/ns-scenic-americana.jpg' title="On the map" img_width='500px'%}
+{% include graphic_image.html file='/img/ns-scenic-americana.jpg' img_classes="shadowed" title="On the map" img_width='500px'%}
 
