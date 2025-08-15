@@ -32,7 +32,7 @@ When I'm not at my desk, you can find me hiking, biking, paddling, train hopping
 
 <h1 id="portfolio"><a href="{{siteurl}}{{baseurl}}/#portfolio">Portfolio</a></h1>
 
-{%- assign categories = "Open Source Software;OpenStreetMap Data;Video Series;Graphic Design" | split: ";"-%}
+{%- assign categories = "Open Source Software;OpenStreetMap Data;Video Series;Cartography;Graphic Design" | split: ";"-%}
 {%- for category in categories -%}
     {%- assign items = site.projects | where: "category", category | sort: "start" | reverse -%}
     {%- if items.size > 0 -%}

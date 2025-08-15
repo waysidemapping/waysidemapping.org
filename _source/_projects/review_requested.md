@@ -5,6 +5,7 @@ subtitle: Cutesie swag for OpenStreetMap US
 date: 2025-08-10
 updated: 2025-08-10
 graphic: /img/review_requested-onesie.png
+hero_classes: shadowed
 icon: /img/review_requested-check.svg
 icon_alt: Checked checkbox with misaligned fill color
 start: 2023-12-06

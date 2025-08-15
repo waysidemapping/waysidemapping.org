@@ -23,9 +23,9 @@ Mapping USA is the annual virtual conference series hosted by OpenStreetMap US. 
 
 <div class="graphic-group graphic-background">
 <div class="graphic-title">Components</div>
-{% include graphic_image.html file='/img/musa-2022-logo-wireframe.svg' img-width='200px' caption='Wireframe' %}
-{% include graphic_image.html file='/img/musa-2022-logo-fills.svg' img-width='200px' caption='Fills' %}
-{% include graphic_image.html file='/img/musa-2022-logo-plain.svg' img-width='200px' caption='Combined' %}
+{% include graphic_image.html file='/img/musa-2022-logo-wireframe.svg' img_width='200px' caption='Wireframe' %}
+{% include graphic_image.html file='/img/musa-2022-logo-fills.svg' img_width='200px' caption='Fills' %}
+{% include graphic_image.html file='/img/musa-2022-logo-plain.svg' img_width='200px' caption='Combined' %}
 </div>
 
 My logo meshes the natural and human landscape into the folds of a paper map. The consistent angles of the mountains, evergreens, cabin, tent, and campfire all work together to create the illusion of dimensionality while conveying a scene. The dotted line introduces a typical map element and hints at the growing OSM US Trails Stewardship Initiative.
@@ -34,11 +34,11 @@ I love a logo that, like a good map, tells a story (or invites the viewer to tel
 
 <div class="graphic-group graphic-background">
 <div class="graphic-title">Accessory graphics</div>
-{% include graphic_image.html file='/img/musa-2022-fire.svg' img-width='50px' caption='Campfire' %}
-{% include graphic_image.html file='/img/musa-2022-compass.svg' img-width='80px' caption='Compass' %}
-{% include graphic_image.html file='/img/musa-2022-bear.svg' img-width='240px' caption='Bear' %}
-{% include graphic_image.html file='/img/musa-2022-mug.png' img-width='100px' caption='Mug' %}
-{% include graphic_image.html file='/img/musa-2022-heart.svg' img-width='40px' caption='<3' %}
+{% include graphic_image.html file='/img/musa-2022-fire.svg' img_width='50px' caption='Campfire' %}
+{% include graphic_image.html file='/img/musa-2022-compass.svg' img_width='80px' caption='Compass' %}
+{% include graphic_image.html file='/img/musa-2022-bear.svg' img_width='240px' caption='Bear' %}
+{% include graphic_image.html file='/img/musa-2022-mug.png' img_width='100px' caption='Mug' %}
+{% include graphic_image.html file='/img/musa-2022-heart.svg' img_width='40px' caption='<3' %}
 </div>
 
 Mapping USA is all about sharing OpenStreetMap knowledge and connecting with the community. My logo invites people to gather around the digital campfire to teach, learn, and grow.
@@ -47,4 +47,4 @@ Mapping USA is all about sharing OpenStreetMap knowledge and connecting with the
 
 Mapping USA 2024 took place in January. Since the 2022 logo proved popular, I simply updated the colors for a winter landscape. (No conference occurred in 2023.)
 
-{% include graphic_image.html file='/img/musa-2024-logo.svg' img-width='220px' caption='Winter variant' %}
+{% include graphic_image.html file='/img/musa-2024-logo.svg' img_width='220px' caption='Winter variant' %}

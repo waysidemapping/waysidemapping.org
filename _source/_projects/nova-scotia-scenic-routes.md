@@ -20,6 +20,7 @@ license: <a href="https://www.openstreetmap.org/copyright/">ODbL</a>, <a href="h
 tags:
   - OSM Americana
   - highway shields
+  - map icons
 ---
 ## From the Cabot to the Evangeline
 Nova Scotia is "Canada's Ocean Playground", at least according to its license plates. The province has an extensive network of well-signed scenic routes inviting tourists to follow backroads while on their maritime adventures. The routes commemorate Nova Scotia's history and culture, from the famed [Cabot Trail](https://en.wikipedia.org/wiki/Cabot_Trail) to the Acadian [Evangeline Trail](https://en.wikipedia.org/wiki/Evangeline_Trail) and beyond.
@@ -30,20 +31,20 @@ To my knowledge, this was the first time a state-level scenic route network has 
 
 <div class="graphic-group graphic-background">
 <div class="graphic-title">Shield icons by Quincy Morgan</div>
-{% include graphic_image.html file='/img/shield_ca_ns_s_bdolsd.svg' caption="Bras d'Or" width='100px' img-width='50px' %}
-{% include graphic_image.html file='/img/shield_ca_ns_s_cet.svg' caption="Ceilidh" width='100px' img-width='50px' %}
-{% include graphic_image.html file='/img/shield_ca_ns_s_ct.svg' caption="Cabot" width='100px' img-width='50px' %}
-{% include graphic_image.html file='/img/shield_ca_ns_s_dnisd.svg' caption="Digby Neck" width='100px' img-width='50px' %}
-{% include graphic_image.html file='/img/shield_ca_ns_s_et.svg' caption="Evangeline" width='100px' img-width='50px' %}
-{% include graphic_image.html file='/img/shield_ca_ns_s_fdlt.svg' caption="Fleur-de-lis" width='100px' img-width='50px' %}
-{% include graphic_image.html file='/img/shield_ca_ns_s_gt.svg' caption="Glooscap" width='100px' img-width='50px' %}
-{% include graphic_image.html file='/img/shield_ca_ns_s_ksd.svg' caption="Kejimkujik" width='100px' img-width='50px' %}
-{% include graphic_image.html file='/img/shield_ca_ns_s_lr.svg' caption="Lighthouse" width='100px' img-width='50px' %}
-{% include graphic_image.html file='/img/shield_ca_ns_s_md.svg' caption="Marine" width='100px' img-width='50px' %}
-{% include graphic_image.html file='/img/shield_ca_ns_s_mdb.svg' caption="Macdonald" width='100px' img-width='50px' %}
-{% include graphic_image.html file='/img/shield_ca_ns_s_mkb.svg' caption="MacKay" width='100px' img-width='50px' %}
-{% include graphic_image.html file='/img/shield_ca_ns_s_mt.svg' caption="Marconi" width='100px' img-width='50px' %}
-{% include graphic_image.html file='/img/shield_ca_ns_s_st.svg' caption="Sunrise" width='100px' img-width='50px' %}
+{% include graphic_image.html file='/img/shield_ca_ns_s_bdolsd.svg' caption="Bras d'Or" width='100px' img_width='50px' %}
+{% include graphic_image.html file='/img/shield_ca_ns_s_cet.svg' caption="Ceilidh" width='100px' img_width='50px' %}
+{% include graphic_image.html file='/img/shield_ca_ns_s_ct.svg' caption="Cabot" width='100px' img_width='50px' %}
+{% include graphic_image.html file='/img/shield_ca_ns_s_dnisd.svg' caption="Digby Neck" width='100px' img_width='50px' %}
+{% include graphic_image.html file='/img/shield_ca_ns_s_et.svg' caption="Evangeline" width='100px' img_width='50px' %}
+{% include graphic_image.html file='/img/shield_ca_ns_s_fdlt.svg' caption="Fleur-de-lis" width='100px' img_width='50px' %}
+{% include graphic_image.html file='/img/shield_ca_ns_s_gt.svg' caption="Glooscap" width='100px' img_width='50px' %}
+{% include graphic_image.html file='/img/shield_ca_ns_s_ksd.svg' caption="Kejimkujik" width='100px' img_width='50px' %}
+{% include graphic_image.html file='/img/shield_ca_ns_s_lr.svg' caption="Lighthouse" width='100px' img_width='50px' %}
+{% include graphic_image.html file='/img/shield_ca_ns_s_md.svg' caption="Marine" width='100px' img_width='50px' %}
+{% include graphic_image.html file='/img/shield_ca_ns_s_mdb.svg' caption="Macdonald" width='100px' img_width='50px' %}
+{% include graphic_image.html file='/img/shield_ca_ns_s_mkb.svg' caption="MacKay" width='100px' img_width='50px' %}
+{% include graphic_image.html file='/img/shield_ca_ns_s_mt.svg' caption="Marconi" width='100px' img_width='50px' %}
+{% include graphic_image.html file='/img/shield_ca_ns_s_st.svg' caption="Sunrise" width='100px' img_width='50px' %}
 </div>
 
 ## Mapping
@@ -76,10 +77,10 @@ As with all Americana icons, these graphics are licensed CC0, meaning you (and a
 
 <div class="graphic-group graphic-background">
 <div class="graphic-title">Simplified for legibility</div>
-{% include graphic_image.html file='/img/ns-EvangelineTrail.png' caption="Official" width='100px' img-width='80px' %}
-{% include graphic_image.html file='/img/shield_ca_ns_s_et.svg' caption="My take" width='100px' img-width='80px' %}
-{% include graphic_image.html file='/img/ns-CeilidhTrail.png' caption="Official" width='100px' img-width='80px' %}
-{% include graphic_image.html file='/img/shield_ca_ns_s_cet.svg' caption="My take" width='100px' img-width='80px' %}
+{% include graphic_image.html file='/img/ns-EvangelineTrail.png' img_classes='shadowed' caption="Official" width='100px' img_width='80px' %}
+{% include graphic_image.html file='/img/shield_ca_ns_s_et.svg' caption="My take" width='100px' img_width='80px' %}
+{% include graphic_image.html file='/img/ns-CeilidhTrail.png' img_classes='shadowed' caption="Official" width='100px' img_width='80px' %}
+{% include graphic_image.html file='/img/shield_ca_ns_s_cet.svg' caption="My take" width='100px' img_width='80px' %}
 </div>
 
 ## Americana support
@@ -90,5 +91,5 @@ While numbered routes have extensive coverage in OSM, scenic routes tend to be u
 
 You can check out the live results over [on americanamap.org](https://americanamap.org/#map=12.29/45.64218/-61.4356).
 
-{% include graphic_image.html file='/img/ns-scenic-americana.jpg' title="On the map" img-width='500px'%}
+{% include graphic_image.html file='/img/ns-scenic-americana.jpg' title="On the map" img_width='500px'%}
 

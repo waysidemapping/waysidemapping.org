@@ -3,16 +3,16 @@ layout: default
 ---
 <div class="container padded">
   {% if page.title %}
-    <h1><a href="{{page.url | absolute_url}}" class="iconed-text"><div class="icon" style="background-image:url('{{page.icon | absolute_url}}');" role="img" aria-label="{{item.icon_alt}}"></div><span class="text">{{page.title | smartify}}</span></a></h1>
+    <h1><a href="{{page.url | absolute_url}}" class="iconed-text"><div class="icon" style="background-image:url('{{page.icon | absolute_url}}');" role="img" aria-label="{{page.icon_alt}}"></div><span class="text">{{page.title | smartify}}</span></a></h1>
   {% endif %}
 </div>
 {% if page.image or page.graphic %}
   <div class="hero-image-wrap graphic-background">
     <div class="container">
       {% if page.image %}
-        <div class="hero-image {{page.image_classes}}" role="img" aria-label="{{page.image_alt | escape}}" style="background-image:url('{{page.image | absolute_url}}');"></div>
+        <div class="hero-image {{page.hero_classes}}" role="img" aria-label="{{page.image_alt | escape}}" style="background-image:url('{{page.image | absolute_url}}');"></div>
       {% elsif page.graphic %}
-        <img class="hero-graphic graphic" alt="{{page.image_alt | escape}}" src="{{page.graphic | absolute_url}}">
+        <img class="hero-graphic graphic {{page.hero_classes}}" alt="{{page.image_alt | escape}}" src="{{page.graphic | absolute_url}}">
       {% endif %}
     </div>
   </div>
@@ -83,7 +83,15 @@ layout: default
     {% if page.client %}
       <div class="labeled-value">
         <p class="label">{{page.client_label | default: 'Client'}}</p>
-        <p class="value">{{page.client}}</p>
+        <p class="value">
+          {%- if page.client_url -%}
+            <a href="{{page.client_url | absolute_url}}" target="_blank">
+          {%- endif -%}
+          {{page.client}}
+          {%- if page.client_url -%}
+            </a>
+          {%- endif -%}
+        </p>
       </div>
     {% endif %}
     {% if page.project %}

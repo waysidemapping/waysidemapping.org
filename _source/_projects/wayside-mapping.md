@@ -5,7 +5,7 @@ subtitle: OpenStreetMap livestreams
 date: 2025-08-10
 updated: 2025-08-10
 image: /img/wayside-mapping-stream-screenie.jpg
-image_classes: background-bottom
+hero_classes: background-bottom
 photo: /img/photo-hopedale.jpg
 icon: /img/wayside-mapping-channel-icon.jpg
 icon_alt: Compass rose overlaid on coastal photo
