@@ -3,7 +3,7 @@ category: Cartography
 title: iD Preset Icons
 subtitle: Public domain map icons for Temaki
 date: 2025-08-15
-updated: 2025-08-15
+updated: 2025-08-17
 client: OpenStreetMap Foundation
 client_url: https://osmfoundation.org/
 icon: /img/temaki/bubble_tea.svg
@@ -20,9 +20,9 @@ tags:
 ---
 ## Keeping the map iconic
 
-The map in iD (the default editor at [osm.org/edit](https://www.openstreetmap.org/edit?editor=id)) is an important visualization of OpenStreetMap data that helps mappers learn the data model. A major cartographic element of this map is the "preset icon", the graphic representation of a "tagging preset" such as "Park" or "River".
+While I was a full-time maintainer of iD (the default editor at [osm.org/edit](https://www.openstreetmap.org/edit?editor=id)), I designed over 270 preset icons. Presets are the default feature types that mappers can add to OpenStreetMap, such as "Coffeehouse" or "Foot Path". Good icons make the app more approachable for new mappers while helping power-mappers quickly sift through the data. Plus I think they make the app look pretty sharp.
 
-While I was a full-time maintainer of iD, I designed over 270 preset icons to help distinguish the numerous types of map features that mappers can add to OSM. This is more than half of all icons in the [Temaki icon library](https://github.com/rapideditor/temaki). All Temaki icons are licensed in the public domain and can be used by anyone.
+My icons live in the [Temaki icon library](https://github.com/rapideditor/temaki), which is licensed in the public domain and can be used by anyone. My contributions represent more than half of this library.
 
 {% include graphic_start.html title="Some of my favorites" %}
   {%- include graphic_image.html file='/img/temaki/anvil_and_hammer.svg' caption='Blacksmith' width='120px' img_width='40px' -%}
@@ -41,7 +41,7 @@ While I was a full-time maintainer of iD, I designed over 270 preset icons to he
 
 ## Curating a design language
 
-A consistent design language helps users to make inferences and catch distinctions between icons. Plus I think it makes the app look pretty sharp. When possible, I designed related icons as a series to highlight commonalities.
+A consistent design language helps users to make inferences and catch distinctions between icons. When possible, I designed related icons as a series to highlight commonalities.
 
 {% include graphic_start.html title="Mountain landforms" %}
   {%- include graphic_image.html file='/img/temaki/mountain_range.svg' caption='Ridge' width='120px' img_width='40px' -%}
@@ -88,7 +88,7 @@ A consistent design language helps users to make inferences and catch distinctio
 
 ## Representing map features
 
-The first step when designing an icon for something is deciding how to represent it. Since iD supports a vast number of feature types, I often ended up using descriptive representations of objects rather than resorting to abstraction or analogy.
+Since iD supports a vast number of feature types, I often ended up using descriptive representations of objects rather than abstraction or analogy.
 
 For example, the default barrier icon in iD is a plain ⛔︎ no entry symbol. This is highly abstract and doesn't tell you much about the real-world nature of the barrier. So, I designed a number of barrier-specific icons to improve clarity.
 
@@ -115,7 +115,7 @@ For example, the default barrier icon in iD is a plain ⛔︎ no entry symbol. T
 
 ## Distinguishing similar features
 
-OpenStreetMap has a lot of similar tags that trip up new mappers. What's the difference between an island and an islet? I created distinct icons for confusingly similar features to help mappers tell them apart at a glance.
+iD has a lot of similar-sounding presets that trip up new mappers. What's the difference between an island and an islet? I created illustrative icons for confusingly similar features to help mappers decide which one is a better match.
 
 {% include graphic_start.html title="Small vs. large" %}
   {%- include graphic_image.html file='/img/temaki/islet_tree.svg' caption='Islet' width='100px' img_width='40px' -%}
