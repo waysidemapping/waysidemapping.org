@@ -20,7 +20,7 @@ tags:
 ---
 ## Keeping the map iconic
 
-While I was a full-time maintainer of iD (the default editor at [osm.org/edit](https://www.openstreetmap.org/edit?editor=id)), I designed over 270 preset icons. Presets are the default feature types that mappers can add to OpenStreetMap, such as "Coffeehouse" or "Foot Path". Good icons make the app more approachable for new mappers while helping power-mappers quickly sift through the data. Plus I think they make the app look pretty sharp.
+While I was a full-time maintainer of iD (the default editor at [osm.org/edit](https://www.openstreetmap.org/edit?editor=id)), I designed over 270 preset icons. Presets are the default feature types that mappers can add to OpenStreetMap, such as "Coffeehouse" or "Foot Path". Good icons keep the app approachable for new mappers while helping power-mappers quickly sift through data. Plus I think they make the app look pretty sharp.
 
 My icons live in the [Temaki icon library](https://github.com/rapideditor/temaki), which is licensed in the public domain and can be used by anyone. My contributions represent more than half of this library.
 
