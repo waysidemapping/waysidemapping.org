@@ -29,23 +29,22 @@ After a summer road trip winding my way through the rugged beauty of Nova Scotia
 
 To my knowledge, this was the first time a state-level scenic route network has been comprehensive supported in an OSM-based map.
 
-<div class="graphic-group graphic-background">
-<div class="graphic-title">Shield icons by Quincy Morgan</div>
-{% include graphic_image.html file='/img/shield_ca_ns_s_bdolsd.svg' caption="Bras d'Or" width='100px' img_width='50px' %}
-{% include graphic_image.html file='/img/shield_ca_ns_s_cet.svg' caption="Ceilidh" width='100px' img_width='50px' %}
-{% include graphic_image.html file='/img/shield_ca_ns_s_ct.svg' caption="Cabot" width='100px' img_width='50px' %}
-{% include graphic_image.html file='/img/shield_ca_ns_s_dnisd.svg' caption="Digby Neck" width='100px' img_width='50px' %}
-{% include graphic_image.html file='/img/shield_ca_ns_s_et.svg' caption="Evangeline" width='100px' img_width='50px' %}
-{% include graphic_image.html file='/img/shield_ca_ns_s_fdlt.svg' caption="Fleur-de-lis" width='100px' img_width='50px' %}
-{% include graphic_image.html file='/img/shield_ca_ns_s_gt.svg' caption="Glooscap" width='100px' img_width='50px' %}
-{% include graphic_image.html file='/img/shield_ca_ns_s_ksd.svg' caption="Kejimkujik" width='100px' img_width='50px' %}
-{% include graphic_image.html file='/img/shield_ca_ns_s_lr.svg' caption="Lighthouse" width='100px' img_width='50px' %}
-{% include graphic_image.html file='/img/shield_ca_ns_s_md.svg' caption="Marine" width='100px' img_width='50px' %}
-{% include graphic_image.html file='/img/shield_ca_ns_s_mdb.svg' caption="Macdonald" width='100px' img_width='50px' %}
-{% include graphic_image.html file='/img/shield_ca_ns_s_mkb.svg' caption="MacKay" width='100px' img_width='50px' %}
-{% include graphic_image.html file='/img/shield_ca_ns_s_mt.svg' caption="Marconi" width='100px' img_width='50px' %}
-{% include graphic_image.html file='/img/shield_ca_ns_s_st.svg' caption="Sunrise" width='100px' img_width='50px' %}
-</div>
+{% include graphic_start.html title="Shield icons by Quincy Morgan" %}
+  {% include graphic_image.html file='/img/shield_ca_ns_s_bdolsd.svg' caption="Bras d'Or" width='100px' img_width='50px' %}
+  {% include graphic_image.html file='/img/shield_ca_ns_s_cet.svg' caption="Ceilidh" width='100px' img_width='50px' %}
+  {% include graphic_image.html file='/img/shield_ca_ns_s_ct.svg' caption="Cabot" width='100px' img_width='50px' %}
+  {% include graphic_image.html file='/img/shield_ca_ns_s_dnisd.svg' caption="Digby Neck" width='100px' img_width='50px' %}
+  {% include graphic_image.html file='/img/shield_ca_ns_s_et.svg' caption="Evangeline" width='100px' img_width='50px' %}
+  {% include graphic_image.html file='/img/shield_ca_ns_s_fdlt.svg' caption="Fleur-de-lis" width='100px' img_width='50px' %}
+  {% include graphic_image.html file='/img/shield_ca_ns_s_gt.svg' caption="Glooscap" width='100px' img_width='50px' %}
+  {% include graphic_image.html file='/img/shield_ca_ns_s_ksd.svg' caption="Kejimkujik" width='100px' img_width='50px' %}
+  {% include graphic_image.html file='/img/shield_ca_ns_s_lr.svg' caption="Lighthouse" width='100px' img_width='50px' %}
+  {% include graphic_image.html file='/img/shield_ca_ns_s_md.svg' caption="Marine" width='100px' img_width='50px' %}
+  {% include graphic_image.html file='/img/shield_ca_ns_s_mdb.svg' caption="Macdonald" width='100px' img_width='50px' %}
+  {% include graphic_image.html file='/img/shield_ca_ns_s_mkb.svg' caption="MacKay" width='100px' img_width='50px' %}
+  {% include graphic_image.html file='/img/shield_ca_ns_s_mt.svg' caption="Marconi" width='100px' img_width='50px' %}
+  {% include graphic_image.html file='/img/shield_ca_ns_s_st.svg' caption="Sunrise" width='100px' img_width='50px' %}
+{% include graphic_end.html %}
 
 ## Mapping
 
@@ -57,31 +56,29 @@ To represent the routes in Americana, I drew a complete set of highway shield ve
 
 As with all Americana icons, these graphics are licensed CC0, meaning you (and anyone!) can freely use them in your own projects.
 
-<div class="graphic-group graphic-background">
-<div class="graphic-title">Display size</div>
-{% include graphic_image.html file='/img/shield_ca_ns_s_bdolsd.svg' width='17px'%}
-{% include graphic_image.html file='/img/shield_ca_ns_s_cet.svg' width='17px'%}
-{% include graphic_image.html file='/img/shield_ca_ns_s_ct.svg' width='17px'%}
-{% include graphic_image.html file='/img/shield_ca_ns_s_dnisd.svg' width='17px'%}
-{% include graphic_image.html file='/img/shield_ca_ns_s_et.svg' width='17px'%}
-{% include graphic_image.html file='/img/shield_ca_ns_s_fdlt.svg' width='17px'%}
-{% include graphic_image.html file='/img/shield_ca_ns_s_gt.svg' width='17px'%}
-{% include graphic_image.html file='/img/shield_ca_ns_s_ksd.svg' width='17px'%}
-{% include graphic_image.html file='/img/shield_ca_ns_s_lr.svg' width='17px'%}
-{% include graphic_image.html file='/img/shield_ca_ns_s_md.svg' width='17px'%}
-{% include graphic_image.html file='/img/shield_ca_ns_s_mdb.svg' width='17px'%}
-{% include graphic_image.html file='/img/shield_ca_ns_s_mkb.svg' width='17px'%}
-{% include graphic_image.html file='/img/shield_ca_ns_s_mt.svg' width='17px'%}
-{% include graphic_image.html file='/img/shield_ca_ns_s_st.svg' width='17px'%}
-</div>
+{% include graphic_start.html title="Display size" %}
+  {% include graphic_image.html file='/img/shield_ca_ns_s_bdolsd.svg' width='17px'%}
+  {% include graphic_image.html file='/img/shield_ca_ns_s_cet.svg' width='17px'%}
+  {% include graphic_image.html file='/img/shield_ca_ns_s_ct.svg' width='17px'%}
+  {% include graphic_image.html file='/img/shield_ca_ns_s_dnisd.svg' width='17px'%}
+  {% include graphic_image.html file='/img/shield_ca_ns_s_et.svg' width='17px'%}
+  {% include graphic_image.html file='/img/shield_ca_ns_s_fdlt.svg' width='17px'%}
+  {% include graphic_image.html file='/img/shield_ca_ns_s_gt.svg' width='17px'%}
+  {% include graphic_image.html file='/img/shield_ca_ns_s_ksd.svg' width='17px'%}
+  {% include graphic_image.html file='/img/shield_ca_ns_s_lr.svg' width='17px'%}
+  {% include graphic_image.html file='/img/shield_ca_ns_s_md.svg' width='17px'%}
+  {% include graphic_image.html file='/img/shield_ca_ns_s_mdb.svg' width='17px'%}
+  {% include graphic_image.html file='/img/shield_ca_ns_s_mkb.svg' width='17px'%}
+  {% include graphic_image.html file='/img/shield_ca_ns_s_mt.svg' width='17px'%}
+  {% include graphic_image.html file='/img/shield_ca_ns_s_st.svg' width='17px'%}
+{% include graphic_end.html %}
 
-<div class="graphic-group graphic-background">
-<div class="graphic-title">Simplified for legibility</div>
-{% include graphic_image.html file='/img/ns-EvangelineTrail.png' img_classes='shadowed' caption="Official" width='100px' img_width='80px' %}
-{% include graphic_image.html file='/img/shield_ca_ns_s_et.svg' caption="My take" width='100px' img_width='80px' %}
-{% include graphic_image.html file='/img/ns-CeilidhTrail.png' img_classes='shadowed' caption="Official" width='100px' img_width='80px' %}
-{% include graphic_image.html file='/img/shield_ca_ns_s_cet.svg' caption="My take" width='100px' img_width='80px' %}
-</div>
+{% include graphic_start.html title="Simplified for legibility" %}
+  {% include graphic_image.html file='/img/ns-EvangelineTrail.png' img_classes='shadowed' caption="Official" width='100px' img_width='80px' %}
+  {% include graphic_image.html file='/img/shield_ca_ns_s_et.svg' caption="My take" width='100px' img_width='80px' %}
+  {% include graphic_image.html file='/img/ns-CeilidhTrail.png' img_classes='shadowed' caption="Official" width='100px' img_width='80px' %}
+  {% include graphic_image.html file='/img/shield_ca_ns_s_cet.svg' caption="My take" width='100px' img_width='80px' %}
+{% include graphic_end.html %}
 
 ## Americana support
 

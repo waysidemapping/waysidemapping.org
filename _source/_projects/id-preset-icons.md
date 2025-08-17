@@ -24,8 +24,7 @@ The map in iD (the default editor at [osm.org/edit](https://www.openstreetmap.or
 
 While I was a full-time maintainer of iD, I designed over 270 preset icons to help distinguish the numerous types of map features that mappers can add to OSM. This is more than half of all icons in the [Temaki icon library](https://github.com/rapideditor/temaki). All Temaki icons are licensed in the public domain and can be used by anyone.
 
-<div class="graphic-group graphic-background">
-  <div class="graphic-title">Some of my favorites</div>
+{% include graphic_start.html title="Some of my favorites" %}
   {%- include graphic_image.html file='/img/temaki/anvil_and_hammer.svg' caption='Blacksmith' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/bubble_tea.svg' caption='Bubble Tea' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/buoy.svg' caption='Buoy' width='120px' img_width='40px' -%}
@@ -38,40 +37,36 @@ While I was a full-time maintainer of iD, I designed over 270 preset icons to he
   {%- include graphic_image.html file='/img/temaki/needle_and_spool.svg' caption='Tailor' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/tattoo_machine.svg' caption='Tattoo Parlor' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/telescope.svg' caption='Telescope' width='120px' img_width='40px' -%}
-</div>
+{% include graphic_end.html %}
 
 ## Curating a design language
 
 A consistent design language helps users to make inferences and catch distinctions between icons. Plus I think it makes the app look pretty sharp. When possible, I designed related icons as a series to highlight commonalities.
 
-<div class="graphic-group graphic-background">
-  <div class="graphic-title">Mountain landforms</div>
+{% include graphic_start.html title="Mountain landforms" %}
   {%- include graphic_image.html file='/img/temaki/mountain_range.svg' caption='Ridge' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/valley.svg' caption='Valley' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/saddle.svg' caption='Saddle' width='120px' img_width='40px' -%}
-</div>
+{% include graphic_end.html %}
 
-<div class="graphic-group graphic-background">
-  <div class="graphic-title">Water infrastructure</div>
+{% include graphic_start.html title="Water infrastructure" %}
   {%- include graphic_image.html file='/img/temaki/well_pump_manual.svg' caption='Well' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/water_tap.svg' caption='Tap' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/water_tap_drinkable.svg' caption='Drinkable' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/well_pump_powered.svg' caption='Powered Well' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/powered_pump.svg' caption='Waterworks' width='120px' img_width='40px' -%}
-</div>
+{% include graphic_end.html %}
 
-<div class="graphic-group graphic-background">
-  <div class="graphic-title">Railroad tracks</div>
+{% include graphic_start.html title="Railroad tracks" %}
   {%- include graphic_image.html file='/img/temaki/railway_track_partial.svg' caption='Construction' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/railway_track.svg' caption='Standard' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/railway_track_askew.svg' caption='Abandoned' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/railway_cable_track.svg' caption='Cable' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/railway_track_narrow.svg' caption='Narrow Gauge' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/railway_track_mini.svg' caption='Miniature' width='120px' img_width='40px' -%}
-</div>
+{% include graphic_end.html %}
 
-<div class="graphic-group graphic-background">
-  <div class="graphic-title">Transit boarding</div>
+{% include graphic_start.html title="Transit boarding" %}
   {%- include graphic_image.html file='/img/temaki/board_transit.svg' caption='Transit' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/board_bus.svg' caption='Bus' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/board_school_bus.svg' caption='School Bus' width='120px' img_width='40px' -%}
@@ -89,7 +84,7 @@ A consistent design language helps users to make inferences and catch distinctio
   {%- include graphic_image.html file='/img/temaki/board_train_kids.svg' caption='Kids Train' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/board_gondola_lift.svg' caption='Gondola' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/board_ferry.svg' caption='Ferry' width='120px' img_width='40px' -%}
-</div>
+{% include graphic_end.html %}
 
 ## Representing map features
 
@@ -97,8 +92,7 @@ The first step when designing an icon for something is deciding how to represent
 
 For example, the default barrier icon in iD is a plain ⛔︎ no entry symbol. This is highly abstract and doesn't tell you much about the real-world nature of the barrier. So, I designed a number of barrier-specific icons to improve clarity.
 
-<div class="graphic-group graphic-background">
-  <div class="graphic-title">Barriers depicted literally</div>
+{% include graphic_start.html title="Barriers depicted literally" %}
   {%- include graphic_image.html file='/img/temaki/bollard.svg' caption='Bollard' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/cattle_grid.svg' caption='Cattle Grid' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/cycle_barrier.svg' caption='Cycle Barrier' width='120px' img_width='40px' -%}
@@ -117,34 +111,30 @@ For example, the default barrier icon in iD is a plain ⛔︎ no entry symbol. T
   {%- include graphic_image.html file='/img/temaki/stile_squeezer.svg' caption='Squeeze' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/trench.svg' caption='Trench' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/turnstile.svg' caption='Turnstile' width='120px' img_width='40px' -%}
-</div>
+{% include graphic_end.html %}
 
 ## Distinguishing similar features
 
 OpenStreetMap has a lot of similar tags that trip up new mappers. What's the difference between an island and an islet? I created distinct icons for confusingly similar features to help mappers tell them apart at a glance.
 
-<div class="graphic-group graphic-background">
-  <div class="graphic-title">Small vs. large</div>
+{% include graphic_start.html title="Small vs. large" %}
   {%- include graphic_image.html file='/img/temaki/islet_tree.svg' caption='Islet' width='100px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/island_trees_building.svg' caption='Island' width='100px' img_width='40px' -%}
-</div>
-<div class="graphic-group graphic-background">
-  <div class="graphic-title">Natural vs. landscaped</div>
+{% include graphic_end.html %}
+{% include graphic_start.html title="Natural vs. landscaped" %}
   {%- include graphic_image.html file='/img/temaki/grass.svg' caption='Grassland' width='100px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/lawn.svg' caption='Grass' width='100px' img_width='40px' -%}
-</div>
-<div class="graphic-group graphic-background">
-  <div class="graphic-title">Horizontal vs. vertical</div>
+{% include graphic_end.html %}
+{% include graphic_start.html title="Horizontal vs. vertical" %}
   {%- include graphic_image.html file='/img/temaki/adit_profile.svg' caption='Adit' width='100px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/mineshaft_cage.svg' caption='Mineshaft' width='100px' img_width='40px' -%}
-</div>
+{% include graphic_end.html %}
 
 ## Illustrating jargon
 
 Detailed mapping requires a lot of specialized knowledge about what things are and what they're called. I drew bespoke icons for niche feature types to help new mappers tag them correctly even if they've never heard the word "cairn" or "gantry". These icons are especially helpful for non-English speakers since the preset labels in iD may not be fully translated.
 
-<div class="graphic-group graphic-background">
-  <div class="graphic-title">Niche map features</div>
+{% include graphic_start.html title="Niche map features" %}
   {%- include graphic_image.html file='/img/temaki/aerialway_pole.svg' caption='Aerialway Pole' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/cairn.svg' caption='Cairn' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/disc_golf_basket.svg' caption='Disc Golf' width='120px' img_width='40px' -%}
@@ -157,7 +147,7 @@ Detailed mapping requires a lot of specialized knowledge about what things are a
   {%- include graphic_image.html file='/img/temaki/toll_gantry.svg' caption='Toll Gantry' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/vacuum_station.svg' caption='Vacuum Station' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/windpump.svg' caption='Windpump' width='120px' img_width='40px' -%}
-</div>
+{% include graphic_end.html %}
 
 ## Achieving legibility
 
@@ -165,10 +155,9 @@ The primary design constraint of map icons is legiblilty at small display sizes.
 
 Temaki icons are designed to be displayed at a minimum of 15x15 pixels. To achieve readable icons at this size, I aligned icon elements to a pixel grid and rarely used shapes smaller than one pixel in size.
 
-<div class="graphic-group graphic-background">
-  <div class="graphic-title">My icons @ 15px</div>
+{% include graphic_start.html title="My icons @ 15px" %}
   {%- assign icons = site.static_files | where_exp: 'item', 'item.path contains "/img/temaki/"' -%}
   {%- for icon in icons -%}
     {%- include graphic_image.html file=icon.path width='30px' img_width='15px' -%}
   {%- endfor -%}
-</div>
+{% include graphic_end.html %}
