@@ -3,7 +3,7 @@ category: Cartography
 title: iD Preset Icons
 subtitle: Public domain map icons for Temaki
 date: 2025-08-15
-updated: 2025-08-17
+updated: 2025-08-18
 client: OpenStreetMap Foundation
 client_url: https://osmfoundation.org/
 icon: /img/temaki/bubble_tea.svg
@@ -161,3 +161,9 @@ Temaki icons are designed to be displayed at a minimum of 15x15 pixels. To achie
     {%- include graphic_image.html file=icon.path width='30px' img_width='15px' -%}
   {%- endfor -%}
 {% include graphic_end.html %}
+
+## Browsing the library
+
+In addition to contributing icons, I also built a [preview webpage](https://rapideditor.github.io/temaki/docs/) for the Temaki library. Users can filter icons by category and search them by name.
+
+[![](/img/temaki-preview-site-screenie.png)](https://rapideditor.github.io/temaki/docs/)
