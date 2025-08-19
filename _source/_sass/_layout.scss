@@ -67,7 +67,7 @@ h2 {
   font-size: 1.75em;
 }
 h3 {
-  font-size: 1.5em;
+  font-size: 1.4em;
 }
 h4 {
   font-size: 1.2em;
@@ -77,11 +77,14 @@ hr {
   border-top: none;
 }
 
-code {
+*:not(pre) > code, pre {
   border: 1px solid v.$soft-contrast-color;
   padding: 2px 4px;
   font-family: v.$monospace-font;
   font-size: 0.85em;
+}
+pre {
+  padding: 6px 12px;
 }
 
 /* general layout */
@@ -247,7 +250,7 @@ article {
     padding-left: 1em;
   }
 
-  > img, > p > img, > a > img, > p > a > img {
+  > img, > p > img, > a > img, > p > a > img, > figure > img, > figure > a > img {
     border: 1px solid v.$soft-contrast-color;
     max-width: 100%;
   }
@@ -259,6 +262,11 @@ article {
     text-align: justify;
     width: 100%;
     max-width: v.$prose-width;
+  }
+
+  > figure > figcaption {
+    text-align: right;
+    font-style: italic;
   }
 
   &.fullwidth {
@@ -283,10 +291,11 @@ article {
       margin-top: v.$sp * 3;
     }
   }
-  > h2 {
-    &:not(:first-child) {
-      margin-top: v.$sp * 2;
-    }
+  > h2:not(:first-child) {
+    margin-top: v.$sp * 2;
+  }
+  > h3:not(:first-child) {
+    margin-top: v.$sp * 1.5;
   }
 }
 
@@ -342,7 +351,7 @@ article {
   flex-direction: column;
   align-items: center;
   img {
-    max-width: 100%;
+    max-width: 100% ;
     margin: v.$sp * 0.5;
   }
   figcaption {
