@@ -4,7 +4,7 @@ title: Wayside Mapping
 subtitle: OpenStreetMap livestreams
 date: 2025-08-10
 updated: 2025-08-10
-image: /img/wayside-mapping-stream-screenie.jpg
+hero_image: /img/wayside-mapping-stream-screenie.jpg
 hero_classes: background-bottom
 photo: /img/photo-hopedale.jpg
 icon: /img/wayside-mapping-channel-icon.jpg

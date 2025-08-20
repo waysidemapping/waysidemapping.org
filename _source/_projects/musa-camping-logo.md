@@ -6,7 +6,7 @@ date: 2025-08-10
 updated: 2025-08-10
 icon: /img/musa-2022-fire.svg
 icon_alt: Campfire
-graphic: /img/musa-2022-logo.svg
+hero_graphic: /img/musa-2022-logo.svg
 photo: /img/photo-camping.jpg
 event: Mapping USA 2022 <br/>Mapping USA 2024
 client: OpenStreetMap US

@@ -5,7 +5,7 @@ subtitle: Modern paddle tagging and mapping
 icon: /img/opentrailmap-canoe-icon.svg
 icon_alt: Canoe paddler
 photo: /img/photo-kayak.jpg
-image: /img/nfct-osm.jpg
+hero_image: /img/nfct-osm.jpg
 date: 2025-08-10
 updated: 2025-08-19
 start: 2023-09-05

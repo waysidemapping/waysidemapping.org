@@ -6,13 +6,13 @@ layout: default
     <h1><a href="{{page.url | absolute_url}}" class="iconed-text"><div class="icon" style="background-image:url('{{page.icon | absolute_url}}');" role="img" aria-label="{{page.icon_alt}}"></div><span class="text">{{page.title | smartify}}</span></a></h1>
   {% endif %}
 </div>
-{% if page.image or page.graphic %}
+{% if page.hero_image or page.hero_graphic %}
   <div class="hero-image-wrap graphic-background">
     <div class="container">
-      {% if page.image %}
-        <div class="hero-image {{page.hero_classes}}" role="img" aria-label="{{page.image_alt | escape}}" style="background-image:url('{{page.image | absolute_url}}');"></div>
-      {% elsif page.graphic %}
-        <img class="hero-graphic graphic {{page.hero_classes}}" alt="{{page.image_alt | escape}}" src="{{page.graphic | absolute_url}}">
+      {% if page.hero_image %}
+        <div class="hero-image {{page.hero_classes}}" role="img" aria-label="{{page.hero_alt | escape}}" style="background-image:url('{{page.hero_image | absolute_url}}');"></div>
+      {% elsif page.hero_graphic %}
+        <img class="hero-graphic graphic {{page.hero_classes}}" alt="{{page.hero_alt | escape}}" src="{{page.hero_graphic | absolute_url}}">
       {% endif %}
     </div>
   </div>
@@ -117,8 +117,9 @@ layout: default
   </div>
 </div>
 <div class="container padded">
-  {%- assign updated_date = page.updated | default: page.date | date: site.date_format -%}
-  {% if updated_date %}<p><i>This page last updated {{updated_date}}.</i></p>{% endif %}
+  {%- assign page_date = page.date | date: site.date_format -%}
+  {%- assign updated_date = page.updated | date: site.date_format -%}
+  <p><i>This page published {{page_date}}. {% if updated_date and updated_date != page_date %}<a href="https://github.com/waysidemapping/waysidemapping.org/commits/main/_source/_projects/{{page.slug}}.md">Last updated</a> {{updated_date}}.{% endif %}</i></p>
 </div>
 <div class="begbox-wrap">
   <div class="begbox-under"></div>

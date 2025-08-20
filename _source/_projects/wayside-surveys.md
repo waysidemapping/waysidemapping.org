@@ -4,7 +4,7 @@ title: Wayside Surveys
 subtitle: Scenic journeys captured in high-res
 date: 2025-08-10
 updated: 2025-08-10
-image: /img/wayside-surveys-az.jpg
+hero_image: /img/wayside-surveys-az.jpg
 icon: /img/wayside-surveys-channel-icon.jpg
 icon_alt: Compass rose overlaid on desert photo
 photo: /img/photo-road.jpg

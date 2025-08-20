@@ -2,7 +2,8 @@
 category: OpenStreetMap Data
 title: USGS Streamgage Import
 subtitle: 16,000 monitoring sites synced to OSM
-image: /img/usgs-streamgage-map.jpg
+hero_image: /img/usgs-streamgage-map.jpg
+hero_alt: Map of all USGS monitoring sites in OSM showing full coverage in contiguous US, Alaska, Hawaii, Puerto Rico, Virgin Islands, and Pacific territories.
 icon: /img/opentrailmap-streamgage-icon.svg
 icon_alt: Circle pinwheel with NE and SW quadrants filled white and NW and NW quadrants black. 
 photo: /img/photo-grand-canyon.jpg

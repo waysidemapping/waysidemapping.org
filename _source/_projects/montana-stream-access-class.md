@@ -2,8 +2,8 @@
 category: OpenStreetMap Data
 title: Montana Stream Access Law
 subtitle: Public rivers in the Headwaters State
-image: /img/montana-stream-access-class-1-map.jpg
-image_alt: OSM map of Montana highlighting waterways with class 1 stream access.
+hero_image: /img/montana-stream-access-class-1-map.jpg
+hero_alt: OSM map of Montana highlighting waterways with class 1 stream access.
 icon: /img/montana-stream-access-icon.svg
 icon_alt: Canoe in outline of Montana
 photo: /img/photo-yellowstone-river.jpg

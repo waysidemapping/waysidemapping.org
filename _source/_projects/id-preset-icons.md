@@ -3,9 +3,9 @@ category: Cartography
 title: iD Preset Icons
 subtitle: Public domain map icons for Temaki
 date: 2025-08-15
-image: /img/temaki-icons-id-screenie.jpg
-image_alt: Screenshot of iD showing US route 82 in New Mexico featuring map icons for windpumps, high-voltage towers, and utility poles.
 updated: 2025-08-20
+hero_image: /img/temaki-icons-id-screenie.jpg
+hero_alt: Screenshot of iD showing US route 82 in New Mexico featuring map icons for windpumps, high-voltage towers, and utility poles.
 photo: /img/photo-ok-bison.jpg
 client: OpenStreetMap Foundation
 client_url: https://osmfoundation.org/

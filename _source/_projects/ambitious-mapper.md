@@ -5,7 +5,7 @@ subtitle: Graphic tee for OpenStreetMap US
 date: 2025-08-10
 updated: 2025-08-10
 hero_classes: shadowed
-graphic: /img/ambitious-mapper-shirt.png
+hero_graphic: /img/ambitious-mapper-shirt.png
 icon: /img/ambitious-mapper-icon.png
 icon_alt: Head of Napoleon Bonaparte
 photo: /img/photo-fort.jpg
