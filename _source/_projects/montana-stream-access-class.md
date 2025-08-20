@@ -22,8 +22,8 @@ tags:
 ---
 ## Mapping the best river access in the west
 
-Montana is a waterway wonderland, home to thousands of river-miles that play host to world-class paddle trips. Much of these flow through private lands, but the state has nonetheless ensured public access though a "best in the west" [Stream Access Law](https://en.wikipedia.org/wiki/Montana_Stream_Access_Law).
+Montana is a waterway wonderland, home to thousands of river miles that play host to world-class paddle trips. Much of these flow through private lands, but the state has nonetheless ensured public access though a "best in the west" [Stream Access Law](https://en.wikipedia.org/wiki/Montana_Stream_Access_Law).
 
 But the access law only applies to certain waterways, and has two different classifications, each with different restrictions. Some rivers allow overnight camping while others don't. It's a bit complicated… maybe OpenStreetMap can help!
 
-I created [a tag](https://wiki.openstreetmap.org/wiki/Key:montana_stream_access_class) to encode Montana stream access classes and then tagged [every Class I river-mile](https://overpass-ultra.us/#run&m=5.91/46.4604/-110.0867&q=NoewrgLgXAHgtgGwLrAgSzgU3NATAViQG4AoAdwEMBPYAIjhADsILGKB9AZwgCdMK47CgGNhmTp3bCEFCbQC8tAIy1iJHAAIA5tjhEgA) in the state. As a result, data users can easily tell where certain recreational activities are protected when planning their next epic adventure on the water.
+I created [a tag](https://wiki.openstreetmap.org/wiki/Key:montana_stream_access_class) to encode Montana stream access classes and then tagged [every Class I river mile](https://overpass-ultra.us/#run&m=5.91/46.4604/-110.0867&q=NoewrgLgXAHgtgGwLrAgSzgU3NATAViQG4AoAdwEMBPYAIjhADsILGKB9AZwgCdMK47CgGNhmTp3bCEFCbQC8tAIy1iJHAAIA5tjhEgA) in the state. As a result, data users can easily tell where certain recreational activities are protected when planning their next epic adventure on the water.
