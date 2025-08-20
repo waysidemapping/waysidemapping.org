@@ -8,7 +8,7 @@ icon_alt: Circle pinwheel with NE and SW quadrants filled white and NW and NW qu
 photo: /img/photo-grand-canyon.jpg
 photo_alt: The Colorado River winding through the Grand Canyon, Arizona
 date: 2025-08-19
-updated: 2025-08-19
+updated: 2025-08-20
 # date of init commit on repo
 start: 2024-07-20
 start_label: First Changeset
@@ -27,7 +27,7 @@ tags:
 The U.S. Geological Survey maintains an extensive network of streamgages across the United States. Each has [a webpage](https://waterdata.usgs.gov/monitoring-location/USGS-08279500/) providing the public with valuable real-time waterway data. However, I found the experience a bit siloed. As part of my [canoe and kayak trail project](/projects/water-trails/), I realized that if the USGS streamgages were included in OpenStreetMap, then apps could link users to current stream conditions. Time to get mapping!
 
 <figure>
-    <img src="/img/usgs-streamgage-paddler.jpg"/>
+    <img alt="Paddler in kayak looking at nearby streamgage on bank of the Perkiomen Creek." src="/img/usgs-streamgage-paddler.jpg"/>
     <figcaption>Paddlers rely on streamgages to plan safe, enjoyable trips</figcaption>
 </figure>
 
@@ -77,11 +77,16 @@ With that, OSM is up-to-date with USGS. We can re-run the scripts anytime we lik
 
 ## Follow-up work
 
-After completing the initial import, I decided to see what else I could do with this workflow.
+After completing the initial import, I decided to see how else I could take streamgage mapping even further.
 
 ### Tagging even more data
 
 USGS monitors a lot more than just water levels, so I expanded the script to support forty-some environmental qualities such as salinity, soil moisture, air pressure, and groundwater discharge. A lot of the sites have webcams, so I added links to those. Most have external identifiers that allow interfacing with providers like NOAA, so I added those through a third-party dataset.
+
+<figure>
+    <a href="https://apps.usgs.gov/hivis/camera/NY_MOHAWK_RIVER_AT_LOCK_9_AT_ROTTERDAM_JUNCTION_HOME_VIEW"><img alt="Screenshot of USGS HIVIS webcam webpage showing cam with rainy scene of dam at Mohawk River at Lock 9." src="/img/usgs-streamgage-webcam.jpg"/></a>
+    <figcaption><a href="https://apps.usgs.gov/hivis/camera/NY_MOHAWK_RIVER_AT_LOCK_9_AT_ROTTERDAM_JUNCTION_HOME_VIEW">USGS webcam</a> for a gage now linked from its <a href="https://www.openstreetmap.org/node/12080242758">OSM feature</a></figcaption>
+</figure>
 
 ### Upgrading USGS geometry
 
@@ -90,18 +95,18 @@ You can do a lot with automated edits, but editing by hand has its own advantage
 Since the import, mapper including myself have been improving gage locations in OSM based on aerial imagery, ground-level imagery, and surveys. In effect, this means that OpenStreetMap now has better geometry for USGS monitoring sites than does USGS. Go figure.
 
 <figure>
-    <img src="/img/usgs-streamgage-wiss-tnm.jpg"/>
+    <img alt="The National Map topo map showing gage location on west bank of Wissahickon Creek in Philadelphia" src="/img/usgs-streamgage-wiss-tnm.jpg"/>
     <figcaption>Official USGS data shows this gage on the west bank of the creek</figcaption>
 </figure>
 
 <figure>
-    <img src="/img/usgs-streamgage-wiss-id.jpg"/>
+    <img alt="Screenshot of iD editor with Bing Streetside imagery viewer and aerial imagery showing gage on east side of the Wissahickon Creek next to Lincoln Drive" src="/img/usgs-streamgage-wiss-id.jpg"/>
     <figcaption>Recent imagery shows it's actually on the east bank</figcaption>
 </figure>
 
 <figure>
-    <img src="/img/usgs-streamgage-wiss-change.jpg"/>
-    <figcaption>A mappers can improve this gage's location in OSM but not USGS</figcaption>
+    <img alt="Screenshot of the Pewu node history viewer showing OSM-carto map with overlay of node moved from west side to east side of creek" src="/img/usgs-streamgage-wiss-change.jpg"/>
+    <figcaption>A mapper can improve this gage's location in OSM</figcaption>
 </figure>
 
 ### Tagging gagehouses
@@ -109,7 +114,7 @@ Since the import, mapper including myself have been improving gage locations in 
 A gagehouse is a special little building that shelters gaging equipment. OpenStreetMap didn't have a tag specifically for this, so I started using `building=gauge_house` (the British spelling), drawn as an area around the monitoring station node. I wrote up [documentation](https://wiki.openstreetmap.org/wiki/Tag:building%3Dgauge_house) for this tag so other mappers can discover it.
 
 <figure>
-    <img src="/img/usgs-streamgage-gagehouse.jpg"/>
+    <img alt="Two-level concrete gagehouse on Tohickon Creek with steel bridge leading to door on upper level." src="/img/usgs-streamgage-gagehouse.jpg"/>
     <figcaption>A gagehouse on Tohickon Creek in Pennsylvania</figcaption>
 </figure>
 
@@ -122,10 +127,12 @@ Having already developed the Canoe & Kayak Trails view for OpenTrailMap, it was 
     <figcaption>Inspecting the details of a streamgage in OpenTrailMap</figcaption>
 </figure>
 
-## Going beyond USGS
+## Reflections and future directions
 
-In the end, I imported more than 16,000 USGS monitoring stations into OSM without raising red flags from other mappers. This is unusual.
+In the end, I imported more than 16,000 USGS features into OSM that monitor surface water, groundwater, weather, soil, and snowpack.
 
-It was a highly technical import that involved a number of custom scripts and a fair amount of gruntwork. Most people do not have this level of expertise when trying to get their data into OSM. But the result is an accurate, comprehensive merging of data that would have taken over a thousand hours if completed manually.
+Unusually for OSM imports, I did this without raising red flags from other mappers. The work was highly technical and time-intensive, involving a number of custom scripts and a fair amount of gruntwork. Most people do not have this level of expertise when trying to get their data into OSM. But the result was an accurate, comprehensive merging of data that would have taken over a thousand hours if completed manually.
 
-I [published my work](https://github.com/waysidemapping/usgs-to-osm) as open source in the hope that other people could adapt it to their own use cases. I myself have already adapted it to import NOAA's tide gagues and Philadelphia's bikeshare stations. Don't hestitate to reach our if you have questions or need help with your own import.
+I [published my work](https://github.com/waysidemapping/usgs-to-osm) as open source in the hope that other people could adapt it to their own use cases. I myself have already adapted it to import NOAA's tide gagues and Philadelphia's bikeshare stations. Eventually I'd like to build out a reusable framework and library of third-party datasets to keep in sync with OSM.
+
+Don't hestitate to reach our if you have questions or need help with your own import.

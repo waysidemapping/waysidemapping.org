@@ -3,9 +3,9 @@ category: Cartography
 title: iD Preset Icons
 subtitle: Public domain map icons for Temaki
 date: 2025-08-15
-updated: 2025-08-19
 image: /img/temaki-icons-id-screenie.jpg
 image_alt: Screenshot of iD showing US route 82 in New Mexico featuring map icons for windpumps, high-voltage towers, and utility poles.
+updated: 2025-08-20
 photo: /img/photo-ok-bison.jpg
 client: OpenStreetMap Foundation
 client_url: https://osmfoundation.org/
@@ -169,4 +169,7 @@ Temaki icons are designed to be displayed at a minimum of 15x15 pixels. To achie
 
 In addition to contributing icons, I also built a [preview webpage](https://rapideditor.github.io/temaki/docs/) for the Temaki library. Users can filter icons by category and search them by name.
 
-[![](/img/temaki-preview-site-screenie.png)](https://rapideditor.github.io/temaki/docs/)
+<figure>
+  <a href="https://rapideditor.github.io/temaki/docs/#group=animals"><img src="/img/temaki-preview-site-screenie.png"/></a>
+  <figcaption>Filtering to animal icons (designed by myself and others)</figcaption>
+</figure>
