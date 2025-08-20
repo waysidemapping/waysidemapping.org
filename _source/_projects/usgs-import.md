@@ -139,4 +139,4 @@ Unusually for OSM imports, I did this without raising red flags from other mappe
 
 I [published my work](https://github.com/waysidemapping/usgs-to-osm) as open source in the hope that other people could adapt it to their own use cases. I myself have already adapted it to import NOAA's tide gagues and Philadelphia's bikeshare stations. Eventually I'd like to build out a reusable framework and library of third-party datasets to keep in sync with OSM.
 
-Don't hestitate to reach our if you have questions or need help with your own import.
+Don't hestitate to reach out if you have questions or need help with your own import.
