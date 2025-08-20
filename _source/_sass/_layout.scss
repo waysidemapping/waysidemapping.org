@@ -250,7 +250,7 @@ article {
     padding-left: 1em;
   }
 
-  > img, > p > img, > a > img, > p > a > img, > figure > img, > figure > a > img {
+  > img, > p > img, > a > img, > p > a > img, > figure > img, > figure > a > img, > iframe {
     border: 1px solid v.$soft-contrast-color;
     max-width: 100%;
   }

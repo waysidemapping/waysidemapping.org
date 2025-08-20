@@ -3,7 +3,7 @@ category: Graphic Design
 title: Virginia is for Mappers
 subtitle: Sticker for State of the Map US 2023
 date: 2025-08-10
-updated: 2025-08-13
+updated: 2025-08-19
 start: 2023-06-07
 graphic: /img/va-is-for-mappers-black.svg
 icon: /img/va-is-for-mappers-heart.svg
@@ -23,4 +23,7 @@ tags:
 
 A sticker with this graphic was a freebie for conference attendees.
 
-!["Virginia is for Mappers" sticker on MacBook along with other OpenStreetMap-related stickers.](/img/va-is-for-mappers-photo.jpg)
+<figure>
+    <img alt='"Virginia is for Mappers" sticker on MacBook along with other OpenStreetMap-related stickers.' src="/img/va-is-for-mappers-photo.jpg"/>
+    <figcaption>I still rep the sticker on my own laptop!</figcaption>
+</figure>

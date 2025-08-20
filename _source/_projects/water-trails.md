@@ -7,7 +7,7 @@ icon_alt: Canoe paddler
 photo: /img/photo-kayak.jpg
 image: /img/nfct-osm.jpg
 date: 2025-08-10
-updated: 2025-08-14
+updated: 2025-08-19
 start: 2023-09-05
 start_label: First Changeset
 start_url: https://www.openstreetmap.org/changeset/140872822
@@ -46,13 +46,19 @@ _Some of the waterway tags I created or popularized, and have documented:_
 
 With the tagging squared away, the next step was to visualize the newly-mapped OSM data.
 
-Coincidentally I had been working on [OpenTrailMap](/projects/opentrailmap/) for OpenStreetMap US, and was able to add a [Canoe & Kayak Trails view](https://opentrailmap.us/#map=11.07/43.2279/-76.2137&mode=canoe) with relative ease. The resulting map highlights things like access points, barriers, water locks, and canoeability. Mappers can also focus on specific attributes to expose missing data.
+Coincidentally I had been working on [OpenTrailMap](/projects/opentrailmap/) for OpenStreetMap US, and was able to add a [Canoe & Kayak Trails view](https://opentrailmap.us/#map=12.31/40.12657/-75.48316&mode=canoe) with relative ease. The resulting map highlights things like access points, barriers, water locks, and canoeability. Mappers can also focus on specific attributes to expose missing data.
 
-![](/img/opentrailmap-canoe-screenshot.jpg)
+<figure>
+    <a href="https://opentrailmap.us/#map=12.31/40.12657/-75.48316&mode=canoe"><img src="/img/opentrailmap-canoe-screenshot.jpg"/></a>
+    <figcaption>Perkiomen Creek meeting the Schuylkill in OpenTrailMap</figcaption>
+</figure>
 
-I also [added `portage=*` support](https://github.com/amandasaurus/waterwaymap.org/pull/43) to the [WaterwayMap canoe view](https://waterwaymap.org//#map=5.92/41.163/-76.419&tiles=planet-waterway-canoeable), allowing mappers to quickly identify gaps in the paddle network. Thanks to [@amandasaurus](https://github.com/amandasaurus) for maintaining this great tool!
+I also [added `portage=*` support](https://github.com/amandasaurus/waterwaymap.org/pull/43) to the [WaterwayMap canoe view](https://waterwaymap.org//#map=5.92/41.163/-76.419&tiles=planet-waterway-canoeable), allowing mappers to account for overland connections when identifying gaps in the paddle network. Thanks to [@amandasaurus](https://github.com/amandasaurus) for maintaining this great tool!
 
-![](/img/waterwaymap-canoe-screenshot.jpg)
+<figure>
+  <a href="https://waterwaymap.org/#map=7.87/42.394/-75.648&tiles=planet-waterway-canoeable"><img src="/img/waterwaymap-canoe-screenshot.jpg"/></a>
+  <figcaption>The Upper Susquehanna Watershed in WaterwayMap (different colors are disconnected)</figcaption>
+</figure>
 
 ## State of the Map US talk
 
