@@ -20,10 +20,14 @@
     <li><a href="https://bsky.app/profile/{{item.bluesky}}" target="_blank" title="@{{item.bluesky}} on Bluesky"><svg class="iconsvg"><use xlink:href="#bluesky"></use></svg></a></li>
   {%- endif -%}
   {%- if item.mastodon -%}
-    <li><a href="{{item.mastodon}}" target="_blank" title="{{item.title}} on Mastodon" rel="me"><svg class="iconsvg"><use xlink:href="#mastodon"></use></svg></a></li>
+    {%- assign mastodon_parts = item.mastodon | split: '@' -%}
+    <li><a href="https://{{mastodon_parts[1]}}/@{{mastodon_parts[0]}}" target="_blank" title="@{{mastodon_parts[0]}} on {{mastodon_parts[1]}}" rel="me"><svg class="iconsvg"><use xlink:href="#mastodon"></use></svg></a></li>
   {%- endif -%}
   {%- if item.instagram -%}
-    <li><a href="https://instagram.com/{{item.instagram}}" target="_blank" title="{{item.title}} on Instagram"><svg class="iconsvg"><use xlink:href="#instagram"></use></svg></a></li>
+    <li><a href="https://instagram.com/{{item.instagram}}" target="_blank" title="@{{item.instagram}} on Instagram"><svg class="iconsvg"><use xlink:href="#instagram"></use></svg></a></li>
+  {%- endif -%}
+  {%- if item.threads -%}
+    <li><a href="https://threads.com/@{{item.threads}}" target="_blank" title="@{{item.threads}} on Threads"><svg class="iconsvg"><use xlink:href="#threads"></use></svg></a></li>
   {%- endif -%}
   {%- if item.facebook -%}
     <li><a href="https://www.facebook.com/{{item.facebook}}" target="_blank" title="{{item.title}} on Facebook"><svg class="iconsvg"><use xlink:href="#facebook"></use></svg></a></li>
