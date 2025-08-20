@@ -37,6 +37,8 @@ The U.S. Geological Survey maintains an extensive network of streamgages across 
 
 I knew it would be infeasible to map all 10,000+ USGS monitoring stations one-by-one, so a data import was in order. It turns out that there is a lot of churn with gages coming online and offline all the time. So instead of doing a one-time import of data that would instantly become stale, I wrote [a series of scripts](https://github.com/waysidemapping/usgs-to-osm) that compare the latest offical data with OSM and generate [OsmChange files](https://wiki.openstreetmap.org/wiki/OsmChange) with updates. This way we can keep the map fresh going forward.
 
+{% include graphic_image.html file='/img/usgs-streamgage-import-flow.svg' title='USGS to OSM import flow' %}
+
 ### 1. Getting soure data
 
 The first step in our process is getting the source data. As the product of a federal agency, USGS data is in the public domain and thus license-compatible with OSM. Alas, USGS doesn't distribute anything like a single GIS file of the gages. Rather, there is an [old school API](https://nwis.waterdata.usgs.gov/nwis/current) that returns CSV tables of stations actively recording given metrics. Not ideal, but workable.
