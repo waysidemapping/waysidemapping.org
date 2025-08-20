@@ -17,8 +17,8 @@ project_url: https://github.com/osm-americana/openstreetmap-americana/issues/911
 status: Complete
 license_label: Licenses
 license: <a href="https://www.openstreetmap.org/copyright/">ODbL</a>, <a href="https://github.com/osm-americana/openstreetmap-americana/blob/main/LICENSE">CC0</a>
-external: Query data
-external_url: https://overpass-ultra.us/#run&m=6.02/45.1682/-63.1248&q=NoewrgLgXAVgziAdgXWBAlgWwKbmgNgAZkBuAKACdsAbYAIkWwgHcQKBrOgXjoGEBBKADkAylBF1SZPAAIA5rkwkgA
+action: Query data
+action_url: https://overpass-ultra.us/#run&m=6.02/45.1682/-63.1248&q=NoewrgLgXAVgziAdgXWBAlgWwKbmgNgAZkBuAKACdsAbYAIkWwgHcQKBrOgXjoGEBBKADkAylBF1SZPAAIA5rkwkgA
 tags:
   - OSM Americana
   - highway shields

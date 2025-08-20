@@ -15,8 +15,8 @@ start_label: First Changeset
 start_url: https://www.openstreetmap.org/changeset/154200559
 license_label: Licenses
 license: <a href="https://www.openstreetmap.org/copyright/">ODbL</a>, <a href="https://github.com/waysidemapping/usgs-to-osm/blob/main/LICENSE.md">ISC</a>
-external: Query data
-external_url: https://overpass-ultra.us/#run&m=1.37/-1.2788/0.0000&q=NoewrgLgXAVgziAdgXWBAlgWwKbmgNgAZkBuAKERABNtgAiTAQ0QH0ma6BeBpdCEAE7pEAcxZwIjDEjqo6IAA7YBUwVzoBVRH2xUABAGVJEbHD0BxXABsQI9AGNGVw2AEA3bAE9Z9AdgBmsuR4eiK4mCRAA
+action: Query data
+action_url: https://overpass-ultra.us/#run&m=1.37/-1.2788/0.0000&q=NoewrgLgXAVgziAdgXWBAlgWwKbmgNgAZkBuAKERABNtgAiTAQ0QH0ma6BeBpdCEAE7pEAcxZwIjDEjqo6IAA7YBUwVzoBVRH2xUABAGVJEbHD0BxXABsQI9AGNGVw2AEA3bAE9Z9AdgBmsuR4eiK4mCRAA
 tags:
   - OpenStreetMap imports
   - paddle mapping

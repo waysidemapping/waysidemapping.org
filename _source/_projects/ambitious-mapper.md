@@ -13,8 +13,8 @@ photo_classes: dark-text
 start: 2025-01-16
 start_label: Dropped
 client: OpenStreetMap US
-external: Shop
-external_url: https://osm-us-swag.printify.me/product/17157334
+action: Shop
+action_url: https://osm-us-swag.printify.me/product/17157334
 tags:
   - OpenStreetMap US merch
   - apparel

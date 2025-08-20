@@ -36,8 +36,8 @@ layout: default
     {%- endif -%}
   </article>
   <div class="sidebar">
-    {% if page.external_url %}
-      <a class="button external-link" href="{{page.external_url | absolute_url}}">{{page.external | default: "Open"}} ➛</a>
+    {% if page.action_url %}
+      <a class="button external-link" href="{{page.action_url | absolute_url}}">{{page.action | default: "Open"}} ➛</a>
     {% endif %}
     {% if page.category %}
       <div class="labeled-value">

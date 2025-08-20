@@ -16,6 +16,8 @@ start_label: First Design
 start_url: https://github.com/rapideditor/temaki/pull/7
 license: CC0
 license_url: https://github.com/rapideditor/temaki/blob/main/LICENSE.md
+action: Browse icons
+action_url: https://github.com/rapideditor/temaki
 tags:
   - Temaki
   - iD

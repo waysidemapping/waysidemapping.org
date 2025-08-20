@@ -14,8 +14,8 @@ start_label: First Changeset
 start_url: https://www.openstreetmap.org/changeset/167329027
 license: ODbL
 license_url: https://www.openstreetmap.org/copyright/
-external: Query data
-external_url: https://overpass-ultra.us/#run&m=5.91/46.4604/-110.0867&q=NoewrgLgXAHgtgGwLrAgSzgU3NATAViQG4AoAdwEMBPYAIjhADsILGKB9AZwgCdMK47CgGNhmTp3bCEFCbQC8tAIy1iJHAAIA5tjhEgA
+action: Query data
+action_url: https://overpass-ultra.us/#run&m=5.91/46.4604/-110.0867&q=NoewrgLgXAHgtgGwLrAgSzgU3NATAViQG4AoAdwEMBPYAIjhADsILGKB9AZwgCdMK47CgGNhmTp3bCEFCbQC8tAIy1iJHAAIA5tjhEgA
 tags:
   - paddle mapping
   - OpenStreetMap tagging

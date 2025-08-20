@@ -7,12 +7,14 @@ icon_alt: Canoe paddler
 photo: /img/photo-kayak.jpg
 hero_image: /img/nfct-osm.jpg
 date: 2025-08-10
-updated: 2025-08-19
+updated: 2025-08-20
 start: 2023-09-05
 start_label: First Changeset
 start_url: https://www.openstreetmap.org/changeset/140872822
 license: ODbL
 license_url: https://www.openstreetmap.org/copyright/
+action: Read docs
+action_url: https://wiki.openstreetmap.org/wiki/Water_trails
 tags:
   - paddle mapping
   - OpenStreetMap tagging
