@@ -2,6 +2,7 @@
 layout: default
 ---
 <div class="container padded">
+  <p style="margin-bottom:20px;font-weight:bold;"><a href="/#portfolio"><span style="transform: scaleX(-1);display: inline-block;">➛</span> Projects</a></p>
   {% if page.title %}
     <h1><a href="{{page.url | absolute_url}}" class="iconed-text"><div class="icon" style="background-image:url('{{page.icon | absolute_url}}');" role="img" aria-label="{{page.icon_alt}}"></div><span class="text">{{page.title | smartify}}</span></a></h1>
   {% endif %}

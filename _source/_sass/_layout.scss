@@ -207,8 +207,7 @@ pre {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    font-family: v.$title-font;
-    font-size: 1.15em;
+    font-weight: bold;
     text-align: right;
     margin-bottom: 50px;
     padding: v.$sp * 0.5 0;
@@ -485,7 +484,7 @@ ul.cards {
   background-position: center;
   background-size: cover;
   color: v.$background-color;
-  font-size: 21px;
+  font-size: 1.15em;
   line-height: 1.5em;
   font-weight: bold;
   padding: v.$sp * 3 v.$sp;
