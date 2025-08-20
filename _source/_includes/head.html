@@ -15,6 +15,9 @@
   <meta property="og:type" content="article" />
   <meta property="og:url" content="{{page.url | absolute_url }}">
   {%- if page.preview_image or page.hero_image or page.hero_graphic -%}<meta property="og:image" content="{{page.preview_image | default: page.hero_image | default: page.hero_graphic | absolute_url }}" />{%- endif -%}
+  {%- if page.preview_image_alt or page.hero_alt -%}<meta property="og:image:alt" content="{{page.preview_image_alt | default: page.hero_alt | escape}}" />{%- endif -%}
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:site_name" content="{{site.title}}" />
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q5KG5DPQYV"></script>
   <script>
