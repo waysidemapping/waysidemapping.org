@@ -8,7 +8,7 @@ hero_image: /img/ns-scenic-map.jpg
 photo: /img/photo-cabot.jpg
 photo_classes: dark-text
 date: 2025-08-10
-updated: 2025-08-14
+updated: 2025-08-20
 start: 2023-08-02
 start_label: First Changeset
 start_url: https://www.openstreetmap.org/changeset/139363290
@@ -17,6 +17,8 @@ project_url: https://github.com/osm-americana/openstreetmap-americana/issues/911
 status: Complete
 license_label: Licenses
 license: <a href="https://www.openstreetmap.org/copyright/">ODbL</a>, <a href="https://github.com/osm-americana/openstreetmap-americana/blob/main/LICENSE">CC0</a>
+external: Query data
+external_url: https://overpass-ultra.us/#run&m=6.02/45.1682/-63.1248&q=NoewrgLgXAVgziAdgXWBAlgWwKbmgNgAZkBuAKACdsAbYAIkWwgHcQKBrOgXjoGEBBKADkAylBF1SZPAAIA5rkwkgA
 tags:
   - OSM Americana
   - highway shields
@@ -48,7 +50,7 @@ To my knowledge, this was the first time a state-level scenic route network has 
 
 ## Mapping
 
-When I investigated the data, I found that a few of the scenic routes had already been mapped in OpenStreetMap, though without a unified tagging scheme. I cleaned up and standardized these routes, added the remainder, and collected them all with a unique `network` tag. Now the full slate of routes could be fetched with [one simple query](https://overpass-ultra.us/#run&m=6.02/45.1682/-63.1248&q=NoewrgLgXAVgziAdgXWBAlgWwKbmgNgAZkBuAKDICdsAbYAIkWwgHcRKBregXnoGEAglAByAZSij6pCngAEAc1yYSQA).
+When I investigated the data, I found that a few of the scenic routes had already been mapped in OpenStreetMap, though without a unified tagging scheme. I cleaned up and standardized these routes, added the remainder, and collected them all with a unique `network` tag. Now the full slate of routes could be fetched with [one simple query](https://overpass-ultra.us/#run&m=6.02/45.1682/-63.1248&q=NoewrgLgXAVgziAdgXWBAlgWwKbmgNgAZkBuAKACdsAbYAIkWwgHcQKBrOgXjoGEBBKADkAylBF1SZPAAIA5rkwkgA).
 
 ## Shield icons
 
