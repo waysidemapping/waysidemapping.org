@@ -8,7 +8,7 @@ layout: default
   {% endif %}
 </div>
 {% if page.hero_image or page.hero_graphic %}
-  <div class="hero-image-wrap graphic-background">
+  <div class="hero-wrap graphic-background">
     <div class="container">
       {% if page.hero_image %}
         <div class="hero-image {{page.hero_classes}}" role="img" aria-label="{{page.hero_alt | escape}}" style="background-image:url('{{page.hero_image | absolute_url}}');"></div>
