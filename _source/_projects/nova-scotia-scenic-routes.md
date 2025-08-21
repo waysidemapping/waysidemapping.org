@@ -8,7 +8,7 @@ hero_image: /img/ns-scenic-map.jpg
 photo: /img/photo-cabot.jpg
 photo_classes: dark-text
 date: 2025-08-10
-updated: 2025-08-20
+updated: 2025-08-21
 start: 2023-08-02
 start_label: First Changeset
 start_url: https://www.openstreetmap.org/changeset/139363290
@@ -90,5 +90,17 @@ While numbered routes have extensive coverage in OSM, scenic routes tend to be u
 
 You can check out the live results over [on americanamap.org](https://americanamap.org/#map=12.29/45.64218/-61.4356).
 
-{% include graphic_image.html file='/img/ns-scenic-americana.jpg' img_classes="shadowed" title="On the map" img_width='500px'%}
+<figure>
+  <a href="https://americanamap.org/#map=13.71/46.2077/-60.59706"><img src="/img/ns-map-south-haven.png"/></a>
+  <figcaption>The Cabot Trail meeting Bras d'Or Lakes Scenic Drive in South Haven</figcaption>
+</figure>
 
+<figure>
+  <a href="https://americanamap.org/#map=12.74/44.03655/-64.72957"><img src="/img/ns-map-liverpool.png"/></a>
+  <figcaption>Kejimkujik Scenic Drive meeting the Lighthouse Route in Liverpool</figcaption>
+</figure>
+
+<figure>
+  <a href="https://americanamap.org/#map=12.69/45.93058/-59.95013"><img src="/img/ns-map-louisbourg.png"/></a>
+  <figcaption>The Fleur-de-lis Trail meeting the Marconi Trail in Louisbourg</figcaption>
+</figure>
