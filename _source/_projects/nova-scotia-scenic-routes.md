@@ -27,6 +27,11 @@ tags:
 ## From the Cabot to the Evangeline
 Nova Scotia is "Canada's Ocean Playground", at least according to its license plates. The province has an extensive network of well-signed scenic routes inviting tourists to follow backroads while on their maritime adventures. The routes commemorate Nova Scotia's history and culture, from the famed [Cabot Trail](https://en.wikipedia.org/wiki/Cabot_Trail) to the Acadian [Evangeline Trail](https://en.wikipedia.org/wiki/Evangeline_Trail) and beyond.
 
+<figure>
+  <img alt="Photo of Cabot Trail North roadside reassurance marker." src="/img/ns-cabot-trail-roadsign-by-doug-kerr.jpg"/>
+  <figcaption>Photo by <a href="https://flic.kr/p/dkJYgU">Doug Kerr</a></figcaption>
+</figure>
+
 After a summer road trip winding my way through the rugged beauty of Nova Scotia's byways, I tasked myself with getting the province's scenic routes "on the map". To me, this meant mapping the routes in OpenStreetMap and then adding their shields to [OSM Americana](https://americanamap.org), a road-focused map style.
 
 To my knowledge, this was the first time a state-level scenic route network has been comprehensive supported in an OSM-based map.
