@@ -3,7 +3,7 @@ category: Cartography
 title: iD Preset Icons
 subtitle: Public domain map icons for Temaki
 date: 2025-08-15
-updated: 2025-08-24
+updated: 2025-08-25
 hero_image: /img/temaki-icons-id-screenie.jpg
 hero_alt: Screenshot of iD showing US route 82 in New Mexico featuring map icons for windpumps, high-voltage towers, and utility poles.
 photo: /img/photo-ok-bison.jpg
@@ -86,7 +86,7 @@ A consistent design language helps users to make inferences and catch distinctio
   {%- include graphic_image.html file='/img/temaki/board_train_bullet.svg' caption='High-Speed' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/board_train_diesel.svg' caption='Diesel' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/board_train_steam.svg' caption='Steam' width='120px' img_width='40px' -%}
-  {%- include graphic_image.html file='/img/temaki/board_train_kids.svg' caption='Kids Train' width='120px' img_width='40px' -%}
+  {%- include graphic_image.html file='/img/temaki/board_train_kids.svg' caption="Kids' Train" width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/board_gondola_lift.svg' caption='Gondola' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/board_ferry.svg' caption='Ferry' width='120px' img_width='40px' -%}
 {% include graphic_end.html %}
