@@ -3,7 +3,7 @@ category: Cartography
 title: iD Preset Icons
 subtitle: Public domain map icons for Temaki
 date: 2025-08-15
-updated: 2025-08-20
+updated: 2025-08-24
 hero_image: /img/temaki-icons-id-screenie.jpg
 hero_alt: Screenshot of iD showing US route 82 in New Mexico featuring map icons for windpumps, high-voltage towers, and utility poles.
 photo: /img/photo-ok-bison.jpg
@@ -25,7 +25,7 @@ tags:
 ---
 ## Keeping the map iconic
 
-While I was a full-time maintainer of iD (the default editor at [osm.org/edit](https://www.openstreetmap.org/edit?editor=id)), I designed over 270 preset icons. Presets are the default feature types that mappers can add to OpenStreetMap, such as "Coffeehouse" or "Foot Path". Good icons keep the app approachable for new mappers while helping power-mappers quickly sift through data. Plus I think they make the app look pretty sharp.
+While I was a full-time maintainer of iD (the default editor at [osm.org/edit](https://www.openstreetmap.org/edit?editor=id)), I designed over 270 preset icons. Presets are the default feature types such as "Coffeehouse" or "Foot Path" that people can add to OpenStreetMap using iD. Good preset icons keep the app approachable for new mappers while helping power-mappers sift through data. Plus I think bespoke icons make the map look pretty sharp.
 
 My icons live in the [Temaki icon library](https://github.com/rapideditor/temaki), which is licensed in the public domain and can be used by anyone. My contributions represent more than half of this library.
 
@@ -93,9 +93,9 @@ A consistent design language helps users to make inferences and catch distinctio
 
 ## Representing map features
 
-Since iD supports a vast number of feature types, I often ended up using descriptive representations of objects rather than abstraction or analogy.
+Since iD supports a vast number of feature types, I often ended up using literal representations of objects rather than abstraction or analogy.
 
-For example, the default barrier icon in iD is a plain ⛔︎ no entry symbol. This is highly abstract and doesn't tell you much about the real-world nature of the barrier. So, I designed a number of barrier-specific icons to improve clarity.
+For example, the default barrier icon in iD is a plain ⛔︎ no entry symbol. This is highly abstract and doesn't tell you much about the real-world nature of the barrier. So, I designed a slew of descriptive icons that show each type of barrier as if you're viewing it at ground level.
 
 {% include graphic_start.html title="Barriers depicted literally" %}
   {%- include graphic_image.html file='/img/temaki/bollard.svg' caption='Bollard' width='120px' img_width='40px' -%}
@@ -104,7 +104,7 @@ For example, the default barrier icon in iD is a plain ⛔︎ no entry symbol. T
   {%- include graphic_image.html file='/img/temaki/speed_dip.svg' caption='Dip' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/speed_dip_double.svg' caption='Double Dip' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/gate.svg' caption='Gate' width='120px' img_width='40px' -%}
-    {%- include graphic_image.html file='/img/temaki/hedge.svg' caption='Hedge' width='120px' img_width='40px' -%}
+  {%- include graphic_image.html file='/img/temaki/hedge.svg' caption='Hedge' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/height_restrictor.svg' caption='Height Bar' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/lift_gate.svg' caption='Lift Boom' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/rope_fence.svg' caption='Rope Fence' width='120px' img_width='40px' -%}
@@ -120,7 +120,7 @@ For example, the default barrier icon in iD is a plain ⛔︎ no entry symbol. T
 
 ## Distinguishing similar features
 
-iD has a lot of similar-sounding presets that trip up new mappers. What's the difference between an island and an islet? I created illustrative icons for confusingly similar features to help mappers decide which one is a better match.
+iD has a lot of similar-sounding presets that trip up new mappers. What's the difference between an island and an islet? I created unique icons for confusingly similar features to help mappers decide which one is a better match.
 
 {% include graphic_start.html title="Small vs. large" %}
   {%- include graphic_image.html file='/img/temaki/islet_tree.svg' caption='Islet' width='100px' img_width='40px' -%}
@@ -137,7 +137,7 @@ iD has a lot of similar-sounding presets that trip up new mappers. What's the di
 
 ## Illustrating jargon
 
-Detailed mapping requires a lot of specialized knowledge about what things are and what they're called. I drew bespoke icons for niche feature types to help new mappers tag them correctly even if they've never heard the word "cairn" or "gantry". These icons are especially helpful for non-English speakers since the preset labels in iD may not be fully translated.
+Detailed mapping requires a lot of specialized knowledge about what things are and what they're called. I drew illustrative icons for niche feature types to help new mappers tag them correctly even if they've never heard the word "cairn" or "gantry". These icons are especially helpful for non-English speakers since the preset labels in iD may not be fully translated.
 
 {% include graphic_start.html title="Niche map features" %}
   {%- include graphic_image.html file='/img/temaki/aerialway_pole.svg' caption='Aerialway Pole' width='120px' img_width='40px' -%}
