@@ -38,7 +38,7 @@ My icons live in the [Temaki icon library](https://github.com/rapideditor/temaki
   {%- include graphic_image.html file='/img/temaki/pick_hammer.svg' caption='Quarry' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/junk_car.svg' caption='Scrap Yard' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/speedway_8.svg' caption='Speedway' width='120px' img_width='40px' -%}
-  {%- include graphic_image.html file='/img/temaki/brick_trowel.svg' caption='Stonemason' width='120px' img_width='40px' -%}
+  {%- include graphic_image.html file='/img/temaki/brick_trowel.svg' caption='Bricklayer' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/needle_and_spool.svg' caption='Tailor' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/tattoo_machine.svg' caption='Tattoo Parlor' width='120px' img_width='40px' -%}
   {%- include graphic_image.html file='/img/temaki/telescope.svg' caption='Telescope' width='120px' img_width='40px' -%}
