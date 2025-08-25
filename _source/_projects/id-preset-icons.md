@@ -44,7 +44,7 @@ My icons live in the [Temaki icon library](https://github.com/rapideditor/temaki
   {%- include graphic_image.html file='/img/temaki/telescope.svg' caption='Telescope' width='120px' img_width='40px' -%}
 {% include graphic_end.html %}
 
-## Curating a design language
+## Cultivating a design language
 
 A consistent design language helps users to make inferences and catch distinctions between icons. When possible, I designed related icons as a series to highlight commonalities.
 
