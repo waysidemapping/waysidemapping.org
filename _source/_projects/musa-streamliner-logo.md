@@ -1,5 +1,5 @@
 ---
-category: Graphic Design
+category: Logo Design
 title: Snowboard Streamliner
 subtitle: Logo for Mapping USA 2025
 date: 2025-08-10

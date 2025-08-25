@@ -1,5 +1,5 @@
 ---
-category: Graphic Design
+category: Logo Design
 title: Richmond Tattoo
 subtitle: Logo for State of the Map US 2023
 date: 2025-08-10

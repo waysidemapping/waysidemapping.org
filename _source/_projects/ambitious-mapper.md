@@ -3,7 +3,7 @@ category: Graphic Design
 title: Ambitious Mapper
 subtitle: Graphic tee for OpenStreetMap US
 date: 2025-08-10
-updated: 2025-08-10
+updated: 2025-08-25
 hero_classes: shadowed
 hero_graphic: /img/ambitious-mapper-shirt.png
 icon: /img/ambitious-mapper-icon.png
@@ -26,4 +26,7 @@ This swag design for OpenStreetMap US draws on a timeless question from new mapp
 
 This boxy, oversize tee fits a modern streetwear aesthetic, suitable for everything from house parties to beach picnics to marching across Europe.
 
-{% include graphic_image.html file='/img/ambitious-mapper-detail.jpg' caption='Detail' %}
+<figure>
+  <img src="/img/ambitious-mapper-detail.jpg"/>
+  <figcaption>Enlarged to show detail</figcaption>
+</figure>
