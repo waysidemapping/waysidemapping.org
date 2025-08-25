@@ -93,7 +93,7 @@ A consistent design language helps users to make inferences and catch distinctio
 
 ## Gathering inspiration
 
-Temaki is part of a rich history of freely licensed map iconography. Some of my designs didn't start from scratch, but were inspired by elements from the [National Park Service](https://www.nps.gov/subjects/gisandmapping/map-symbols-patterns-for-nps-maps.htm), [OSM Carto](https://wiki.openstreetmap.org/wiki/OpenStreetMap_Carto), [Maki](https://labs.mapbox.com/maki-icons/), and Temaki icons by other contributors (shoutout to [Bryan Housel](https://github.com/bhousel)!)
+Temaki is part of a rich history of freely licensed map iconography. Some of my designs didn't start from scratch, but were inspired by elements from the likes of [National Park Service](https://www.nps.gov/subjects/gisandmapping/map-symbols-patterns-for-nps-maps.htm), [OSM Carto](https://wiki.openstreetmap.org/wiki/OpenStreetMap_Carto), [Maki](https://labs.mapbox.com/maki-icons/), and other Temaki contributors (shoutout to [Bryan Housel](https://github.com/bhousel)!)
 
 {% include graphic_start.html title="Combining existing icons" %}
   {%- include graphic_image.html file='/img/temaki-boulder2.svg' caption="Bryan's" width='120px' img_width='40px' -%}
