@@ -8,7 +8,7 @@ hero_image: /img/ns-scenic-map.jpg
 photo: /img/photo-cabot.jpg
 photo_classes: dark-text
 date: 2025-08-10
-updated: 2025-08-21
+updated: 2025-08-27
 start: 2023-08-02
 start_label: First Changeset
 start_url: https://www.openstreetmap.org/changeset/139363290
@@ -91,7 +91,7 @@ As with all Americana icons, these graphics are licensed CC0, meaning you (and a
 
 [OpenStreetMap Americana](https://americanamap.org) is working to recreate the look and feel of North American paper highways maps using OSM data. Rendering highway shield icons along road routes is central to the cartography.
 
-While numbered routes have extensive coverage in OSM, scenic routes tend to be undermapped. In fact, at the time of this work, Americana could only differentiate routes based on their `ref` tags, meaning unnumbered routes were not supported. Spurred in part by this N ova Scotia scenic route case, the Americana team built `name` selection into the shield rendering stack. This feature unlocked support for all kinds of niche, unnumbered road routes.
+While numbered routes have extensive coverage in OSM, scenic routes tend to be undermapped. In fact, at the time of this work, Americana could only differentiate routes based on their `ref` tags, meaning unnumbered routes were not supported. Spurred in part by this Nova Scotia scenic route case, the Americana team built `name` selection into the shield rendering stack. This feature unlocked support for all kinds of niche, unnumbered road routes.
 
 You can check out the live results over [on americanamap.org](https://americanamap.org/#map=12.29/45.64218/-61.4356).
 
