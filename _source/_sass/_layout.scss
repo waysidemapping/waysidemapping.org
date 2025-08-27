@@ -142,8 +142,12 @@ pre {
 
 .social-icons {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   li {
-    margin-left: 10px;
+    margin-right: v.$sp * 0.2;
+    margin-left: v.$sp * 0.2;
+    margin-bottom: v.$sp * 0.5;
   }
   li, a, svg {
     width: 20px;
@@ -197,7 +201,10 @@ pre {
   .social-icons {
     position: absolute;
     right: 0;
-    bottom: 15px;
+    bottom: 5px;
+    li:last-child {
+      margin-right: 0;
+    }
     svg {
       fill: v.$contrast-color;
     }
