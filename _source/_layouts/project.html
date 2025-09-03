@@ -118,9 +118,7 @@ layout: default
   </div>
 </div>
 <div class="container padded">
-  {%- assign page_date = page.date | date: site.date_format -%}
-  {%- assign updated_date = page.updated | date: site.date_format -%}
-  <p><i>This page published {{page_date}}. {% if updated_date and updated_date != page_date %}<a href="https://github.com/waysidemapping/waysidemapping.org/commits/main/_source/_projects/{{page.slug}}.md">Last updated</a> {{updated_date}}.{% endif %}</i></p>
+  {%- include dateline.html -%}
 </div>
 <div class="begbox-wrap">
   <div class="begbox-under"></div>

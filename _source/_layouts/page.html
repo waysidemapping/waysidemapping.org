@@ -7,6 +7,6 @@ layout: default
     {% if page.image %}<img src="{{page.image | absolute_url}}"/>{% endif %}
     {{content}}
     {%- assign updated_date = page.updated | default: page.date | date: site.date_format -%}
-    {% if updated_date %}<p><i>This page last updated {{updated_date}}.</i></p>{% endif %}
+    {%- include dateline.html -%}
   </article>
 </div>
