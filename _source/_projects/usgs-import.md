@@ -39,7 +39,7 @@ I knew it would be infeasible to map all 10,000+ USGS monitoring stations one-by
 
 {% include graphic_image.html file='/img/usgs-streamgage-import-flow.svg' title='USGS to OSM import flow' %}
 
-### 1. Getting soure data
+### 1. Getting source data
 
 The first step in our process is getting the source data. As the product of a federal agency, USGS data is in the public domain and thus license-compatible with OSM. Alas, USGS doesn't distribute anything like a single GIS file of the gages. Rather, there is an [old school API](https://nwis.waterdata.usgs.gov/nwis/current) that returns CSV tables of stations actively recording given metrics. Not ideal, but workable.
 
