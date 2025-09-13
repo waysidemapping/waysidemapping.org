@@ -9,7 +9,7 @@ icon_alt: Circle pinwheel with NE and SW quadrants filled white and NW and NW qu
 photo: /img/photo-grand-canyon.jpg
 photo_alt: The Colorado River winding through the Grand Canyon, Arizona
 date: 2025-08-19
-updated: 2025-08-20
+updated: 2025-09-12
 start: 2024-07-20
 start_label: First Changeset
 start_url: https://www.openstreetmap.org/changeset/154200559
