@@ -124,7 +124,7 @@ A gagehouse is a special little building that shelters gaging equipment. OpenStr
 
 ### Visualizing gages
 
-Having already developed the Canoe & Kayak Trails view for OpenTrailMap, it was a natural fit to include streamgages. For the icon, I directly copied the pinwheel that has been used to mark gages on USGS topographic maps for decades. Users can easily view each stations's OSM tags and check its current conditions through external links.
+Having already developed the Canoe & Kayak Trails view for OpenTrailMap, it was a natural fit to include streamgages. For the icon, I directly copied the pinwheel that has been used to mark gages on USGS topographic maps for decades. Users can easily view each station's OSM tags and check its current conditions through external links.
 
 <figure>
     <a href="https://opentrailmap.us/#map=14.86/39.87038/-75.59599"><img alt="OpenTrailMap screenshot in 'Canoe & Kayak Trails' view with the streamgage 'Brandywine Creek at Chadds Ford' selected. Sidebar is open showing website tags." src="/img/usgs-streamgage-otm-screenie.jpg"/></a>
