@@ -29,6 +29,12 @@ defaults:
       permalink: /:path/
       layout: page
   - scope:
+      path: _posts
+      type: posts
+    values:
+      permalink: /blog/:slug/
+      layout: post
+  - scope:
       path: _projects
       type: projects
     values:
@@ -48,3 +54,4 @@ mastodon: waysidemapping@mastodon.social
 facebook: waysidemapping
 instagram: waysidemapping
 threads: waysidemapping
+rss: /feed.xml

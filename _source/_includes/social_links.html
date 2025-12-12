@@ -50,4 +50,7 @@
   {%- if item.kofi -%}
     <li><a href="https://ko-fi.com/{{item.kofi}}" title="{{item.kofi}} on Ko-Fi" target="_blank"><svg class="iconsvg"><use xlink:href="#ko-fi"></use></svg></a></li>
   {%- endif -%}
+  {%- if item.rss -%}
+    <li><a href="{{item.rss}}" title="RSS feed" target="_blank"><svg class="iconsvg"><use xlink:href="#rss"></use></svg></a></li>
+  {%- endif -%}
 </ul>

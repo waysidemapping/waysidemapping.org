@@ -1,0 +1,26 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <channel>
+    <title>Wayside Mapping</title>
+    <description>Posts by Quincy Morgan</description>
+    <link>{{site.url}}{{site.baseurl}}</link>
+    <language>en-us</language>
+    <copyright>© {{ site.time | date: '%Y' }} Quincy Morgan</copyright>
+    <atom:link href="{{'/feed.xml' | absolute_url }}" rel="self" type="application/rss+xml" />
+    {% assign items=site.posts | concat: site.projects | sort: "date" | reverse | slice: 0, 50  -%}
+    {%- for item in items %}
+      <item>
+        <title>{{ item.title | xml_escape }}</title>
+        <dc:creator>Quincy Morgan</dc:creator>
+        <dc:rights>© {{ item.date | date: '%Y' }} Quincy Morgan</dc:rights>
+        {% if item.updated -%}<dcterms:modified>{{ item.updated | date: "%a, %d %b %Y %H:%M:%S %z" }}</dcterms:modified>{%- endif %}
+        <pubDate>{{ item.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <link>{{ item.url | absolute_url }}</link>
+        <guid isPermaLink="true">{{ item.url | absolute_url }}</guid>
+        <description><![CDATA[{{ item.content }}]]></description>
+      </item>
+    {% endfor -%}
+  </channel>
+</rss>
