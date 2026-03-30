@@ -252,9 +252,14 @@ article {
     aspect-ratio: 16/9;
   }
 
+  ul, ol {
+    padding-left: 1em;
+  }
   ul {
     list-style-type: disc;
-    padding-left: 1em;
+  }
+  ol {
+    list-style-type: decimal;
   }
 
   > img, > p > img, > a > img, > p > a > img, > figure > img, > figure > a > img, > iframe {
@@ -269,6 +274,9 @@ article {
     text-align: justify;
     width: 100%;
     max-width: v.$prose-width;
+  }
+  > hr {
+    margin: v.$sp * 2 auto;
   }
 
   > figure > figcaption {
